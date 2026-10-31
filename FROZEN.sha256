@@ -1,0 +1,11 @@
+# Files that must never change. Verify with: shasum -a 256 -c FROZEN.sha256  (or python3 tools/yj.py validate)
+# Legacy material present before repository setup (2026-10-31):
+12f9babfda0130048cd71d35d3de8c9297d29b34df9f2e62a61ad3223c9723e3  investigations/prompts/credence_confidence_separation.md
+da2508d47bcc9bb170c5b65c6d48f2dddc486de2f4fd96328b132581da92d248  investigations/prompts/paradigm_transcendence.md
+12f9babfda0130048cd71d35d3de8c9297d29b34df9f2e62a61ad3223c9723e3  investigations/prompts/paradigm_transcendence.md~
+14ab1c7ff987d99abbf859f7a2b973461b2ed6b98809a80f8c1471e4966199de  investigations/prompts/yijing_paradigm_transcendence.md
+bec34b182175dbb314400bf48b93d563877db89ca8ef30e95041d673c89cf2f1  investigations/prompts/yijing_paradigm_transcendence/claude_opus_5_5.md
+# Supplied design documents, preserved verbatim as prompt components:
+c4ebf703ef08b8d14e5a9d3cf17e85d16fc78a88a9811e43d1c032213fb84b26  prompts/components/charter.v1.md
+6cd9a861be9f3538bc0f90158415c7084ec165f58c6a2e4e0244835c1b093500  prompts/components/handoff-protocol.v1.md
+# Prompt packages and outputs of investigations are appended below as they are sent and received.

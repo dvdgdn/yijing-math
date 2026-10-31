@@ -1,0 +1,27 @@
+# Vocabulary distinctive of the program's current findings or preferred representations.
+# One term per line, case-insensitive. Lines starting with # are comments.
+#
+# tools/yj.py uses this list in two ways:
+#   - validate: files that must stay clean (README.md, AGENTS.md, CLAUDE.md, methods/,
+#     prompts/, context/objects/, data/, tools/) must not contain these terms;
+#   - assemble: a minimal-context package containing them produces a warning.
+#
+# Update this list when registering findings with distinctive vocabulary.
+# Do not add ordinary object-level vocabulary (trigram names, "nuclear hexagram",
+# "eight palaces", line positions): describing the objects is allowed.
+# This file is itself full-context material: never supply it to an investigator.
+transversal
+coset
+Fitting
+attractor
+period-2
+canon balance
+18 figures
+equivariant
+stratification
+Klein four
+GF(2)
+fixed-point-free involution
+palindrome
+reversal pair
+complement pair

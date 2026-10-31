@@ -2,7 +2,24 @@
 
 **Contains findings** (in assignment rationales). Never supply this directory to an investigator. Only the text between an assignment's `BEGIN ASSIGNMENT` / `END ASSIGNMENT` markers is sent.
 
+Start with the generated [coordination board](BOARD.md) and the [coordination review and proposed launch slate](coordination-review.md). Canonical contracts, overlap checks and adaptive planning: [`methods/research-cycle.md`](../methods/research-cycle.md) §8–9.
+
 This roadmap is provisional. Revise it after every reconciliation. Assignments are prepared here and launched as investigations (see the main README).
+
+## Manuscript-assisted track (added 2026-10-31)
+
+The [pinned corpus transfer review](literature/openai-math/transfers.md) updates the proposed launch priority using all 721 catalogue titles/abstracts, 16 inspected theorem statements, and the completed finite pilot INV-0003. All new claims remain reported/pending registration. It changes the proposed assisted slate without removing the blind-exploration lane or resolving existing source debt.
+
+| Priority | Draft work package | Concrete outcome sought |
+|---|---|---|
+| 1 | [ASN-0010](assignments/ASN-0010-information-preserving-observables.md) | A general information/robustness comparison or precise obstruction beyond two finite pilot points. |
+| 1, independent audit | [ASN-0013](assignments/ASN-0013-verify-corpus-bridges.md) | Two-phase verification of the pilot's local claims and theorem applicability, with independent code. |
+| 2 | [ASN-0011](assignments/ASN-0011-conditional-comparison-ensembles.md) | A correctly weighted conditional ensemble and exact finite reference calculation for later explanation/text tests. |
+| 3 | [ASN-0012](assignments/ASN-0012-local-permutation-structure.md) | A joint-information or bounded-depth ordering consequence under a fixed local grammar. |
+
+Suggested assisted first slate: ASN-0010 plus ASN-0013, with source work ASN-0007 alongside as capacity allows. Retain ASN-0004 or ASN-0006 as an unassisted run rather than giving every investigator the same papers. ASN-0001 remains the palace/source verification owner. No new assignment has been launched; new packages are drafts and are assembled for review, not approved runs.
+
+[Search the complete catalogue](literature/openai-math/README.md) before opening a new transfer. The review records direct matches, finite-scope failures, elementary methods that beat imported machinery, and reopening triggers. Pending registration is visible on the board.
 
 ## Cycle 1 (prepared 2026-10-31, ledger v0.1)
 
@@ -14,10 +31,10 @@ The cycle has two goals. First, start independent verification of the only exist
 | [ASN-0002](assignments/ASN-0002-verify-nuclear-canon-statistics.md) | Verify the nuclear-map, canon, and statistical claims | verifier (two-phase) | targeted | GPT-6.1 Sol Max | C-0003–C-0015, C-0026 | any time |
 | [ASN-0003](assignments/ASN-0003-relations-between-constructions.md) | Relations between Yijing constructions (supplied text, verbatim) | explorer | targeted (topics only) | Claude Opus 5.5 | — | any time |
 | [ASN-0004](assignments/ASN-0004-divination-structure.md) | Fresh exploration: divination procedures and changing lines | explorer | **minimal** | Claude Opus 5.5 | — | any time |
-| [ASN-0005](assignments/ASN-0005-preregistered-explanation-tests.md) | Pre-registered tests of competing explanations | specialist (two-part) | targeted | Claude Opus 5.5 | C-0003, C-0005, C-0006, C-0009–C-0012, C-0015, C-0024, C-0025 | any time |
+| [ASN-0005](assignments/ASN-0005-preregistered-explanation-tests.md) | Pre-specified sensitivity and discrimination tests | specialist (two-part) | targeted | Claude Opus 5.5 | C-0003, C-0005, C-0006, C-0009–C-0012, C-0015, C-0024, C-0025 | any time |
 | [ASN-0006](assignments/ASN-0006-conceptual-reset.md) | Conceptual reset: questioning the framing | paradigm-breaker | **minimal** | GPT-6.1 Sol Max | — | any time |
 
-All six are independent and can run concurrently, each in its own fresh session. ASN-0001 comes first because it targets the highest-value claims.
+All six can run in separate fresh sessions, with intentional overlap recorded on the assignments. The proposed next slate and reasons to defer candidates are in the [coordination review](coordination-review.md); the ready list need not be launched all at once. ASN-0001 remains the first verification priority. ASN-0005's frozen plan cannot turn already selected patterns into fresh confirmatory evidence.
 
 ### How cycle 1 covers the planned mix
 
@@ -41,6 +58,16 @@ All six are independent and can run concurrently, each in its own fresh session.
 2. **Source data:** begin the cited transcriptions listed in `data/README.md` (received order, palace table, mnemonic source). Verifiers will supply their own transcriptions meanwhile.
 3. **Review the setup's drafts:** role prompts v1, handoff protocol v2, the assignment template, and the claim extraction for INV-0001 were all written during setup by Claude Opus 5.5 and have not been reviewed.
 
+## Additional prepared drafts (2026-10-31)
+
+These are candidates, not approved launches. They use handoff v3 and the coordinator contract fields. Draft status and unmet prerequisites are visible on the board.
+
+| Assignment | Purpose | Readiness / value |
+|---|---|---|
+| [ASN-0007](assignments/ASN-0007-source-baselines.md) | Cited baselines and source intake | Enables source-dependent work and neglected material; preserve blind verifier transcriptions before comparison. |
+| [ASN-0008](assignments/ASN-0008-prior-art-audit.md) | Bounded prior-art audit | Separates novelty from correctness and identifies precise useful extensions; requires literature access. |
+| [ASN-0009](assignments/ASN-0009-textual-pilot.md) | Minimal textual pilot | A distinct underexamined layer; remains draft until ASN-0007 yields a fixed cited source excerpt. |
+
 ## Candidates for cycle 2
 
 Choose these after cycle 1 is reconciled. Listed so they are not forgotten. None is committed.
@@ -56,3 +83,7 @@ Choose these after cycle 1 is reconciled. Listed so they are not forgotten. None
 ## Change log
 
 - 2026-10-31: Cycle 1 prepared during repository setup.
+
+- 2026-10-31: Coordination maintenance added explicit coverage/overlap/prerequisites, draft source/prior-art/text tasks, and an adaptive selection review. Revised unsent ASN-0005 to distinguish selected-pattern sensitivity from eligible confirmation. No investigations launched or claim statuses changed.
+
+- 2026-10-31: Added a pinned external manuscript library, reported full-context finite probes (INV-0003; registration pending), source-grounded transfer priorities, and draft assignments ASN-0010–ASN-0013. Existing claims remain unchanged.

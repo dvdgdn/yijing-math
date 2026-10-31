@@ -5,9 +5,11 @@ status: prepared
 role: <explorer | specialist | verifier | synthesis | paradigm-breaker | coordinator>
 assignment: ASN-NNNN
 model: <model name as offered by the provider, e.g. "GPT-6.1 Sol Max">
+model_family: unknown
+independence: unknown
 model_identifier: unknown
 prompt: investigations/INV-NNNN-slug/prompt.md
-prompt_version: <e.g. role verifier.v1 + charter.v1 + handoff-protocol.v2>
+prompt_version: <e.g. role verifier.v1 + charter.v1 + handoff-protocol.v3>
 context_mode: <minimal | targeted | full>
 materials: [<exact list of supplied files>]
 output: investigations/INV-NNNN-slug/output.md
@@ -39,6 +41,10 @@ followed_by: []
 ## Supplied materials
 
 <Exact list, matching the assignment's materials (and materials_part2 for two-phase work).>
+
+## Independence evidence
+
+<For independence: isolated, record the fresh session, disabled memory/attachments, and absence of ambient repository access. Otherwise use unknown or context-exposed. A different model family alone does not establish independence. Record model_family from known provenance; never guess it from a display name.>
 
 ## Deviations
 

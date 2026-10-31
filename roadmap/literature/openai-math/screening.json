@@ -1,0 +1,157 @@
+{
+  "snapshot": "4eaee87548250b2682affda7d05d947c05554bae",
+  "screening_rules": {
+    "information-and-noise": [
+      "mutual information",
+      "boolean",
+      "entropy",
+      "channel",
+      "noise",
+      "influence"
+    ],
+    "finite-counting-and-nulls": [
+      "counting",
+      "sampl",
+      "matching",
+      "contingency",
+      "polymatroid"
+    ],
+    "permutation-laws": [
+      "shuffle",
+      "permutation",
+      "coordinate sweeps",
+      "mixing"
+    ],
+    "operator-languages-and-quotients": [
+      "automata",
+      "finite monoid",
+      "regular language",
+      "congruence",
+      "lattice representation"
+    ],
+    "sequence-and-spectral-tests": [
+      "littlewood",
+      "barker",
+      "hadamard",
+      "autocorrel",
+      "binary sequen",
+      "fourier"
+    ],
+    "reconstruction": [
+      "trace reconstruction",
+      "deletion trace",
+      "reconstruct",
+      "recover"
+    ],
+    "finite-graphs": [
+      "graph",
+      "hypercube",
+      "ramsey",
+      "isomorphism"
+    ],
+    "proof-certificates": [
+      "exact.arithmetic",
+      "certificate",
+      "computer.assisted",
+      "verification"
+    ]
+  },
+  "reviewed_papers": {
+    "preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "113",
+      "priority": "support",
+      "disposition": "Matching counts support constrained pairing nulls. The explicit reversal/complement graph factors exactly; the entropy bounds are loose there, so advanced algorithms are not a current bottleneck."
+    },
+    "preprints/Entropy-and-Face-Dimension-of-the-Perfect-Matching-Polytope-September-23-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "113",
+      "priority": "support",
+      "disposition": "Matching counts support constrained pairing nulls. The explicit reversal/complement graph factors exactly; the entropy bounds are loose there, so advanced algorithms are not a current bottleneck."
+    },
+    "preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "115",
+      "priority": "P2",
+      "disposition": "Develop constrained null models. Uniform tables differ from labelled-allocation laws; bounded and unbounded theorem hypotheses must stay separate."
+    },
+    "preprints/An-FPRAS-for-Cell-Bounded-Contingency-Tables-September-24-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "115",
+      "priority": "P2",
+      "disposition": "Develop constrained null models. Uniform tables differ from labelled-allocation laws; bounded and unbounded theorem hypotheses must stay separate."
+    },
+    "preprints/Sharp-binary-information-contraction-on-the-discrete-cube-September-24-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "119",
+      "priority": "P1",
+      "disposition": "Develop the noise-robustness and information-budget line; check uniform input, independent symmetric noise, and binary output. Source proof not audited."
+    },
+    "preprints/Hellinger-contraction-with-arbitrary-Boolean-output-bias-September-24-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "119",
+      "priority": "P1",
+      "disposition": "Develop the noise-robustness and information-budget line; check uniform input, independent symmetric noise, and binary output. Source proof not audited."
+    },
+    "preprints/Uniform-quasipolynomial-time-trace-reconstruction-October-5-2026/uniform-trace-reconstruction.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "122",
+      "priority": "defer",
+      "disposition": "Requires independent deletion traces with a known channel. Surviving historical witnesses do not currently meet that model."
+    },
+    "preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "131",
+      "priority": "conditional",
+      "disposition": "Only simple undirected graphs with a fixed labelled degree vector. The explicit finite bound is too large to justify a short burn-in at 64 vertices."
+    },
+    "preprints/Generalized-Star-Height-at-Most-Three-September-25-2026/article.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "134",
+      "priority": "guardrail",
+      "disposition": "Useful universal baseline for operator-language descriptions. Height at most three does not bound expression size or distinguish a Yijing automaton."
+    },
+    "preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "161",
+      "priority": "guardrail",
+      "disposition": "Matching a few motif densities is not automatically a full randomness certificate. No direct Yijing motif theorem or historical inference established."
+    },
+    "preprints/The-circulant-Hadamard-conjecture-September-23-2026/paper.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "179",
+      "priority": "secondary",
+      "disposition": "A correlation obstruction is available, but its marginal novelty at dyadic lengths needs comparison with older finite-length obstructions."
+    },
+    "preprints/Finite-Congruence-Lattices-Characterization-and-Undecidability-September-24-2026/paper.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "206",
+      "priority": "defer",
+      "disposition": "General finite-lattice representability is not the decision problem for a fixed explicitly given 64-state algebra. Require a concrete applicability map first."
+    },
+    "preprints/Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026/paper.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "238",
+      "priority": "P2",
+      "disposition": "Coordinate-local permutation models and full-order information. Use the finite support obstruction now; asymptotic upper bounds do not certify mixing at 64."
+    },
+    "preprints/Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026/paper.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "238",
+      "priority": "P2",
+      "disposition": "Coordinate-local permutation models and full-order information. Use the finite support obstruction now; asymptotic upper bounds do not certify mixing at 64."
+    },
+    "preprints/Conditional-coordinate-sweeps-and-analytic-transfer-September-26-2026/main.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "238",
+      "priority": "P2",
+      "disposition": "Coordinate-local permutation models and full-order information. Use the finite support obstruction now; asymptotic upper bounds do not certify mixing at 64."
+    },
+    "preprints/Ultraflat-real-Littlewood-polynomials-October-5-2026/ultraflat-real-littlewood-polynomials.pdf": {
+      "level": "theorem statements inspected; full proof not audited",
+      "family": "076",
+      "priority": "defer",
+      "disposition": "Every nonzero linear character along a complete enumeration of the 64 words is balanced and its polynomial vanishes at one. The ultraflat construction does not directly satisfy this constraint."
+    }
+  }
+}

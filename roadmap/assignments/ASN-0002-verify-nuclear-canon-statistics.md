@@ -6,7 +6,7 @@ role: verifier
 context_mode: targeted
 role_prompt: prompts/roles/verifier.v1.md
 charter: prompts/components/charter.v1.md
-handoff: prompts/components/handoff-protocol.v2.md
+handoff: prompts/components/handoff-protocol.v3.md
 materials: [context/objects/hexagrams.md, context/briefs/ASN-0002-phase1.md]
 materials_part2: [investigations/prompts/yijing_paradigm_transcendence/claude_opus_5_5.md, ledger/claims/C-0003.md, ledger/claims/C-0004.md, ledger/claims/C-0005.md, ledger/claims/C-0006.md, ledger/claims/C-0007.md, ledger/claims/C-0008.md, ledger/claims/C-0009.md, ledger/claims/C-0010.md, ledger/claims/C-0011.md, ledger/claims/C-0012.md, ledger/claims/C-0013.md, ledger/claims/C-0014.md, ledger/claims/C-0015.md, ledger/claims/C-0026.md]
 claims: [C-0003, C-0004, C-0005, C-0006, C-0007, C-0008, C-0009, C-0010, C-0011, C-0012, C-0013, C-0014, C-0015, C-0026]
@@ -14,11 +14,19 @@ recommended_model: GPT-6.1 Sol Max
 excluded_models: [Claude Opus 5.5]
 replication_of: none
 investigations: []
+purpose: verification
+directions: [DIR-004, DIR-010]
+questions: [Q-007]
+work_items: [received-order-transcription, nuclear-formal-audit, received-statistics-audit, label-swap-audit]
+prerequisites: []
+intentional_overlap: [ASN-0001, ASN-0005, ASN-0007, ASN-0008]
 created: 2026-10-31
 ---
 # ASN-0002: Verify the nuclear-map, canon-structure, and statistical claims
 
 ## Rationale (coordinator only)
+
+- **Intentional overlap:** ASN-0001 independently transcribes the received order and checks C-0026 on a different subset. ASN-0005 studies explanation sensitivity while this assignment audits reported values; do not execute its planned new tests here. ASN-0007 supplies a separately sourced baseline for comparison after phase 1. ASN-0008 audits prior art for overlapping claims. These outputs answer different questions and must be registered separately.
 
 - Clears most of the remaining verification backlog (priorities 2 and 3) in one assignment. The claims share a transcription of the received order and the pair-shuffling null model.
 - The statistical claims (C-0005, C-0010, C-0011, C-0015) have unstated methods and ambiguous statistics. Exact recomputation under precisely stated models is needed before DSP-001 and DSP-002 can be assessed.

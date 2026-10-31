@@ -2,7 +2,7 @@
 
 A long-running, multi-investigator program to discover and rigorously characterize mathematical structures, relationships, and possibilities associated with the Yijing (I Ching). The intellectual stance is set by the common research charter, [`prompts/components/charter.v1.md`](prompts/components/charter.v1.md). Its aim is to expand what can genuinely be understood, not to confirm an interpretation or recover a predetermined theory.
 
-The investigators are frontier AI models, initially **Claude Opus 5.5** and **GPT-6.1 Sol Max**. They work as independent explorers, specialists, adversarial verifiers, synthesis researchers, and paradigm-breakers, coordinated by a human through this repository. The repository is plain Markdown plus one small standard-library script.
+The investigators are frontier AI models, initially **Claude Opus 5.5** and **GPT-6.1 Sol Max**. They work as independent explorers, specialists, adversarial verifiers, synthesis researchers, and paradigm-breakers, coordinated by a human through this repository. The repository is plain Markdown plus standard-library coordination tools.
 
 > **If you are an AI investigator who has been given a research assignment, stop reading here.** Work only from the material you were given. See [`methods/context-modes.md`](methods/context-modes.md) for why.
 
@@ -34,22 +34,26 @@ investigations/      one folder per investigation: record, exact prompt, verbati
 roadmap/             current plan and prepared assignments (findings in coordinator rationales)
 data/                working transcriptions of historical sources, with provenance (no findings)
 compute/             verification code and computational experiments
-tools/yj.py          validate the repository, regenerate the claim index, assemble prompt packages
+tools/yj.py          validate the repository, regenerate the claim index and coordination board, assemble packages
 ```
 
 **Clean and contaminated zones.** Files that can reach a minimal-context investigator, or are loaded automatically by agent tools, contain no findings: the root documents, `methods/`, `prompts/`, `context/objects/`, `data/`, `compute/README.md`, `tools/`. Findings live only in `ledger/`, `investigations/`, `roadmap/`, and `context/briefs/`. `tools/yj.py validate` enforces this.
+
+## Research dashboard
+
+Open [`roadmap/dashboard.html`](roadmap/dashboard.html) for the generated visual overview, assignment search, evidence status, and Claude collaboration guide. `python3 tools/yj.py index` refreshes it alongside the Markdown indexes. For automatic updates while reviewing the research, run `python3 tools/yj.py dashboard --serve --port 0` and open its printed Local URL. Usage and source locations: [`roadmap/DASHBOARD.md`](roadmap/DASHBOARD.md).
 
 ## Current state
 
 - Ledger **v0.1**: claims extracted from one legacy investigation (INV-0001, Claude Opus 5.5). **None is independently verified.** Orientation: [`ledger/summary.md`](ledger/summary.md) (full-context material).
 - The GPT-6.1 Sol Max investigation (INV-0002) is **not in the repository**. Its record is a placeholder.
-- Six assignments for cycle 1 are ready: [`roadmap/README.md`](roadmap/README.md).
+- Six assignments for cycle 1 are ready, with seven additional draft candidates: [`roadmap/README.md`](roadmap/README.md). Coordinator coverage, overlap, and prerequisites: [`roadmap/BOARD.md`](roadmap/BOARD.md). External-library priorities and the completed full-context pilot are linked from the roadmap; registration is pending.
 
 ## How to run the program
 
 ### 1. Choose an assignment
 
-Pick a `ready` assignment from [`roadmap/README.md`](roadmap/README.md), or write a new one from [`prompts/components/assignment-template.v1.md`](prompts/components/assignment-template.v1.md). Every assignment states its role, context mode, exact materials, recommended model, and a coordinator-only rationale. Selection criteria and redundancy rules: [`methods/research-cycle.md`](methods/research-cycle.md).
+Review [`roadmap/BOARD.md`](roadmap/BOARD.md) and the current selection decision in [`roadmap/README.md`](roadmap/README.md). Pick a `ready` assignment, or write a new one from [`prompts/components/assignment-template.v2.md`](prompts/components/assignment-template.v2.md). Every assignment states its role, context mode, exact materials, recommended model, and a coordinator-only rationale. Selection criteria and redundancy rules: [`methods/research-cycle.md`](methods/research-cycle.md).
 
 ### 2. Assemble the package
 
@@ -69,7 +73,7 @@ Save the reply verbatim as `output.md`. Never edit it. Append the hashes of the 
 
 ### 5. Register the findings
 
-Extract each significant claim into the ledger following [`methods/ledger-conventions.md`](methods/ledger-conventions.md) §4: deduplicate without losing attribution, record evidence as it actually exists, open disputes for conflicts, and write `registration.md`. A model in the coordinator role can draft this ([`prompts/roles/coordinator.v1.md`](prompts/roles/coordinator.v1.md)); a human approves.
+Extract each significant claim into the ledger following [`methods/ledger-conventions.md`](methods/ledger-conventions.md) §4: deduplicate without losing attribution, record evidence as it actually exists, open disputes for conflicts, and write `registration.md`. A model in the coordinator role can draft this ([`prompts/roles/coordinator.v2.md`](prompts/roles/coordinator.v2.md)); a human approves.
 
 ### 6. Verify and update claims
 
@@ -77,7 +81,7 @@ Send significant claims to a verifier of a **different model family** ([`prompts
 
 ### 7. Plan the next cycle
 
-Reconcile, update the backlog and roadmap, record why each new assignment was chosen, and include a minimal-context reset at least every second cycle.
+Reconcile, update the backlog and roadmap, record the next selection decision, and include a minimal-context reset at least every second cycle. Assignment contracts, overlap review and adaptive selection are specified in [`methods/research-cycle.md`](methods/research-cycle.md) §8–9; correction impact is specified in [`methods/ledger-conventions.md`](methods/ledger-conventions.md) §6.
 
 ```bash
 python3 tools/yj.py index
@@ -87,33 +91,33 @@ python3 tools/yj.py index
 python3 tools/yj.py validate
 ```
 
-Run both after any change to the ledger.
+Run both after every repository change. `index` refreshes the claim index, coordination board and HTML dashboard. Use `python3 tools/yj.py plan` for a read-only board and `python3 tools/yj.py impact ID` for a dependency review. Tool regression checks: `python3 -m unittest discover -s tools/tests`. External-library search and snapshot checks are documented in the roadmap; import standards are in [`methods/standards.md`](methods/standards.md) §14.
 
 ## Worked example: launching ASN-0001 with GPT-6.1 Sol Max
 
 ```bash
-mkdir -p investigations/INV-0003-verify-pairing-and-palaces
-cp investigations/_template/record.md investigations/INV-0003-verify-pairing-and-palaces/record.md
-python3 tools/yj.py assemble ASN-0001 --part 1 --inv INV-0003 --out investigations/INV-0003-verify-pairing-and-palaces/prompt-part1.md
-pbcopy < investigations/INV-0003-verify-pairing-and-palaces/prompt-part1.md   # macOS clipboard
+mkdir -p investigations/INV-0004-verify-pairing-and-palaces
+cp investigations/_template/record.md investigations/INV-0004-verify-pairing-and-palaces/record.md
+python3 tools/yj.py assemble ASN-0001 --part 1 --inv INV-0004 --out investigations/INV-0004-verify-pairing-and-palaces/prompt-part1.md
+pbcopy < investigations/INV-0004-verify-pairing-and-palaces/prompt-part1.md   # macOS clipboard
 ```
 
 1. Open a **new** GPT-6.1 Sol Max conversation with memory off and no project or files attached. Paste and send.
-2. Save the reply verbatim as `investigations/INV-0003-verify-pairing-and-palaces/output-part1.md`.
+2. Save the reply verbatim as `investigations/INV-0004-verify-pairing-and-palaces/output-part1.md`.
 3. Assemble part 2 and paste it into the **same** conversation:
 
    ```bash
-   python3 tools/yj.py assemble ASN-0001 --part 2 --out investigations/INV-0003-verify-pairing-and-palaces/prompt-part2.md
-   pbcopy < investigations/INV-0003-verify-pairing-and-palaces/prompt-part2.md
+   python3 tools/yj.py assemble ASN-0001 --part 2 --out investigations/INV-0004-verify-pairing-and-palaces/prompt-part2.md
+   pbcopy < investigations/INV-0004-verify-pairing-and-palaces/prompt-part2.md
    ```
 
 4. Save the reply as `output-part2.md`, then freeze everything that was sent or received:
 
    ```bash
-   shasum -a 256 investigations/INV-0003-verify-pairing-and-palaces/prompt-part*.md investigations/INV-0003-verify-pairing-and-palaces/output-part*.md >> FROZEN.sha256
+   shasum -a 256 investigations/INV-0004-verify-pairing-and-palaces/prompt-part*.md investigations/INV-0004-verify-pairing-and-palaces/output-part*.md >> FROZEN.sha256
    ```
 
-5. Fill in `record.md` (model as shown in the interface, date, `context_mode: targeted`, materials), set ASN-0001 to `status: launched` with `investigations: [INV-0003]`, add a row to `investigations/README.md`, register the verdicts, and run `validate`.
+5. Fill in `record.md` (model as shown in the interface, date, `context_mode: targeted`, materials), set ASN-0001 to `status: launched` with `investigations: [INV-0004]`, add a row to `investigations/README.md`, register the verdicts, and run `validate`.
 
 The same steps work in Claude: open a new conversation with no project knowledge or memory, paste the package, and save the reply.
 

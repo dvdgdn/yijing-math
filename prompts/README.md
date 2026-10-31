@@ -12,7 +12,7 @@ A package is assembled in this order. Each part is separated by a horizontal rul
 | 2 | Common research charter | `prompts/components/charter.v1.md` | Sent verbatim. |
 | 3 | Supplied materials | Files listed in the assignment's `materials` | Each preceded by a heading `## Supplied material: <path>`. Front matter is stripped. |
 | 4 | Assignment | Text between `<!-- BEGIN ASSIGNMENT -->` and `<!-- END ASSIGNMENT -->` in the assignment file | Rationale and coordinator notes are never sent. |
-| 5 | Handoff protocol | `prompts/components/handoff-protocol.v2.md` | Sent verbatim. |
+| 5 | Handoff protocol | `prompts/components/handoff-protocol.v3.md` | Sent verbatim; extends v2 with a compact search log and reuse contracts. |
 
 For a **two-phase verification**, part 2 of the package contains only the text between `<!-- BEGIN ASSIGNMENT PART 2 -->` and `<!-- END ASSIGNMENT PART 2 -->`, followed by the files in `materials_part2`. Send it in the same conversation after the verifier has finished phase 1.
 
@@ -22,7 +22,7 @@ For a **two-phase verification**, part 2 of the package contains only the text b
 python3 tools/yj.py assemble ASN-0001 --part 1 --out investigations/INV-NNNN-slug/prompt-part1.md
 ```
 
-The tool prints the SHA-256 of what it wrote. For minimal-context assignments it refuses to include ledger, investigation, roadmap, or brief material, or any text containing ledger IDs, and it warns about vocabulary listed in `ledger/leak-terms.txt`.
+The tool prints the SHA-256 of what it wrote. All front matter, including coverage and overlap fields, is excluded; only the marked assignment text is sent. `--overwrite` never permits replacing a frozen file. Assembly is a preview operation and does not launch an investigation. For minimal-context assignments it refuses to include ledger, investigation, roadmap, or brief material, or any text containing ledger IDs, and it warns about vocabulary listed in `ledger/leak-terms.txt`.
 
 ### Assembling by hand
 
@@ -37,7 +37,7 @@ Open the files in the order above, paste them into one document with `---` betwe
 | Adversarial verifier | [`roles/verifier.v1.md`](roles/verifier.v1.md) | targeted, two-phase | Checking specific claims made by a different model family. Phase 1 gets statements and definitions only; phase 2 gets the original evidence. |
 | Synthesis investigator | [`roles/synthesis.v1.md`](roles/synthesis.v1.md) | full | Relating results across investigations; testing whether unifications are real. |
 | Paradigm-breaking investigator | [`roles/paradigm-breaker.v1.md`](roles/paradigm-breaker.v1.md) | minimal | Conceptual reset; questioning objects, representations, and framings. A framing-exposed variant supplies the program's working assumptions (as a brief), not its results. |
-| Research coordinator | [`roles/coordinator.v1.md`](roles/coordinator.v1.md) | full | Drafting reconciliation of new reports into the ledger, and drafting next assignments. A human approves. |
+| Research coordinator | [`roles/coordinator.v2.md`](roles/coordinator.v2.md) | full | Drafting reconciliation of new reports into the ledger, and drafting next assignments. A human approves. |
 
 Role prompts deliberately do not repeat the charter. The charter carries the shared intellectual stance; the role prompt says what is specific to the role; the assignment says what to work on; the handoff protocol says how to report.
 
@@ -49,8 +49,11 @@ Role prompts deliberately do not repeat the charter. The charter carries the sha
 |---|---|---|---|---|
 | [`components/charter.v1.md`](components/charter.v1.md) | 1 | Supplied | frozen | Byte-identical to the supplied file `writing-block (3).md` (SHA-256 `c4ebf703…`). |
 | [`components/handoff-protocol.v1.md`](components/handoff-protocol.v1.md) | 1 | Supplied | frozen | Byte-identical to the supplied file `writing-block (1).md` (SHA-256 `6cd9a861…`). |
-| [`components/handoff-protocol.v2.md`](components/handoff-protocol.v2.md) | 2 | Setup | draft, default | v1 unchanged, plus an appended section "Additional reporting requirements" (report header, executed-vs-described computation, full data transcriptions, extra registry columns for domain, contingency, scope, and prior-claim IDs). Purely additive. Use v1 if you prefer the original. |
+| [`components/handoff-protocol.v2.md`](components/handoff-protocol.v2.md) | 2 | Setup | draft, retained | v1 unchanged, plus an appended section "Additional reporting requirements" (report header, executed-vs-described computation, full data transcriptions, extra registry columns for domain, contingency, scope, and prior-claim IDs). Purely additive. Use v1 if you prefer the original. |
 | [`components/assignment-template.v1.md`](components/assignment-template.v1.md) | 1 | Setup | draft | Generalized from the supplied example assignment `writing-block (2).md` (SHA-256 `a88a6402…`), whose text is preserved verbatim as the assignment text of `roadmap/assignments/ASN-0003-relations-between-constructions.md`. |
+| [`components/handoff-protocol.v3.md`](components/handoff-protocol.v3.md) | 3 | Maintenance (2026-10-31) | draft, default | v2 unchanged, plus search history, evidence lineage, qualified novelty/use, and next-step contracts. |
+| [`components/assignment-template.v2.md`](components/assignment-template.v2.md) | 2 | Maintenance (2026-10-31) | draft, default | Coordinator fields and decision/stopping criteria under `methods/research-cycle.md` §8–9. |
+| [`roles/coordinator.v2.md`](roles/coordinator.v2.md) | 2 | Maintenance (2026-10-31) | draft, default | v1 plus coverage, search-log, dependency-review and adaptive selection checks. |
 | `roles/*.v1.md` | 1 | Setup | draft | Written during setup. `paradigm-breaker.v1.md` adapts the legacy prompts below; `verifier.v1.md` borrows the credence/confidence separation idea from the legacy `credence_confidence_separation.md`. |
 
 Legacy prompts, preserved unchanged in their original location (`investigations/prompts/`):

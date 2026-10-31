@@ -6,7 +6,7 @@ role: verifier
 context_mode: targeted
 role_prompt: prompts/roles/verifier.v1.md
 charter: prompts/components/charter.v1.md
-handoff: prompts/components/handoff-protocol.v2.md
+handoff: prompts/components/handoff-protocol.v3.md
 materials: [context/objects/hexagrams.md, context/briefs/ASN-0001-phase1.md]
 materials_part2: [investigations/prompts/yijing_paradigm_transcendence/claude_opus_5_5.md, ledger/claims/C-0001.md, ledger/claims/C-0002.md, ledger/claims/C-0016.md, ledger/claims/C-0017.md, ledger/claims/C-0018.md, ledger/claims/C-0019.md, ledger/claims/C-0026.md]
 claims: [C-0001, C-0002, C-0016, C-0017, C-0018, C-0019, C-0026]
@@ -14,11 +14,21 @@ recommended_model: GPT-6.1 Sol Max
 excluded_models: [Claude Opus 5.5]
 replication_of: none
 investigations: []
+purpose: verification
+directions: [DIR-004, DIR-010]
+questions: []
+work_items: [received-pairing-check, received-order-transcription, palace-source-correspondence, palace-formal-audit, label-swap-audit]
+prerequisites: []
+intentional_overlap: [ASN-0002, ASN-0005, ASN-0007, ASN-0008, ASN-0010]
 created: 2026-10-31
 ---
 # ASN-0001: Verify the received-pairing claim and the palace-system cluster
 
 ## Rationale (coordinator only)
+
+- **Additional overlap:** ASN-0010 develops an information-theoretic consequence of the specified construction in C-0016; this assignment retains the formal/source audit. Its pilot does not settle historical correspondence.
+
+- **Intentional overlap:** ASN-0002 independently transcribes the received order and checks C-0026 on a different subset; these partial audits do not each settle the blanket claim. ASN-0005 uses its own transcription for explanation tests. ASN-0007 builds a cited baseline for comparison after blind phase 1, not input to that phase. ASN-0008 checks prior art for the same claims, not their mathematical correctness. Preserve separate derivations and compare discrepancies at reconciliation.
 
 - C-0016 to C-0019 are the result INV-0001 calls its strongest. Three of them (C-0016, C-0017, C-0018) are rated `value: high`, and the cluster is the basis of the refutation C-0021 and the stratification conjecture C-0022.
 - C-0002 underlies C-0003, C-0004, C-0013 and C-0024. Checking it alongside the palace cluster is cheap.

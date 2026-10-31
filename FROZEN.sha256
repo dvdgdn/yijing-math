@@ -9,3 +9,48 @@ bec34b182175dbb314400bf48b93d563877db89ca8ef30e95041d673c89cf2f1  investigations
 c4ebf703ef08b8d14e5a9d3cf17e85d16fc78a88a9811e43d1c032213fb84b26  prompts/components/charter.v1.md
 6cd9a861be9f3538bc0f90158415c7084ec165f58c6a2e4e0244835c1b093500  prompts/components/handoff-protocol.v1.md
 # Prompt packages and outputs of investigations are appended below as they are sent and received.
+
+# Pinned external mathematical literature, retrieved 2026-10-31.
+7eb5780d3514642d6788e1369c741045a2f0b1f57ca9c83dbe0ea748f8f7b978  investigations/library/openai-math-4eaee875/CONTENTS.md
+5824dbefe5666fffaa9ea9467445b373f03a9d1e9ad71577f3914953019011cd  investigations/library/openai-math-4eaee875/formalization.yaml
+79e119fc56a2e60239f8f0cf62bdb46f1e86c6db9ed584cc59a8bf1aa455542c  investigations/library/openai-math-4eaee875/sources/README.md
+b1f71c70e1fac4ff8c28ecc816d91e90540c148f6b9337a06ec6838dcd1f5838  investigations/library/openai-math-4eaee875/sources/lean/docs/115.md
+8cdd644a5d8afd529e66cab0e7d373ca57d621988019af1c9c63abefcd2f1753  investigations/library/openai-math-4eaee875/sources/lean/docs/119.md
+2111ef8ad95c090d7d6dcbde70cbce98a342137bd4a26a7e11112856b4ecafbd  investigations/library/openai-math-4eaee875/sources/lean/docs/238.md
+3f5e071cd348005a5040f5cab421f70ad603106590f972c1dbecff91dfb9e4d2  investigations/library/openai-math-4eaee875/sources/preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/build/main.tex
+37d6c7a2db0d9c45d233f4d6483024ac6fc78f58d928900793f0451f116e31d5  investigations/library/openai-math-4eaee875/sources/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/build/main.tex
+0b01e28c6d4c8b710dd70260c0705f21a882fd1b24450d59f47c052eba3e37a2  investigations/library/openai-math-4eaee875/sources/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/build/sections/introduction.tex
+383fd8117b3ee40141f03bf6d9a20180366700ea7f1917b4cbaaabfbfee690f3  investigations/library/openai-math-4eaee875/sources/preprints/An-FPRAS-for-Cell-Bounded-Contingency-Tables-September-24-2026/build/main.tex
+107e9483975abd6a109455208a3c3f60bfd1b69b4da689c7383ec8779231ce7a  investigations/library/openai-math-4eaee875/sources/preprints/An-FPRAS-for-Cell-Bounded-Contingency-Tables-September-24-2026/build/sections/introduction.tex
+2621bdebe53aff44e547014bab8445cfe4338e6d7ade7e504b2a7f45dfb82cb8  investigations/library/openai-math-4eaee875/sources/preprints/Conditional-coordinate-sweeps-and-analytic-transfer-September-26-2026/build/main.tex
+5327de8776f22d051091bc719a82968f743ec3d512283c261e753a6bdf2c7999  investigations/library/openai-math-4eaee875/sources/preprints/Conditional-coordinate-sweeps-and-analytic-transfer-September-26-2026/build/sections/01-introduction.tex
+499181a9578bbda97fc506e6c9cf043db23af903b0ab75e1a42ddbcdd9787b05  investigations/library/openai-math-4eaee875/sources/preprints/Entropy-and-Face-Dimension-of-the-Perfect-Matching-Polytope-September-23-2026/build/main.tex
+ccd49a6cad25912d02674e6e2c2f5166bf704c418b9788d1b91c81f3a71daf3b  investigations/library/openai-math-4eaee875/sources/preprints/Entropy-and-Face-Dimension-of-the-Perfect-Matching-Polytope-September-23-2026/build/sections/01-introduction.tex
+0e18268d8a10b114b76bb54ed34f7250887f6cda238bcd87e9b897680a5b3bec  investigations/library/openai-math-4eaee875/sources/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/build/main.tex
+7181b5ff71ebc53b2817a610c76bdce10167173c13e01dc160bfadb9c76bdbcf  investigations/library/openai-math-4eaee875/sources/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/build/sections/introduction.tex
+30572e94f5ca81942bed8734ef465e45a7acadc2d7513237dd1c05516a4db444  investigations/library/openai-math-4eaee875/sources/preprints/Finite-Congruence-Lattices-Characterization-and-Undecidability-September-24-2026/build/paper.tex
+5271e2011b397f96de0358de1545e235b813780e269d65991cacfa6db71b1388  investigations/library/openai-math-4eaee875/sources/preprints/Finite-Congruence-Lattices-Characterization-and-Undecidability-September-24-2026/build/sections/introduction.tex
+de5e8fbfb9277955977283f6e4ea74a50afc348c8a4ca3615f70d5fdcb6242dd  investigations/library/openai-math-4eaee875/sources/preprints/Generalized-Star-Height-at-Most-Three-September-25-2026/build/paper.tex
+57339480cd67f5afc7115f83d80ba0613c6272e6f051d1f81ed1424d61997602  investigations/library/openai-math-4eaee875/sources/preprints/Generalized-Star-Height-at-Most-Three-September-25-2026/build/sections/introduction.tex
+d7f54ded452e5514c45ea5960ac77e956198373edb35a6536569853e973421a7  investigations/library/openai-math-4eaee875/sources/preprints/Hellinger-contraction-with-arbitrary-Boolean-output-bias-September-24-2026/build/main.tex
+783d45fb1820f3e92465c3b30fbebcec5adf93f89aab597e63636270d176007b  investigations/library/openai-math-4eaee875/sources/preprints/Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026/build/main.tex
+62eba9d7504afbaa1471f68313dd40cd8192b06f7fad029fdc219aa88481f6fe  investigations/library/openai-math-4eaee875/sources/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/main.tex
+f9e456e0066b7fed25baf57ab7f862512429ba729fafecc356c02a58caa9590a  investigations/library/openai-math-4eaee875/sources/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/build/sections/introduction.tex
+beceb117688d136b408a1a90712d7b09e16b98ba9480c2ed3883824e895a41ee  investigations/library/openai-math-4eaee875/sources/preprints/Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026/build/main.tex
+55c9638ea78cbf9502a59012db59bfdd553c62fffa1ddc1e8946defd504555e1  investigations/library/openai-math-4eaee875/sources/preprints/Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026/build/sections/introduction.tex
+aba3dc059f79b55ed8700c18edf8edbd1b39892492942ef63ecf2518e3d922e4  investigations/library/openai-math-4eaee875/sources/preprints/Sharp-binary-information-contraction-on-the-discrete-cube-September-24-2026/build/main.tex
+eed1f719f174a67be7c00e45f6d314cc84687faa4fda273a6038bcf81e3eb0bc  investigations/library/openai-math-4eaee875/sources/preprints/The-circulant-Hadamard-conjecture-September-23-2026/build/main.tex
+49696d09f2de48cbb53ee623fd4e5f1a5d5520b22fa6cd48392517b6d66d33ee  investigations/library/openai-math-4eaee875/sources/preprints/The-circulant-Hadamard-conjecture-September-23-2026/build/sections/introduction.tex
+09238bfa2ff26c3c389f25d43481c5ce4a6b1429571d6b50cfdadb50c010aad5  investigations/library/openai-math-4eaee875/sources/preprints/Ultraflat-real-Littlewood-polynomials-October-5-2026/build/main.tex
+32e177126275ff0609e70386e18126b13dcb6036463a6fe1213a9893dfa22d74  investigations/library/openai-math-4eaee875/sources/preprints/Ultraflat-real-Littlewood-polynomials-October-5-2026/build/sections/introduction.tex
+36d760d401dfb1722f0cf22e9e86c285af17796d8a37191457db23bf8a180221  investigations/library/openai-math-4eaee875/sources/preprints/Uniform-quasipolynomial-time-trace-reconstruction-October-5-2026/build/manuscript/main.tex
+
+# Full-context corpus-transfer report and executed finite probes, 2026-10-31.
+af53e071c49c4822057c5ce800309ee0aba8e38eafa038ac0a1aa0f6153c6ae2  investigations/INV-0003-corpus-transfer-audit/request.md
+7bb0e2cc67d99d387c1897962dca7a30f49ed83c3d1cb64d20e70977e405fd6f  investigations/INV-0003-corpus-transfer-audit/output.md
+16d9102146fa197b70acaa8fc42993c4df10d23f838739c4467a219794b4619b  investigations/INV-0003-corpus-transfer-audit/pilot-results.json
+d446ffad28d4e8451773638de1dce1c23855fb9c5c1d13541920a681d3719287  compute/experiments/INV-0003/corpus_pilots.py
+
+# Additional exact scoped proof-route failure in the corpus-transfer study.
+598cac79ebc0060bb5ecffb3d293e4b0af29c33ff50321aba5b9125e766f6d06  investigations/INV-0003-corpus-transfer-audit/additional-attempt.md
+0e92753fa513510dda4732a3e4d7f368ecb8116b409075c80fb242d29a5ce439  investigations/INV-0003-corpus-transfer-audit/code/majorization-counterexample.py

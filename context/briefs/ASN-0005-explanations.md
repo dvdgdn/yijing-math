@@ -7,7 +7,7 @@ created: 2026-10-31
 ---
 # Supplied Context: Reported Phenomena and Competing Explanations
 
-An earlier investigation in this program reported the phenomena below about the received (King Wen) order. **None has been independently verified.** A separate verification is under way. The reported p-values are deliberately withheld, so that your analysis plan is not anchored to them.
+An earlier investigation in this program reported the phenomena below about the received (King Wen) order. **None has been independently verified.** Separate verification assignments are prepared; no verification output is available yet. The reported p-values are deliberately withheld, so that your analysis plan is not anchored to them.
 
 ## Conventions
 
@@ -35,7 +35,7 @@ For the order as a whole (dispute DSP-002):
 
 ## Statistics already examined by the earlier investigation
 
-These were examined, all under the pair-shuffling null model (permute the 32 pairs uniformly; randomize order within each pair). Count them toward your multiplicity accounting. Their values are withheld.
+These were examined, all under the pair-shuffling null model (permute the 32 pairs uniformly; randomize order within each pair). Include them in your exposure and multiplicity record. Their values are withheld, but the phenomena were already selected. The full earlier search universe is unknown; correcting only this list cannot remove that unknown selection.
 
 1. Whether P1 holds (equivalently, the number of R-fixed pairs among the first 15 pairs).
 2. Whether both pairs of P3 occupy the two end positions.

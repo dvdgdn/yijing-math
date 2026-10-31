@@ -59,6 +59,8 @@ The space of encodings, operations, and statistics is large. Patterns found by s
 - Count, or honestly estimate, how many patterns, statistics, or encodings were examined before reporting one.
 - Label analyses as **exploratory** (hypothesis-generating) or **confirmatory** (pre-specified before seeing the outcome).
 - For confirmatory claims, write down the test, statistic, null model, and threshold before computing, and record that pre-specification in the report.
+- Freezing a plan after inspecting the phenomenon prevents further flexibility; it does not make that phenomenon fresh confirmatory evidence. A new model or hidden p-values do not erase prior exposure or selection. Use genuinely unexamined data or consequences, with their eligibility and access fixed before testing, for confirmatory inference. When none are available, label the work a pre-specified sensitivity analysis or descriptive comparison.
+- Record the program-wide search history, not only the current investigator's tests. If the earlier search space is unknown, say so; a correction for a short known list does not account for unknown selection. For simulation-based calibration of a search, the simulation must repeat the entire specified selection procedure.
 - Apply a correction (Bonferroni, Holm, or a false-discovery-rate method) when reporting several tests, or explain why not.
 - A p-value from an exploratory search is a description, not evidence of significance.
 
@@ -109,3 +111,17 @@ Report separately:
 - **Value of further investigation**: how much would be learned by testing, extending, or refuting it.
 
 A speculative hypothesis can deserve priority because testing it would be unusually informative. A certain but trivial result may deserve none. The ledger records these separately (`status` and `value`).
+
+## 14. Importing external research
+
+A published or model-produced manuscript is a source to assess, not an automatic verification of a claim in this programme. Large collections need explicit selection and provenance:
+
+- Pin the source revision and exact theorem, page/label and hypotheses. Preserve a stable reference or source snapshot and its hash. Record whether the title/abstract, theorem statement, relevant proof, code, or formal artifact was actually inspected. Do not describe retrieval or keyword screening as proof review.
+- Give an explicit application map: source objects to target objects, required hypotheses, preserved relationships, and a consequence. Check input distributions, output types, independence, source variants, quantifier order, finite versus asymptotic scope, and effective constants. If a finite bound is vacuous, say so.
+- Compare with an elementary or already available method. A powerful new theorem may supply no practical or mathematical improvement for the particular instance. Separate transfer feasibility, incremental benefit, implementability, and novelty of the application.
+- Keep the source theorem, the transfer argument, the new consequence, and historical/source correspondence distinct. Develop a consequence conditionally when its external premise is not yet checked. Finite independent tests can establish a relevant special case without verifying the global theorem.
+- Inspect what a formalization proves, including its assumptions and correspondence to the needed statement. A catalogue link is not a successful build or an independent check. Record actual compiler/artifact versions and runs, or unknown. Do not infer coverage for every companion paper from a family-level marker.
+- Trace shared lemmas, code, datasets and model lineage. Papers in a collection are not independent confirmations merely because they have different titles. A correction or withdrawal triggers review of uses of that source; follow the dependency-review procedure in [`ledger-conventions.md`](ledger-conventions.md) §6.
+- Search the literature for the proposed application as well as the imported theorem. State the new contribution precisely. A new vocabulary, reproof, or tiny instance of a general result may be useful, but is not automatically a novel discovery.
+
+Reports should include a compact import contract with fields: source and revision; exact statement; source verification/review level; required hypotheses; application map; checked and missing hypotheses; elementary baseline; new deliverable; finite test; and rejection/reopening condition. Record the source-containing contract under `context/briefs/`, `investigations/`, or `roadmap/`, never in a minimal-safe template.

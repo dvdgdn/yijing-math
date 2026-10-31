@@ -8,12 +8,12 @@ One folder per investigation: `INV-NNNN-slug/`. An investigation is one run of o
 
 | File | Contents | Mutable? |
 |---|---|---|
-| `record.md` | Metadata (front matter) and provenance. Start from [`_template/record.md`](_template/record.md). | Yes, to add facts as they become known. |
+| `record.md` | Metadata (front matter) and provenance. Start from [`_template/record.md`](_template/record.md); record family and isolation evidence explicitly. | Yes, to add facts as they become known. |
 | `prompt.md` (or `prompt-part1.md`, `prompt-part2.md`) | The exact package sent to the model. | **Frozen** once sent. |
 | `output.md` (or `output-part1.md`, `output-part2.md`) | The model's reply, verbatim, including its handoff report. | **Frozen.** Never edit, reformat, or correct. |
 | `followup-N.md` | Any additional message sent in the same session, verbatim. | Frozen once sent. |
 | `code/` | Code supplied by the investigator, verbatim. | Frozen. |
-| `registration.md` | Registrar's mapping from the report's local results to ledger IDs, plus results considered and not registered. | Yes, with dated notes. |
+| `registration.md` | Registrar's result mapping, scoped attempt map, exclusions, shared inputs and follow-up decisions. Start from [`_template/registration.md`](_template/registration.md). | Yes, with dated notes. |
 
 Frozen files are listed in [`FROZEN.sha256`](../FROZEN.sha256) and checked by `python3 tools/yj.py validate`.
 
@@ -27,5 +27,6 @@ Frozen files are listed in [`FROZEN.sha256`](../FROZEN.sha256) and checked by `p
 |---|---|---|---|---|---|
 | [INV-0001](INV-0001-claude-paradigm-transcendence/record.md) | Claude Opus 5.5 | legacy | none (legacy prompt) | unknown | registered |
 | [INV-0002](INV-0002-gpt-initial-investigation/record.md) | GPT-6.1 Sol Max | legacy | none | unknown | missing-output |
+| [INV-0003](INV-0003-corpus-transfer-audit/record.md) | Codex assistant; exact model unknown | synthesis | current user request; no isolated package | full, context-exposed | completed; registration pending |
 
 Add a row when you create an investigation folder.

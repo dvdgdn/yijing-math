@@ -6,7 +6,7 @@ role: explorer
 context_mode: targeted
 role_prompt: prompts/roles/explorer.v1.md
 charter: prompts/components/charter.v1.md
-handoff: prompts/components/handoff-protocol.v2.md
+handoff: prompts/components/handoff-protocol.v3.md
 materials: [context/objects/hexagrams.md]
 materials_part2: []
 claims: []
@@ -15,6 +15,12 @@ excluded_models: []
 replication_of: none
 assignment_text_sha256: a88a6402301f50f2425b3b383fe6d7f7f22ee32419ea5b26ff6c1c1e34134d89
 investigations: []
+purpose: exploration
+directions: [DIR-002, DIR-010]
+questions: []
+work_items: [operation-relations-exploration]
+prerequisites: []
+intentional_overlap: []
 created: 2026-10-31
 ---
 # ASN-0003: Mathematical relations between Yijing constructions

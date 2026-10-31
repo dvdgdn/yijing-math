@@ -26,7 +26,7 @@ Distinguish:
 
 For **minimal** and **targeted** investigations:
 
-1. **Assemble the package from listed files only.** Use `python3 tools/yj.py assemble ASN-NNNN`, which concatenates the components named in the assignment and refuses to build a minimal package that includes ledger, investigation, roadmap, or brief material or that mentions ledger IDs. It also warns if the package contains vocabulary listed in `ledger/leak-terms.txt`. Manual assembly is fine; follow the same order and check by hand.
+1. **Assemble the package from listed files only.** Use `python3 tools/yj.py assemble ASN-NNNN`, which concatenates the components named in the assignment and refuses to build a minimal package that includes ledger, investigation, roadmap, or brief material or that mentions ledger IDs. It also warns if the package contains vocabulary listed in `ledger/leak-terms.txt`. All file inputs, including role, charter, handoff, and later-phase materials, are resolved within the repository before context boundaries are checked; alternate path spellings and symlinks do not bypass those boundaries. Manual assembly is fine; follow the same order and check by hand.
 2. **Run in a fresh session with no ambient context.**
    - Use a new chat or conversation, not one that has seen any other material.
    - Do not use a chat "project" or workspace that has repository files, prior reports, or custom instructions attached. Use an empty one or none.
@@ -36,6 +36,8 @@ For **minimal** and **targeted** investigations:
 4. **Record deviations.** If isolation was broken (wrong attachment, memory on, follow-up messages that added context), record it in the investigation record under "Deviations". An investigation that was not isolated can still be valuable, but its findings must not be counted as independent.
 
 For **full** investigations, running as an agent inside this repository is acceptable and often convenient.
+
+Coverage tags, work keys, overlap declarations, the coordination board, and selection rationales are coordinator metadata. They are excluded from assembled packages. Targeted successors may receive scoped reuse briefs under [`research-cycle.md`](research-cycle.md) §9; minimal investigators do not receive the map of what has already been explored.
 
 ## 4. Repository files that must stay clean
 

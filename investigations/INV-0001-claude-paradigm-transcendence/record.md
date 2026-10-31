@@ -5,6 +5,8 @@ status: registered
 role: legacy
 assignment: none
 model: Claude Opus 5.5
+model_family: claude
+independence: unknown
 model_identifier: unknown
 prompt: investigations/prompts/yijing_paradigm_transcendence.md
 prompt_version: legacy (unversioned)

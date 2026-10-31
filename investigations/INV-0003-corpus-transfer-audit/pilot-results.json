@@ -1,0 +1,149 @@
+{
+  "information": {
+    "cases": [
+      {
+        "base_information_bits": 1.1035766947342789,
+        "best_binary_difference_summary_bits": 0.24212153746160503,
+        "boolean_functions_checked": 256,
+        "conditional_mass_sha256": {
+          "base": "02ad2de9b2445f0a6d78f9a43566df34815f5d481a00e034c15d9f90eb1134e4",
+          "generation": "872e38e9040374f9fefce4c57e54378016590bdc13d8150f57aef28152f23825"
+        },
+        "crossover": "1/8",
+        "generation_information_bits": 0.7263646123848151,
+        "induced_difference_crossover": "7/32",
+        "maximizer_truth_tables": [
+          15,
+          51,
+          85,
+          170,
+          204,
+          240
+        ],
+        "raw_coordinate_information_bits": 0.4564355568004036
+      },
+      {
+        "base_information_bits": 0.3786210551758806,
+        "best_binary_difference_summary_bits": 0.04556599707503595,
+        "boolean_functions_checked": 256,
+        "conditional_mass_sha256": {
+          "base": "d365e5875498f5c5d87b93c06669c963888fd18d2f3d859ef5f30f5fd7c32a2c",
+          "generation": "9de7b249394c0420896cbe75b8cf663a90a9c461899a02548a28bc9dc4e6b252"
+        },
+        "crossover": "1/4",
+        "generation_information_bits": 0.1366979912251054,
+        "induced_difference_crossover": "3/8",
+        "maximizer_truth_tables": [
+          15,
+          51,
+          85,
+          170,
+          204,
+          240
+        ],
+        "raw_coordinate_information_bits": 0.18872187554086606
+      }
+    ],
+    "difference_words": [
+      "000000",
+      "100000",
+      "110000",
+      "111000",
+      "111100",
+      "111110",
+      "111010",
+      "000010"
+    ],
+    "domain": "Uniform six-bit input, independent identical symmetric bit flips; no historical probability model asserted",
+    "joint_base_difference_pairs": 64
+  },
+  "matching": {
+    "component_sizes": {
+      "2": 8,
+      "4": 12
+    },
+    "conclusion": "The imported entropy estimate is loose here; exact factorization is preferable for this graph.",
+    "exact_uniform_entropy_bits": 12.0,
+    "external_entropy_lower_bits": -22.5,
+    "external_entropy_upper_bits": 24.0,
+    "perfect_matchings": 4096,
+    "vertices": 64
+  },
+  "null_measures": {
+    "column_margins": [
+      2,
+      2
+    ],
+    "conclusion": "Uniform tables and tables induced by uniform labelled allocations are different null models.",
+    "extreme_table_event_probabilities": {
+      "labelled_allocation": "1/3",
+      "uniform_table": "2/3"
+    },
+    "labelled_allocation_multiplicities": [
+      1,
+      4,
+      1
+    ],
+    "labelled_allocation_probabilities": [
+      "1/6",
+      "2/3",
+      "1/6"
+    ],
+    "row_margins": [
+      2,
+      2
+    ],
+    "tables": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    ],
+    "uniform_table_probabilities": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ]
+  },
+  "numerical_entropy": "binary64 evaluation of logarithms; exact conditional masses hashed; not an interval certificate",
+  "python": "3.9.6",
+  "randomness": "none; deterministic enumeration and exact integer masses",
+  "shuffle": {
+    "cards": 64,
+    "conclusion": "One-card uniformity after one six-direction sweep does not establish uniformity of the order.",
+    "mixing_time_at_TV_one_quarter_at_least": 10,
+    "one_card_marginal_exactly_uniform": true,
+    "physical_shuffles": 6,
+    "random_bits": 192,
+    "support_fraction_log2": -103.99514394172405,
+    "support_fraction_upper_bound": "680564733841876926926749214863536422912/13757108753595648665519665029568345104465749222289382342659100341796875",
+    "total_variation_lower_bound_exact": "1 - (680564733841876926926749214863536422912/13757108753595648665519665029568345104465749222289382342659100341796875)"
+  },
+  "status": "reported; full-context author computation, not independent verification"
+}

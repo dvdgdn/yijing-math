@@ -6,7 +6,7 @@ role: paradigm-breaker
 context_mode: minimal
 role_prompt: prompts/roles/paradigm-breaker.v1.md
 charter: prompts/components/charter.v1.md
-handoff: prompts/components/handoff-protocol.v2.md
+handoff: prompts/components/handoff-protocol.v3.md
 materials: [context/objects/hexagrams.md]
 materials_part2: []
 claims: []
@@ -14,6 +14,12 @@ recommended_model: GPT-6.1 Sol Max
 excluded_models: []
 replication_of: none
 investigations: []
+purpose: reset
+directions: [DIR-009]
+questions: []
+work_items: [framing-reset]
+prerequisites: []
+intentional_overlap: []
 created: 2026-10-31
 ---
 # ASN-0006: Conceptual reset

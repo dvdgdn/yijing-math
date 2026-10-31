@@ -106,7 +106,7 @@ Every claim file has these level-2 headings, in this order. Write "None recorded
 | `reported` | Asserted by its source investigation(s). Not independently checked. **An investigator's statement that something is proven or computed leaves the claim at `reported`.** | At least one source. |
 | `in-verification` | Assigned to a verification investigation that has not yet reported. | Name the assignment in the verification log. |
 | `reproduced` | Independently re-derived or recomputed in a separate, isolated session, with agreement, but **by the same model family as an originator** or without adversarial audit. | At least one verifier. |
-| `verified` | Independently checked by an investigator of a **different model family** from every originator, or by a qualified human, following the verifier protocol, with no unresolved objection. | At least one verifier meeting that condition. Checked by `tools/yj.py validate`. |
+| `verified` | Independently checked by an investigator of a **different model family** from every originator, or by a qualified human, following the verifier protocol, with no unresolved objection. | At least one verifier meeting that condition. Metadata prerequisites checked by `tools/yj.py validate`; the human still reviews the actual audit and verdict. |
 | `disputed` | Verifications disagree, or a substantive objection is unresolved. | Open a `DSP-` entry. |
 | `refuted` | Shown false *as stated*. Refutes this formulation only. | Link the counterexample or impossibility claim. |
 | `superseded` | Replaced by a corrected or generalized claim. | `superseded_by` set. |
@@ -116,7 +116,8 @@ Notes:
 
 - Agreement between models is evidence, not proof. Two models agreeing that a statement is proven does not make it `verified` unless one of them verified the other's work under the verifier protocol.
 - For conjectures and hypotheses, the status describes what the record itself asserts: that the statement is open and supported by the stated evidence. If a conjecture is later proven, register a new `theorem` claim that `supersedes` it; do not retype the old record.
-- `verified` does not mean certain. It means independently checked, with the log saying how.
+- `verified` does not mean certain. It means independently checked, with the log saying how. Record `model_family` explicitly on investigations; unknown provenance cannot establish cross-family independence. Record `independence: isolated` only with evidence of isolation in the investigation record. A model verifier must have completed its verification and must not also be an originator of the same claim. The validator checks these necessary conditions; metadata cannot establish that a proof audit was adequate.
+- Mathematical correctness, source correspondence, and significance require separate verdicts in the verification log. State which aspects remain unchecked. Do not give a mixed claim an unqualified `verified` status while a required aspect remains unresolved; split distinct assertions into successor records when needed.
 
 ## 4. Operations
 
@@ -125,12 +126,12 @@ Notes:
 1. Read the original output. Never edit it.
 2. For each significant claim, search the ledger (`ledger/INDEX.md`, then candidate records) for an equivalent claim.
    - **New claim:** create `C-NNNN.md` with status `reported`.
-   - **Equivalent to an existing claim:** add the investigation to `sources`, and record the new derivation under Provenance. An independent derivation is evidence of robustness, not verification; the status does not change.
+   - **Equivalent to an existing claim:** add the investigation to `sources`, and record the new derivation under Provenance. An independent derivation is evidence of robustness, not verification. Do not promote the status. If adding an originator changes the model-family independence of an existing verification, review and record whether `verified` still qualifies before retaining it.
    - **Equivalent but differently formulated:** keep one record, add the alternative formulation under Statement, and note any difference in assumptions. If the formulations are not provably equivalent, make two records and link them with `related`.
    - **Conflicts with an existing claim:** register it, link both with `competes_with`, and open a `DSP-` entry.
-3. Write `registration.md` in the investigation folder: a table mapping each local result to ledger IDs, plus every result considered and *not* registered, with the reason.
+3. Write `registration.md` in the investigation folder: a table mapping each local result to ledger IDs, plus every result considered and *not* registered, with the reason. Use [`investigations/_template/registration.md`](../investigations/_template/registration.md). Also preserve a compact map of attempted approaches and their exact bounds, evidence locations, stopping reasons, and untested variations. A failed approach can prevent repeated work without warranting a separate claim; a significant negative result still needs a claim record.
 4. Add new open questions (`Q-`), directions (`DIR-`), and disputes (`DSP-`).
-5. Run `python3 tools/yj.py validate` and `python3 tools/yj.py index`.
+5. Update assignment coverage and outcomes, record the next selection decision under [`research-cycle.md`](research-cycle.md) §8–9, then run `python3 tools/yj.py index` followed by `python3 tools/yj.py validate`.
 
 ### Verifying a claim
 
@@ -155,3 +156,12 @@ A negative result is only useful if a future investigator can tell exactly what 
 ## 5. Ledger versions
 
 The ledger has a version recorded at the top of `ledger/CHANGELOG.md` (`v0.1`, `v0.2`, …). Bump the minor version after each reconciliation that changes claims. Each entry lists the claims added, statuses changed, and the investigations ingested.
+
+
+## 6. Reuse, independence, and changed premises
+
+Deduplicate by statement **and assumptions**, not by terminology or conclusion alone. Require an argument for equivalence; if uncertain, keep separate linked records. Preserve every source/local-result mapping. A literature antecedent, independent derivation, independent implementation, and independent source transcription are distinct kinds of support. Two model families can share the same erroneous data or published argument. Record shared inputs and exposure in provenance rather than treating family diversity as sufficient evidence of independence.
+
+Whenever a premise is refuted, disputed, superseded, or withdrawn, run `python3 tools/yj.py impact ID`. Review the transitive claim dependents and assignments it lists, plus any unrecorded source/data dependencies. The generated board highlights such review triggers. A refuted premise does not automatically refute its consequences: they may have another proof. A corrected premise does not automatically transfer verification either. Append a dated dependency-review note to each affected claim: what changed, which argument/aspect is affected, what remains supported, and the needed follow-up. Where support is now unresolved, use `disputed` with a dispute record, or `reported` if independent verification no longer applies, and explain the transition. Never silently keep a stale verification.
+
+If an encoding, transcription, or definition changes, retain the old version and register the correction separately where required. Review both theorems and source-dependent uses. `impact` follows recorded `depends_on` links; missing links are a limit of the record, not evidence that no impact exists.

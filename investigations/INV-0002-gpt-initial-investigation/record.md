@@ -5,6 +5,8 @@ status: missing-output
 role: legacy
 assignment: none
 model: GPT-6.1 Sol Max
+model_family: gpt
+independence: unknown
 model_identifier: unknown
 prompt: unknown
 prompt_version: unknown

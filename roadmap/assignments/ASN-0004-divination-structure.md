@@ -6,7 +6,7 @@ role: explorer
 context_mode: minimal
 role_prompt: prompts/roles/explorer.v1.md
 charter: prompts/components/charter.v1.md
-handoff: prompts/components/handoff-protocol.v2.md
+handoff: prompts/components/handoff-protocol.v3.md
 materials: [context/objects/hexagrams.md, context/objects/divination.md]
 materials_part2: []
 claims: []
@@ -14,6 +14,12 @@ recommended_model: Claude Opus 5.5
 excluded_models: []
 replication_of: none
 investigations: []
+purpose: exploration
+directions: [DIR-006, DIR-009]
+questions: []
+work_items: [divination-structure-exploration]
+prerequisites: []
+intentional_overlap: []
 created: 2026-10-31
 ---
 # ASN-0004: Fresh exploration of divination procedures and changing lines

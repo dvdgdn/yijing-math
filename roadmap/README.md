@@ -6,7 +6,15 @@ Start with the generated [coordination board](BOARD.md) and the [coordination re
 
 This roadmap is provisional. Revise it after every reconciliation. Assignments are prepared here and launched as investigations (see the main README).
 
-## Current proposed slate (adjudication, 2026-10-31)
+## Research launch (2026-11-01)
+
+The human coordinator authorized starting the highest-value research. Two separate isolated verifications are running: [INV-0005](../investigations/INV-0005-verify-pairing-and-palaces/record.md) on ASN-0001 and [INV-0006](../investigations/INV-0006-verify-divination-information/record.md) on ASN-0014. Each receives a blind first phase before original evidence. Executed preflight tests denied repository and prior-session reads in the research sandbox. The CLI rejected the recommended GPT-6.1 Sol model before inference; both accepted runs use GPT-5.6 Sol at maximum reasoning effort. Exact launch records preserve the substitution.
+
+Full-context development [INV-0007](../investigations/INV-0007-linear-information-controls/record.md), under [ASN-0015](assignments/ASN-0015-linear-information-controls.md), has completed a bounded coding-theoretic comparison. Its report is frozen; registration is pending and no result counts as an independent verification. It reports an all-noise counterexample to the broad least-informative reading of C-0036, a complete affine-linear coordinate upper bound, and exact coin-noise extrema across all 1395 linear three-bit partitions. Neither verifier's blind first phase receives this work.
+
+Continue with source work and blind Claude exploration after the two verifications. Broad corpus judgments below are provisional allocation decisions; new concrete questions may reopen specific families. Further infrastructure expansion is deferred while research proceeds.
+
+## Proposed slate at launch (adjudication, 2026-10-31; execution above)
 
 The [adjudication of the manuscript-assisted expansion](literature/openai-math/adjudication.md) reviews the expansion from outside. It screens the whole corpus independently and records INV-0004, the first investigation of divination procedures (DIR-006). Every new claim is `reported`.
 

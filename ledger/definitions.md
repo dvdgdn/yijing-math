@@ -71,7 +71,7 @@ As stated in INV-0001 §5: starting from a doubled trigram b = (t, t), generatio
 | returning soul | 000010 |
 
 A palace is {b ⊕ d : d ∈ D} for a fixed b ∈ P.
-*Origin:* INV-0001 §5. *Encodes source:* the Jing Fang eight-palace system (SRC-002). **Whether this encoding matches the source is itself a claim (C-0017) and has not been checked.**
+*Origin:* INV-0001 §5. *Encodes source:* the Jing Fang eight-palace system (SRC-002). **Whether this encoding matches the source is itself a claim (C-0017) and has not been checked.** *Registrar note (2026-11-01):* INV-0008 compared the generated palaces with a cited, unchecked *Jingshi Yizhuan* table (`data/jingshi-yizhuan-eight-palaces.v1.csv`); see the verification log of C-0017. That recomputation is not a protocol verification.
 
 ### DEF-012 — Canon division of the received order
 
@@ -108,7 +108,7 @@ Each model generates six line values in {6, 7, 8, 9} independently. Value v give
 - **yarrow-binomial:** as yarrow-uniform, with left heap Binomial(n, 1/2) conditioned on 1 ≤ L ≤ n−1.
 
 The "symmetric line-change channel with parameter p" is Y = X ⊕ E with X uniform and the six E bits independent Bernoulli(p).
-*Origin:* INV-0004 §2. *Encodes source:* the models are mathematical idealizations; their correspondence with cited descriptions of the yarrow (Xici) and three-coin procedures is unverified (ASN-0007). *Alternatives:* other split laws, hung-stalk and remainder conventions; procedures with non-independent lines.
+*Origin:* INV-0004 §2. *Encodes source:* the models are mathematical idealizations; their correspondence with cited descriptions of the yarrow (Xici) and three-coin procedures is unverified (ASN-0007). *Registrar note (2026-11-01):* the case counts in Zhu Xi's 筮儀 match yarrow-standard under equal weighting, and the text fixes the remainder and hung-stalk conventions of the other two yarrow models (C-0041). No cited text fixes a split law or the coin model. *Alternatives:* other split laws, hung-stalk and remainder conventions; procedures with non-independent lines.
 
 ### DEF-018 — Eight-valued labels T, B, G
 

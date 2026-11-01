@@ -1,0 +1,3117 @@
+{
+ "script_sha256": "ffad286c9ca55761cac10bbd06d4de9c14b8ccb9e3ba836f995ca5d1362ff702",
+ "python": "3.9.6",
+ "manifest_sha256": "832fad7b17c502f08a59ee669de193c474094d7e35a19f3400e80764455760e3",
+ "variants": {
+  "兊": "兌",
+  "無妄": "无妄",
+  "恆": "恒",
+  "遁": "遯",
+  "剥": "剝",
+  "頥": "頤",
+  "䝉": "蒙"
+ },
+ "w1": {
+  "numbers_are_1_to_64": true,
+  "chain_equals_number_order": true
+ },
+ "w2": {
+  "count": 64,
+  "order_equals_w1": true,
+  "name_variants": [
+   [
+    "無妄",
+    "无妄"
+   ]
+  ],
+  "canon_boundary": [
+   31
+  ]
+ },
+ "w1_w2_line_disagreements": [],
+ "w1_w2_composition_disagreements": [],
+ "trigram_patterns": {
+  "乾": [
+   "111"
+  ],
+  "兌": [
+   "110"
+  ],
+  "坎": [
+   "010"
+  ],
+  "坤": [
+   "000"
+  ],
+  "巽": [
+   "011"
+  ],
+  "艮": [
+   "001"
+  ],
+  "離": [
+   "101"
+  ],
+  "震": [
+   "100"
+  ]
+ },
+ "trigram_patterns_complete": true,
+ "w1_composition_vs_headings_disagreements": [],
+ "w1_distinct_line_patterns": 64,
+ "xugua": {
+  "易傳/序卦": {
+   "source": {
+    "title": "易傳/序卦",
+    "revid": 2611127,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2611127"
+   },
+   "count": 61,
+   "equals_received_without_1_2_31": true,
+   "sequence": [
+    "屯",
+    "蒙",
+    "需",
+    "訟",
+    "師",
+    "比",
+    "小畜",
+    "履",
+    "泰",
+    "否",
+    "同人",
+    "大有",
+    "謙",
+    "豫",
+    "隨",
+    "蠱",
+    "臨",
+    "觀",
+    "噬嗑",
+    "賁",
+    "剝",
+    "復",
+    "无妄",
+    "大畜",
+    "頤",
+    "大過",
+    "坎",
+    "離",
+    "恒",
+    "遯",
+    "大壯",
+    "晉",
+    "明夷",
+    "家人",
+    "睽",
+    "蹇",
+    "解",
+    "損",
+    "益",
+    "夬",
+    "姤",
+    "萃",
+    "升",
+    "困",
+    "井",
+    "革",
+    "鼎",
+    "震",
+    "艮",
+    "漸",
+    "歸妹",
+    "豐",
+    "旅",
+    "巽",
+    "兌",
+    "渙",
+    "節",
+    "中孚",
+    "小過",
+    "既濟",
+    "未濟"
+   ],
+   "repeated_mentions_dropped": []
+  },
+  "周易正義/10": {
+   "source": {
+    "title": "周易正義/10",
+    "revid": 2384519,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2384519"
+   },
+   "count": 61,
+   "equals_received_without_1_2_31": true,
+   "sequence": [
+    "屯",
+    "蒙",
+    "需",
+    "訟",
+    "師",
+    "比",
+    "小畜",
+    "履",
+    "泰",
+    "否",
+    "同人",
+    "大有",
+    "謙",
+    "豫",
+    "隨",
+    "蠱",
+    "臨",
+    "觀",
+    "噬嗑",
+    "賁",
+    "剝",
+    "復",
+    "无妄",
+    "大畜",
+    "頤",
+    "大過",
+    "坎",
+    "離",
+    "恒",
+    "遯",
+    "大壯",
+    "晉",
+    "明夷",
+    "家人",
+    "睽",
+    "蹇",
+    "解",
+    "損",
+    "益",
+    "夬",
+    "姤",
+    "萃",
+    "升",
+    "困",
+    "井",
+    "革",
+    "鼎",
+    "震",
+    "艮",
+    "漸",
+    "歸妹",
+    "豐",
+    "旅",
+    "巽",
+    "兌",
+    "渙",
+    "節",
+    "中孚",
+    "小過",
+    "既濟",
+    "未濟"
+   ],
+   "repeated_mentions_dropped": [
+    "未濟"
+   ]
+  }
+ },
+ "d1_rows": [
+  {
+   "number": 1,
+   "name": "乾",
+   "lower": "乾",
+   "upper": "乾",
+   "lines": "111111",
+   "source": {
+    "title": "周易/乾",
+    "revid": 2404991,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2404991"
+   }
+  },
+  {
+   "number": 2,
+   "name": "坤",
+   "lower": "坤",
+   "upper": "坤",
+   "lines": "000000",
+   "source": {
+    "title": "周易/坤",
+    "revid": 2404999,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2404999"
+   }
+  },
+  {
+   "number": 3,
+   "name": "屯",
+   "lower": "震",
+   "upper": "坎",
+   "lines": "100010",
+   "source": {
+    "title": "周易/屯",
+    "revid": 10643482,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643482"
+   }
+  },
+  {
+   "number": 4,
+   "name": "蒙",
+   "lower": "坎",
+   "upper": "艮",
+   "lines": "010001",
+   "source": {
+    "title": "周易/蒙",
+    "revid": 10645379,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645379"
+   }
+  },
+  {
+   "number": 5,
+   "name": "需",
+   "lower": "乾",
+   "upper": "坎",
+   "lines": "111010",
+   "source": {
+    "title": "周易/需",
+    "revid": 10643261,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643261"
+   }
+  },
+  {
+   "number": 6,
+   "name": "訟",
+   "lower": "坎",
+   "upper": "乾",
+   "lines": "010111",
+   "source": {
+    "title": "周易/訟",
+    "revid": 10645409,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645409"
+   }
+  },
+  {
+   "number": 7,
+   "name": "師",
+   "lower": "坎",
+   "upper": "坤",
+   "lines": "010000",
+   "source": {
+    "title": "周易/師",
+    "revid": 2405011,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405011"
+   }
+  },
+  {
+   "number": 8,
+   "name": "比",
+   "lower": "坤",
+   "upper": "坎",
+   "lines": "000010",
+   "source": {
+    "title": "周易/比",
+    "revid": 10645543,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645543"
+   }
+  },
+  {
+   "number": 9,
+   "name": "小畜",
+   "lower": "乾",
+   "upper": "巽",
+   "lines": "111011",
+   "source": {
+    "title": "周易/小畜",
+    "revid": 10645530,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645530"
+   }
+  },
+  {
+   "number": 10,
+   "name": "履",
+   "lower": "兌",
+   "upper": "乾",
+   "lines": "110111",
+   "source": {
+    "title": "周易/履",
+    "revid": 10647513,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647513"
+   }
+  },
+  {
+   "number": 11,
+   "name": "泰",
+   "lower": "乾",
+   "upper": "坤",
+   "lines": "111000",
+   "source": {
+    "title": "周易/泰",
+    "revid": 2106138,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2106138"
+   }
+  },
+  {
+   "number": 12,
+   "name": "否",
+   "lower": "坤",
+   "upper": "乾",
+   "lines": "000111",
+   "source": {
+    "title": "周易/否",
+    "revid": 10645603,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645603"
+   }
+  },
+  {
+   "number": 13,
+   "name": "同人",
+   "lower": "離",
+   "upper": "乾",
+   "lines": "101111",
+   "source": {
+    "title": "周易/同人",
+    "revid": 10645635,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645635"
+   }
+  },
+  {
+   "number": 14,
+   "name": "大有",
+   "lower": "乾",
+   "upper": "離",
+   "lines": "111101",
+   "source": {
+    "title": "周易/大有",
+    "revid": 10645712,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645712"
+   }
+  },
+  {
+   "number": 15,
+   "name": "謙",
+   "lower": "艮",
+   "upper": "坤",
+   "lines": "001000",
+   "source": {
+    "title": "周易/謙",
+    "revid": 2106142,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2106142"
+   }
+  },
+  {
+   "number": 16,
+   "name": "豫",
+   "lower": "坤",
+   "upper": "震",
+   "lines": "000100",
+   "source": {
+    "title": "周易/豫",
+    "revid": 10645735,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645735"
+   }
+  },
+  {
+   "number": 17,
+   "name": "隨",
+   "lower": "震",
+   "upper": "兌",
+   "lines": "100110",
+   "source": {
+    "title": "周易/隨",
+    "revid": 10645020,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645020"
+   }
+  },
+  {
+   "number": 18,
+   "name": "蠱",
+   "lower": "巽",
+   "upper": "艮",
+   "lines": "011001",
+   "source": {
+    "title": "周易/蠱",
+    "revid": 2106145,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2106145"
+   }
+  },
+  {
+   "number": 19,
+   "name": "臨",
+   "lower": "兌",
+   "upper": "坤",
+   "lines": "110000",
+   "source": {
+    "title": "周易/臨",
+    "revid": 2106146,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2106146"
+   }
+  },
+  {
+   "number": 20,
+   "name": "觀",
+   "lower": "坤",
+   "upper": "巽",
+   "lines": "000011",
+   "source": {
+    "title": "周易/觀",
+    "revid": 10645159,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645159"
+   }
+  },
+  {
+   "number": 21,
+   "name": "噬嗑",
+   "lower": "震",
+   "upper": "離",
+   "lines": "100101",
+   "source": {
+    "title": "周易/噬嗑",
+    "revid": 10645753,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645753"
+   }
+  },
+  {
+   "number": 22,
+   "name": "賁",
+   "lower": "離",
+   "upper": "艮",
+   "lines": "101001",
+   "source": {
+    "title": "周易/賁",
+    "revid": 2405035,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405035"
+   }
+  },
+  {
+   "number": 23,
+   "name": "剝",
+   "lower": "坤",
+   "upper": "艮",
+   "lines": "000001",
+   "source": {
+    "title": "周易/剝",
+    "revid": 10645800,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645800"
+   }
+  },
+  {
+   "number": 24,
+   "name": "復",
+   "lower": "震",
+   "upper": "坤",
+   "lines": "100000",
+   "source": {
+    "title": "周易/復",
+    "revid": 10643037,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643037"
+   }
+  },
+  {
+   "number": 25,
+   "name": "无妄",
+   "lower": "震",
+   "upper": "乾",
+   "lines": "100111",
+   "source": {
+    "title": "周易/无妄",
+    "revid": 10645038,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645038"
+   }
+  },
+  {
+   "number": 26,
+   "name": "大畜",
+   "lower": "乾",
+   "upper": "艮",
+   "lines": "111001",
+   "source": {
+    "title": "周易/大畜",
+    "revid": 10646304,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646304"
+   }
+  },
+  {
+   "number": 27,
+   "name": "頤",
+   "lower": "震",
+   "upper": "艮",
+   "lines": "100001",
+   "source": {
+    "title": "周易/頤",
+    "revid": 10643091,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643091"
+   }
+  },
+  {
+   "number": 28,
+   "name": "大過",
+   "lower": "巽",
+   "upper": "兌",
+   "lines": "011110",
+   "source": {
+    "title": "周易/大過",
+    "revid": 10645184,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645184"
+   }
+  },
+  {
+   "number": 29,
+   "name": "坎",
+   "lower": "坎",
+   "upper": "坎",
+   "lines": "010010",
+   "source": {
+    "title": "周易/坎",
+    "revid": 10646381,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646381"
+   }
+  },
+  {
+   "number": 30,
+   "name": "離",
+   "lower": "離",
+   "upper": "離",
+   "lines": "101101",
+   "source": {
+    "title": "周易/離",
+    "revid": 10646424,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646424"
+   }
+  },
+  {
+   "number": 31,
+   "name": "咸",
+   "lower": "艮",
+   "upper": "兌",
+   "lines": "001110",
+   "source": {
+    "title": "周易/咸",
+    "revid": 10646450,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646450"
+   }
+  },
+  {
+   "number": 32,
+   "name": "恒",
+   "lower": "巽",
+   "upper": "震",
+   "lines": "011100",
+   "source": {
+    "title": "周易/恒",
+    "revid": 10646486,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646486"
+   }
+  },
+  {
+   "number": 33,
+   "name": "遯",
+   "lower": "艮",
+   "upper": "乾",
+   "lines": "001111",
+   "source": {
+    "title": "周易/遯",
+    "revid": 10645108,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645108"
+   }
+  },
+  {
+   "number": 34,
+   "name": "大壯",
+   "lower": "乾",
+   "upper": "震",
+   "lines": "111100",
+   "source": {
+    "title": "周易/大壯",
+    "revid": 10646529,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646529"
+   }
+  },
+  {
+   "number": 35,
+   "name": "晉",
+   "lower": "坤",
+   "upper": "離",
+   "lines": "000101",
+   "source": {
+    "title": "周易/晉",
+    "revid": 10646579,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646579"
+   }
+  },
+  {
+   "number": 36,
+   "name": "明夷",
+   "lower": "離",
+   "upper": "坤",
+   "lines": "101000",
+   "source": {
+    "title": "周易/明夷",
+    "revid": 10644507,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10644507"
+   }
+  },
+  {
+   "number": 37,
+   "name": "家人",
+   "lower": "離",
+   "upper": "巽",
+   "lines": "101011",
+   "source": {
+    "title": "周易/家人",
+    "revid": 2405005,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405005"
+   }
+  },
+  {
+   "number": 38,
+   "name": "睽",
+   "lower": "兌",
+   "upper": "離",
+   "lines": "110101",
+   "source": {
+    "title": "周易/睽",
+    "revid": 10646622,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646622"
+   }
+  },
+  {
+   "number": 39,
+   "name": "蹇",
+   "lower": "艮",
+   "upper": "坎",
+   "lines": "001010",
+   "source": {
+    "title": "周易/蹇",
+    "revid": 2405036,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405036"
+   }
+  },
+  {
+   "number": 40,
+   "name": "解",
+   "lower": "坎",
+   "upper": "震",
+   "lines": "010100",
+   "source": {
+    "title": "周易/解",
+    "revid": 10646666,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646666"
+   }
+  },
+  {
+   "number": 41,
+   "name": "損",
+   "lower": "兌",
+   "upper": "艮",
+   "lines": "110001",
+   "source": {
+    "title": "周易/損",
+    "revid": 10646704,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646704"
+   }
+  },
+  {
+   "number": 42,
+   "name": "益",
+   "lower": "震",
+   "upper": "巽",
+   "lines": "100011",
+   "source": {
+    "title": "周易/益",
+    "revid": 10646726,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646726"
+   }
+  },
+  {
+   "number": 43,
+   "name": "夬",
+   "lower": "乾",
+   "upper": "兌",
+   "lines": "111110",
+   "source": {
+    "title": "周易/夬",
+    "revid": 2405003,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405003"
+   }
+  },
+  {
+   "number": 44,
+   "name": "姤",
+   "lower": "巽",
+   "upper": "乾",
+   "lines": "011111",
+   "source": {
+    "title": "周易/姤",
+    "revid": 10646826,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646826"
+   }
+  },
+  {
+   "number": 45,
+   "name": "萃",
+   "lower": "坤",
+   "upper": "兌",
+   "lines": "000110",
+   "source": {
+    "title": "周易/萃",
+    "revid": 10647546,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647546"
+   }
+  },
+  {
+   "number": 46,
+   "name": "升",
+   "lower": "巽",
+   "upper": "坤",
+   "lines": "011000",
+   "source": {
+    "title": "周易/升",
+    "revid": 10646879,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10646879"
+   }
+  },
+  {
+   "number": 47,
+   "name": "困",
+   "lower": "坎",
+   "upper": "兌",
+   "lines": "010110",
+   "source": {
+    "title": "周易/困",
+    "revid": 10647032,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647032"
+   }
+  },
+  {
+   "number": 48,
+   "name": "井",
+   "lower": "巽",
+   "upper": "坎",
+   "lines": "011010",
+   "source": {
+    "title": "周易/井",
+    "revid": 10645240,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645240"
+   }
+  },
+  {
+   "number": 49,
+   "name": "革",
+   "lower": "離",
+   "upper": "兌",
+   "lines": "101110",
+   "source": {
+    "title": "周易/革",
+    "revid": 10643173,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643173"
+   }
+  },
+  {
+   "number": 50,
+   "name": "鼎",
+   "lower": "巽",
+   "upper": "離",
+   "lines": "011101",
+   "source": {
+    "title": "周易/鼎",
+    "revid": 10647086,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647086"
+   }
+  },
+  {
+   "number": 51,
+   "name": "震",
+   "lower": "震",
+   "upper": "震",
+   "lines": "100100",
+   "source": {
+    "title": "周易/震",
+    "revid": 10644930,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10644930"
+   }
+  },
+  {
+   "number": 52,
+   "name": "艮",
+   "lower": "艮",
+   "upper": "艮",
+   "lines": "001001",
+   "source": {
+    "title": "周易/艮",
+    "revid": 10647135,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647135"
+   }
+  },
+  {
+   "number": 53,
+   "name": "漸",
+   "lower": "艮",
+   "upper": "巽",
+   "lines": "001011",
+   "source": {
+    "title": "周易/漸",
+    "revid": 2560535,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2560535"
+   }
+  },
+  {
+   "number": 54,
+   "name": "歸妹",
+   "lower": "兌",
+   "upper": "震",
+   "lines": "110100",
+   "source": {
+    "title": "周易/歸妹",
+    "revid": 10647182,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647182"
+   }
+  },
+  {
+   "number": 55,
+   "name": "豐",
+   "lower": "離",
+   "upper": "震",
+   "lines": "101100",
+   "source": {
+    "title": "周易/豐",
+    "revid": 10645290,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10645290"
+   }
+  },
+  {
+   "number": 56,
+   "name": "旅",
+   "lower": "艮",
+   "upper": "離",
+   "lines": "001101",
+   "source": {
+    "title": "周易/旅",
+    "revid": 10647234,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647234"
+   }
+  },
+  {
+   "number": 57,
+   "name": "巽",
+   "lower": "巽",
+   "upper": "巽",
+   "lines": "011011",
+   "source": {
+    "title": "周易/巽",
+    "revid": 10644966,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10644966"
+   }
+  },
+  {
+   "number": 58,
+   "name": "兌",
+   "lower": "兌",
+   "upper": "兌",
+   "lines": "110110",
+   "source": {
+    "title": "周易/兌",
+    "revid": 2404993,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2404993"
+   }
+  },
+  {
+   "number": 59,
+   "name": "渙",
+   "lower": "坎",
+   "upper": "巽",
+   "lines": "010011",
+   "source": {
+    "title": "周易/渙",
+    "revid": 10647580,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647580"
+   }
+  },
+  {
+   "number": 60,
+   "name": "節",
+   "lower": "兌",
+   "upper": "坎",
+   "lines": "110010",
+   "source": {
+    "title": "周易/節",
+    "revid": 2405027,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2405027"
+   }
+  },
+  {
+   "number": 61,
+   "name": "中孚",
+   "lower": "兌",
+   "upper": "巽",
+   "lines": "110011",
+   "source": {
+    "title": "周易/中孚",
+    "revid": 10647425,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647425"
+   }
+  },
+  {
+   "number": 62,
+   "name": "小過",
+   "lower": "艮",
+   "upper": "震",
+   "lines": "001100",
+   "source": {
+    "title": "周易/小過",
+    "revid": 10643238,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10643238"
+   }
+  },
+  {
+   "number": 63,
+   "name": "既濟",
+   "lower": "離",
+   "upper": "坎",
+   "lines": "101010",
+   "source": {
+    "title": "周易/既濟",
+    "revid": 2572417,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2572417"
+   }
+  },
+  {
+   "number": 64,
+   "name": "未濟",
+   "lower": "坎",
+   "upper": "離",
+   "lines": "010101",
+   "source": {
+    "title": "周易/未濟",
+    "revid": 10647450,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=10647450"
+   }
+  }
+ ],
+ "j1_count": 64,
+ "j2_count": 64,
+ "jingshi_witness_comparison": [
+  {
+   "seq": 0,
+   "j1_name": "乾",
+   "j2_name_raw": "乾",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "乾純陽用事象配天屬金與坤"
+  },
+  {
+   "seq": 1,
+   "j1_name": "姤",
+   "j2_name_raw": "姤",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "姤隂爻用事金木互體天下風"
+  },
+  {
+   "seq": 2,
+   "j1_name": "遁",
+   "j2_name_raw": "遯",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "遯隂爻用事隂盪陽遯金土見"
+  },
+  {
+   "seq": 3,
+   "j1_name": "否",
+   "j2_name_raw": "否",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "否内象隂長{{SK no"
+  },
+  {
+   "seq": 4,
+   "j1_name": "觀",
+   "j2_name_raw": "觀",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "觀内象隂道已成威權在臣雖"
+  },
+  {
+   "seq": 5,
+   "j1_name": "剝",
+   "j2_name_raw": "剥",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "剥柔長剛減天地盈虚{{S"
+  },
+  {
+   "seq": 6,
+   "j1_name": "晉",
+   "j2_name_raw": "晉",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "晉隂陽返復進退不居精粹氣"
+  },
+  {
+   "seq": 7,
+   "j1_name": "大有",
+   "j2_name_raw": "大有",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "大有卦復本宫曰大有内象見"
+  },
+  {
+   "seq": 8,
+   "j1_name": "震",
+   "j2_name_raw": "震",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "震分隂陽交互用事屬於木徳"
+  },
+  {
+   "seq": 9,
+   "j1_name": "豫",
+   "j2_name_raw": "豫",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "豫卦配火水木以為陽用事易"
+  },
+  {
+   "seq": 10,
+   "j1_name": "解",
+   "j2_name_raw": "解",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "解隂陽積氣聚散以時内險外"
+  },
+  {
+   "seq": 11,
+   "j1_name": "恆",
+   "j2_name_raw": "恒",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "恒久於其道立於天地雷與風"
+  },
+  {
+   "seq": 12,
+   "j1_name": "升",
+   "j2_name_raw": "升",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "升陽升隂而隂道凝盛未可便"
+  },
+  {
+   "seq": 13,
+   "j1_name": "井",
+   "j2_name_raw": "井",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "井隂陽通變不可革者井也井"
+  },
+  {
+   "seq": 14,
+   "j1_name": "大過",
+   "j2_name_raw": "大過",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "大過隂陽代謝至於游魂繫云"
+  },
+  {
+   "seq": 15,
+   "j1_name": "隨",
+   "j2_name_raw": "隨",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "隨震象復本曰隨{{SK "
+  },
+  {
+   "seq": 16,
+   "j1_name": "坎",
+   "j2_name_raw": "坎",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "坎積隂以陽處中柔順不能履"
+  },
+  {
+   "seq": 17,
+   "j1_name": "節",
+   "j2_name_raw": "節",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "節水居澤上澤能積水陽止於"
+  },
+  {
+   "seq": 18,
+   "j1_name": "屯",
+   "j2_name_raw": "屯",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "屯内外剛長隂陽升降動而險"
+  },
+  {
+   "seq": 19,
+   "j1_name": "既濟",
+   "j2_name_raw": "既濟",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "既濟二氣無衝隂陽敵體世應"
+  },
+  {
+   "seq": 20,
+   "j1_name": "革",
+   "j2_name_raw": "革",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "革二隂雖交志不相合體積隂"
+  },
+  {
+   "seq": 21,
+   "j1_name": "豐",
+   "j2_name_raw": "豐",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "豐雷火交動剛柔散氣積則暗"
+  },
+  {
+   "seq": 22,
+   "j1_name": "明夷",
+   "j2_name_raw": "明夷",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "明夷積隂盪陽六位相傷外順"
+  },
+  {
+   "seq": 23,
+   "j1_name": "師",
+   "j2_name_raw": "師",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "師變離入隂傷於正道復本歸"
+  },
+  {
+   "seq": 24,
+   "j1_name": "艮",
+   "j2_name_raw": "艮",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "艮乾分三陽為長中少至艮為"
+  },
+  {
+   "seq": 25,
+   "j1_name": "賁",
+   "j2_name_raw": "賁",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "賁泰取象上六柔來反剛九二"
+  },
+  {
+   "seq": 26,
+   "j1_name": "大畜",
+   "j2_name_raw": "大畜",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "大畜陽長隂消積氣凝盛外止"
+  },
+  {
+   "seq": 27,
+   "j1_name": "損",
+   "j2_name_raw": "損",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "損澤在山下卑險於山山髙處"
+  },
+  {
+   "seq": 28,
+   "j1_name": "睽",
+   "j2_name_raw": "睽",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "睽火澤二象氣運{{SK "
+  },
+  {
+   "seq": 29,
+   "j1_name": "履",
+   "j2_name_raw": null,
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "天下有澤曰履{{SK n"
+  },
+  {
+   "seq": 30,
+   "j1_name": "中孚",
+   "j2_name_raw": "中孚",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "中孚隂陽變動六位周匝反及"
+  },
+  {
+   "seq": 31,
+   "j1_name": "漸",
+   "j2_name_raw": "漸",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "漸隂陽升降復本曰歸魂之象"
+  },
+  {
+   "seq": 32,
+   "j1_name": "坤",
+   "j2_name_raw": "坤",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "坤純隂用事象配地屬土柔道"
+  },
+  {
+   "seq": 33,
+   "j1_name": "復",
+   "j2_name_raw": "復",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "復隂極則反陽道行{{SK"
+  },
+  {
+   "seq": 34,
+   "j1_name": "臨",
+   "j2_name_raw": "臨",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "臨陽長隂消悅而順金土應候"
+  },
+  {
+   "seq": 35,
+   "j1_name": "泰",
+   "j2_name_raw": "泰",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "泰乾坤二象合為一運天入地"
+  },
+  {
+   "seq": 36,
+   "j1_name": "大壯",
+   "j2_name_raw": "大壯",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "大壯内外二象動而健陽勝隂"
+  },
+  {
+   "seq": 37,
+   "j1_name": "夬",
+   "j2_name_raw": "夬",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "夬剛决柔隂道滅五陽務下一"
+  },
+  {
+   "seq": 38,
+   "j1_name": "需",
+   "j2_name_raw": "需",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "需雲上於天凝於隂而待於陽"
+  },
+  {
+   "seq": 39,
+   "j1_name": "比",
+   "j2_name_raw": "比",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "比反本復位隂陽相定六爻交"
+  },
+  {
+   "seq": 40,
+   "j1_name": "巽",
+   "j2_name_raw": "巽",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "巽陽中積隂而巽順{{SK"
+  },
+  {
+   "seq": 41,
+   "j1_name": "小畜",
+   "j2_name_raw": "小畜",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "小畜易云密雲不雨自我西郊"
+  },
+  {
+   "seq": 42,
+   "j1_name": "家人",
+   "j2_name_raw": "家人",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "家人乾剛俱變文明内外相應"
+  },
+  {
+   "seq": 43,
+   "j1_name": "益",
+   "j2_name_raw": "益",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "益天地不交曰否六二隂上柔"
+  },
+  {
+   "seq": 44,
+   "j1_name": "無妄",
+   "j2_name_raw": "无妄",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "无妄乾剛震動二氣運轉天下"
+  },
+  {
+   "seq": 45,
+   "j1_name": "噬嗑",
+   "j2_name_raw": "噬嗑",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "噬嗑柔來文剛積氣居中隂道"
+  },
+  {
+   "seq": 46,
+   "j1_name": "頤",
+   "j2_name_raw": "頥",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "頥六位上下周而復始内外交"
+  },
+  {
+   "seq": 47,
+   "j1_name": "蠱",
+   "j2_name_raw": "蠱",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "蠱適六爻隂陽上下本道存也"
+  },
+  {
+   "seq": 48,
+   "j1_name": "離",
+   "j2_name_raw": "離",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "離本於純陽隂氣貫中禀於剛"
+  },
+  {
+   "seq": 49,
+   "j1_name": "旅",
+   "j2_name_raw": "旅",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "旅隂中見陽盪入陽中隂陽二"
+  },
+  {
+   "seq": 50,
+   "j1_name": "鼎",
+   "j2_name_raw": "鼎",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "鼎木能巽火故鼎之象亨飪見"
+  },
+  {
+   "seq": 51,
+   "j1_name": "未濟",
+   "j2_name_raw": "未濟",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "未濟隂陽二位各復本體六爻"
+  },
+  {
+   "seq": 52,
+   "j1_name": "蒙",
+   "j2_name_raw": "䝉",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "䝉積陽居隂止於坎陷養純正"
+  },
+  {
+   "seq": 53,
+   "j1_name": "渙",
+   "j2_name_raw": "渙",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "渙水上見木渙然而合{{S"
+  },
+  {
+   "seq": 54,
+   "j1_name": "訟",
+   "j2_name_raw": "訟",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "訟生生不絶之謂道六位不居"
+  },
+  {
+   "seq": 55,
+   "j1_name": "同人",
+   "j2_name_raw": "同人",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "同人二氣同進健而炎上{{"
+  },
+  {
+   "seq": 56,
+   "j1_name": "兌",
+   "j2_name_raw": "兊",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "兊積隂為澤純金用體畜水凝"
+  },
+  {
+   "seq": 57,
+   "j1_name": "困",
+   "j2_name_raw": "困",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "困澤入坎險水不通困外禀内"
+  },
+  {
+   "seq": 58,
+   "j1_name": "萃",
+   "j2_name_raw": "萃",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "萃金火分氣候土木入兊宫升"
+  },
+  {
+   "seq": 59,
+   "j1_name": "咸",
+   "j2_name_raw": "咸",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "咸山下有澤虚已畜物陽中積"
+  },
+  {
+   "seq": 60,
+   "j1_name": "蹇",
+   "j2_name_raw": "蹇",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "蹇利於西南民道通也水在山"
+  },
+  {
+   "seq": 61,
+   "j1_name": "謙",
+   "j2_name_raw": "謙",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "謙六位謙順四象無凶一陽居"
+  },
+  {
+   "seq": 62,
+   "j1_name": "小過",
+   "j2_name_raw": "小過",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "小過六四適變血脉通也陽入"
+  },
+  {
+   "seq": 63,
+   "j1_name": "歸妹",
+   "j2_name_raw": "歸妹",
+   "names_agree": true,
+   "compositions_agree": true,
+   "name_matches_composition_via_d1": true,
+   "j2_opening": "歸妹隂復於本悅動於外二氣"
+  }
+ ],
+ "palace_heads_doubled": true,
+ "palace_order": [
+  "乾",
+  "震",
+  "坎",
+  "艮",
+  "坤",
+  "巽",
+  "離",
+  "兌"
+ ],
+ "palace_rows": [
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "乾",
+   "name_siku": "乾",
+   "name": "乾",
+   "received_number": 1,
+   "lower_trigram": "乾",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "111111",
+   "shi_line": 6,
+   "shi_phrase": "壬戌在世，居宗廟",
+   "shi_how": "manual",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": false,
+   "siku_variant": "{{SK notes|壬戌在世居宗廟}}",
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "姤",
+   "name_siku": "姤",
+   "name": "姤",
+   "received_number": 44,
+   "lower_trigram": "巽",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "011111",
+   "shi_line": 1,
+   "shi_phrase": "元士居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "遁",
+   "name_siku": "遯",
+   "name": "遯",
+   "received_number": 33,
+   "lower_trigram": "艮",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "001111",
+   "shi_line": 2,
+   "shi_phrase": "大夫居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "否",
+   "name_siku": "否",
+   "name": "否",
+   "received_number": 12,
+   "lower_trigram": "坤",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "000111",
+   "shi_line": 3,
+   "shi_phrase": "三公居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "觀",
+   "name_siku": "觀",
+   "name": "觀",
+   "received_number": 20,
+   "lower_trigram": "坤",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "000011",
+   "shi_line": 4,
+   "shi_phrase": "諸侯臨世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": false,
+   "siku_variant": "諸候臨世",
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "剝",
+   "name_siku": "剥",
+   "name": "剝",
+   "received_number": 23,
+   "lower_trigram": "坤",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "000001",
+   "shi_line": 5,
+   "shi_phrase": "天子治世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "晉",
+   "name_siku": "晉",
+   "name": "晉",
+   "received_number": 35,
+   "lower_trigram": "坤",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "000101",
+   "shi_line": 4,
+   "shi_phrase": "諸侯居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 1,
+   "palace": "乾",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "大有",
+   "name_siku": "大有",
+   "name": "大有",
+   "received_number": 14,
+   "lower_trigram": "乾",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "111101",
+   "shi_line": 3,
+   "shi_phrase": "三公臨世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "震",
+   "name_siku": "震",
+   "name": "震",
+   "received_number": 51,
+   "lower_trigram": "震",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "100100",
+   "shi_line": 6,
+   "shi_phrase": "宗廟處上六",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "豫",
+   "name_siku": "豫",
+   "name": "豫",
+   "received_number": 16,
+   "lower_trigram": "坤",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "000100",
+   "shi_line": 1,
+   "shi_phrase": "世立元士",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "解",
+   "name_siku": "解",
+   "name": "解",
+   "received_number": 40,
+   "lower_trigram": "坎",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "010100",
+   "shi_line": 2,
+   "shi_phrase": "立大夫于世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": false,
+   "siku_variant": "立大夫於世",
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "恆",
+   "name_siku": "恒",
+   "name": "恒",
+   "received_number": 32,
+   "lower_trigram": "巽",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "011100",
+   "shi_line": 3,
+   "shi_phrase": "三公治世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "升",
+   "name_siku": "升",
+   "name": "升",
+   "received_number": 46,
+   "lower_trigram": "巽",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "011000",
+   "shi_line": 4,
+   "shi_phrase": "諸侯在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "井",
+   "name_siku": "井",
+   "name": "井",
+   "received_number": 48,
+   "lower_trigram": "巽",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "011010",
+   "shi_line": 5,
+   "shi_phrase": "九五處至尊",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "大過",
+   "name_siku": "大過",
+   "name": "大過",
+   "received_number": 28,
+   "lower_trigram": "巽",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "011110",
+   "shi_line": 4,
+   "shi_phrase": "降諸侯，立元首",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 2,
+   "palace": "震",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "隨",
+   "name_siku": "隨",
+   "name": "隨",
+   "received_number": 17,
+   "lower_trigram": "震",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "100110",
+   "shi_line": 3,
+   "shi_phrase": "世立三公",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "坎",
+   "name_siku": "坎",
+   "name": "坎",
+   "received_number": 29,
+   "lower_trigram": "坎",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "010010",
+   "shi_line": 6,
+   "shi_phrase": "世立宗廟",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "節",
+   "name_siku": "節",
+   "name": "節",
+   "received_number": 60,
+   "lower_trigram": "兌",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "110010",
+   "shi_line": 1,
+   "shi_phrase": "元士立元首",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "屯",
+   "name_siku": "屯",
+   "name": "屯",
+   "received_number": 3,
+   "lower_trigram": "震",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "100010",
+   "shi_line": 2,
+   "shi_phrase": "世上見大夫",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "既濟",
+   "name_siku": "既濟",
+   "name": "既濟",
+   "received_number": 63,
+   "lower_trigram": "離",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "101010",
+   "shi_line": 3,
+   "shi_phrase": "世上見三公",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "革",
+   "name_siku": "革",
+   "name": "革",
+   "received_number": 49,
+   "lower_trigram": "離",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "101110",
+   "shi_line": 4,
+   "shi_phrase": "諸侯當世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "豐",
+   "name_siku": "豐",
+   "name": "豐",
+   "received_number": 55,
+   "lower_trigram": "離",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "101100",
+   "shi_line": 5,
+   "shi_phrase": "陰處至尊為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "明夷",
+   "name_siku": "明夷",
+   "name": "明夷",
+   "received_number": 36,
+   "lower_trigram": "離",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "101000",
+   "shi_line": 4,
+   "shi_phrase": "諸侯在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 3,
+   "palace": "坎",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "師",
+   "name_siku": "師",
+   "name": "師",
+   "received_number": 7,
+   "lower_trigram": "坎",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "010000",
+   "shi_line": 3,
+   "shi_phrase": "世主三公",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "艮",
+   "name_siku": "艮",
+   "name": "艮",
+   "received_number": 52,
+   "lower_trigram": "艮",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "001001",
+   "shi_line": 6,
+   "shi_phrase": "世上見宗廟",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "賁",
+   "name_siku": "賁",
+   "name": "賁",
+   "received_number": 22,
+   "lower_trigram": "離",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "101001",
+   "shi_line": 1,
+   "shi_phrase": "世立元士",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "大畜",
+   "name_siku": "大畜",
+   "name": "大畜",
+   "received_number": 26,
+   "lower_trigram": "乾",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "111001",
+   "shi_line": 2,
+   "shi_phrase": "九二大夫應世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "損",
+   "name_siku": "損",
+   "name": "損",
+   "received_number": 41,
+   "lower_trigram": "兌",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "110001",
+   "shi_line": 3,
+   "shi_phrase": "三公居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "睽",
+   "name_siku": "睽",
+   "name": "睽",
+   "received_number": 38,
+   "lower_trigram": "兌",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "110101",
+   "shi_line": 4,
+   "shi_phrase": "諸侯立九四為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "履",
+   "name_siku": null,
+   "name": "履",
+   "received_number": 10,
+   "lower_trigram": "兌",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "110111",
+   "shi_line": 5,
+   "shi_phrase": "九五得位為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "中孚",
+   "name_siku": "中孚",
+   "name": "中孚",
+   "received_number": 61,
+   "lower_trigram": "兌",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "110011",
+   "shi_line": 4,
+   "shi_phrase": "六四諸侯立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 4,
+   "palace": "艮",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "漸",
+   "name_siku": "漸",
+   "name": "漸",
+   "received_number": 53,
+   "lower_trigram": "艮",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "001011",
+   "shi_line": 3,
+   "shi_phrase": "九三三公居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "坤",
+   "name_siku": "坤",
+   "name": "坤",
+   "received_number": 2,
+   "lower_trigram": "坤",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "000000",
+   "shi_line": 6,
+   "shi_phrase": "宗廟居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "復",
+   "name_siku": "復",
+   "name": "復",
+   "received_number": 24,
+   "lower_trigram": "震",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "100000",
+   "shi_line": 1,
+   "shi_phrase": "初九元士之世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "臨",
+   "name_siku": "臨",
+   "name": "臨",
+   "received_number": 19,
+   "lower_trigram": "兌",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "110000",
+   "shi_line": 2,
+   "shi_phrase": "九二大夫立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "泰",
+   "name_siku": "泰",
+   "name": "泰",
+   "received_number": 11,
+   "lower_trigram": "乾",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "111000",
+   "shi_line": 3,
+   "shi_phrase": "三公立九三為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "大壯",
+   "name_siku": "大壯",
+   "name": "大壯",
+   "received_number": 34,
+   "lower_trigram": "乾",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "111100",
+   "shi_line": 4,
+   "shi_phrase": "九四諸侯立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "夬",
+   "name_siku": "夬",
+   "name": "夬",
+   "received_number": 43,
+   "lower_trigram": "乾",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "111110",
+   "shi_line": 5,
+   "shi_phrase": "九五立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "需",
+   "name_siku": "需",
+   "name": "需",
+   "received_number": 5,
+   "lower_trigram": "乾",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "111010",
+   "shi_line": 4,
+   "shi_phrase": "游魂立世諸侯",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 5,
+   "palace": "坤",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "比",
+   "name_siku": "比",
+   "name": "比",
+   "received_number": 8,
+   "lower_trigram": "坤",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "000010",
+   "shi_line": 3,
+   "shi_phrase": "三公居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "巽",
+   "name_siku": "巽",
+   "name": "巽",
+   "received_number": 57,
+   "lower_trigram": "巽",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "011011",
+   "shi_line": 6,
+   "shi_phrase": "宗廟居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "小畜",
+   "name_siku": "小畜",
+   "name": "小畜",
+   "received_number": 9,
+   "lower_trigram": "乾",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "111011",
+   "shi_line": 1,
+   "shi_phrase": "初九元士居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "家人",
+   "name_siku": "家人",
+   "name": "家人",
+   "received_number": 37,
+   "lower_trigram": "離",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "101011",
+   "shi_line": 2,
+   "shi_phrase": "大夫居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "益",
+   "name_siku": "益",
+   "name": "益",
+   "received_number": 42,
+   "lower_trigram": "震",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "100011",
+   "shi_line": 3,
+   "shi_phrase": "六三三公居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "無妄",
+   "name_siku": "无妄",
+   "name": "无妄",
+   "received_number": 25,
+   "lower_trigram": "震",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "100111",
+   "shi_line": 4,
+   "shi_phrase": "九四諸侯在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "噬嗑",
+   "name_siku": "噬嗑",
+   "name": "噬嗑",
+   "received_number": 21,
+   "lower_trigram": "震",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "100101",
+   "shi_line": 5,
+   "shi_phrase": "六五居尊",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "頤",
+   "name_siku": "頥",
+   "name": "頤",
+   "received_number": 27,
+   "lower_trigram": "震",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "100001",
+   "shi_line": 4,
+   "shi_phrase": "六四諸侯在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 6,
+   "palace": "巽",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "蠱",
+   "name_siku": "蠱",
+   "name": "蠱",
+   "received_number": 18,
+   "lower_trigram": "巽",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "011001",
+   "shi_line": 3,
+   "shi_phrase": "九三歸魂立三公在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "離",
+   "name_siku": "離",
+   "name": "離",
+   "received_number": 30,
+   "lower_trigram": "離",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "101101",
+   "shi_line": 6,
+   "shi_phrase": "宗廟為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "旅",
+   "name_siku": "旅",
+   "name": "旅",
+   "received_number": 56,
+   "lower_trigram": "艮",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "001101",
+   "shi_line": 1,
+   "shi_phrase": "其居初六元士",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "鼎",
+   "name_siku": "鼎",
+   "name": "鼎",
+   "received_number": 50,
+   "lower_trigram": "巽",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "011101",
+   "shi_line": 2,
+   "shi_phrase": "九二立大夫為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "未濟",
+   "name_siku": "未濟",
+   "name": "未濟",
+   "received_number": 64,
+   "lower_trigram": "坎",
+   "upper_trigram": "離",
+   "lines_bottom_to_top": "010101",
+   "shi_line": 3,
+   "shi_phrase": "六三三公為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "蒙",
+   "name_siku": "䝉",
+   "name": "蒙",
+   "received_number": 4,
+   "lower_trigram": "坎",
+   "upper_trigram": "艮",
+   "lines_bottom_to_top": "010001",
+   "shi_line": 4,
+   "shi_phrase": "諸位立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "渙",
+   "name_siku": "渙",
+   "name": "渙",
+   "received_number": 59,
+   "lower_trigram": "坎",
+   "upper_trigram": "巽",
+   "lines_bottom_to_top": "010011",
+   "shi_line": 5,
+   "shi_phrase": "九五居尊",
+   "shi_how": "pattern",
+   "shi_basis": "indirect",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "訟",
+   "name_siku": "訟",
+   "name": "訟",
+   "received_number": 6,
+   "lower_trigram": "坎",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "010111",
+   "shi_line": 4,
+   "shi_phrase": "諸侯居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 7,
+   "palace": "離",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "同人",
+   "name_siku": "同人",
+   "name": "同人",
+   "received_number": 13,
+   "lower_trigram": "離",
+   "upper_trigram": "乾",
+   "lines_bottom_to_top": "101111",
+   "shi_line": 3,
+   "shi_phrase": "歸魂立三公為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 0,
+   "generation": "本宮",
+   "name_collated": "兌",
+   "name_siku": "兊",
+   "name": "兌",
+   "received_number": 58,
+   "lower_trigram": "兌",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "110110",
+   "shi_line": 6,
+   "shi_phrase": "上六宗廟在世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 1,
+   "generation": "一世",
+   "name_collated": "困",
+   "name_siku": "困",
+   "name": "困",
+   "received_number": 47,
+   "lower_trigram": "坎",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "010110",
+   "shi_line": 1,
+   "shi_phrase": "初六元士為世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 2,
+   "generation": "二世",
+   "name_collated": "萃",
+   "name_siku": "萃",
+   "name": "萃",
+   "received_number": 45,
+   "lower_trigram": "坤",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "000110",
+   "shi_line": 2,
+   "shi_phrase": "六二大夫居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 3,
+   "generation": "三世",
+   "name_collated": "咸",
+   "name_siku": "咸",
+   "name": "咸",
+   "received_number": 31,
+   "lower_trigram": "艮",
+   "upper_trigram": "兌",
+   "lines_bottom_to_top": "001110",
+   "shi_line": 3,
+   "shi_phrase": "九三三宮居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": false,
+   "siku_variant": "九三三公居世",
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 4,
+   "generation": "四世",
+   "name_collated": "蹇",
+   "name_siku": "蹇",
+   "name": "蹇",
+   "received_number": 39,
+   "lower_trigram": "艮",
+   "upper_trigram": "坎",
+   "lines_bottom_to_top": "001010",
+   "shi_line": 4,
+   "shi_phrase": "六四諸侯居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 5,
+   "generation": "五世",
+   "name_collated": "謙",
+   "name_siku": "謙",
+   "name": "謙",
+   "received_number": 15,
+   "lower_trigram": "艮",
+   "upper_trigram": "坤",
+   "lines_bottom_to_top": "001000",
+   "shi_line": 5,
+   "shi_phrase": "六五居世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": true,
+   "mentions_guihun": false
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 6,
+   "generation": "遊魂",
+   "name_collated": "小過",
+   "name_siku": "小過",
+   "name": "小過",
+   "received_number": 62,
+   "lower_trigram": "艮",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "001100",
+   "shi_line": 4,
+   "shi_phrase": "諸侯立世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  },
+  {
+   "palace_order": 8,
+   "palace": "兌",
+   "position": 7,
+   "generation": "歸魂",
+   "name_collated": "歸妹",
+   "name_siku": "歸妹",
+   "name": "歸妹",
+   "received_number": 54,
+   "lower_trigram": "兌",
+   "upper_trigram": "震",
+   "lines_bottom_to_top": "110100",
+   "shi_line": 3,
+   "shi_phrase": "三公歸魂之世",
+   "shi_how": "pattern",
+   "shi_basis": "explicit",
+   "shi_phrase_in_siku": true,
+   "siku_variant": null,
+   "mentions_youhun": false,
+   "mentions_guihun": true
+  }
+ ],
+ "palace_lines_match_d1_by_name": true,
+ "palace_covers_all_64": true,
+ "editorial_table": {
+  "source": {
+   "title": "周易",
+   "revid": 7907208,
+   "url": "https://zh.wikisource.org/w/index.php?oldid=7907208"
+  },
+  "rows": [
+   {
+    "palace": "乾",
+    "members": [
+     "乾",
+     "姤",
+     "遯",
+     "否",
+     "觀",
+     "剝",
+     "晉",
+     "大有"
+    ]
+   },
+   {
+    "palace": "坎",
+    "members": [
+     "坎",
+     "節",
+     "屯",
+     "既濟",
+     "革",
+     "豐",
+     "明夷",
+     "師"
+    ]
+   },
+   {
+    "palace": "艮",
+    "members": [
+     "艮",
+     "賁",
+     "大畜",
+     "損",
+     "睽",
+     "履",
+     "中孚",
+     "漸"
+    ]
+   },
+   {
+    "palace": "震",
+    "members": [
+     "震",
+     "豫",
+     "解",
+     "恒",
+     "升",
+     "井",
+     "大過",
+     "隨"
+    ]
+   },
+   {
+    "palace": "巽",
+    "members": [
+     "巽",
+     "小畜",
+     "家人",
+     "益",
+     "无妄",
+     "噬嗑",
+     "頤",
+     "蠱"
+    ]
+   },
+   {
+    "palace": "離",
+    "members": [
+     "離",
+     "旅",
+     "鼎",
+     "未濟",
+     "蒙",
+     "渙",
+     "訟",
+     "同人"
+    ]
+   },
+   {
+    "palace": "坤",
+    "members": [
+     "坤",
+     "復",
+     "臨",
+     "泰",
+     "大壯",
+     "夬",
+     "需",
+     "比"
+    ]
+   },
+   {
+    "palace": "兌",
+    "members": [
+     "兌",
+     "困",
+     "萃",
+     "咸",
+     "蹇",
+     "謙",
+     "小過",
+     "歸妹"
+    ]
+   }
+  ],
+  "disagreements_with_j1": []
+ },
+ "citations": {
+  "W1": "Wikisource 周易 chapter pages (see d1_rows sources)",
+  "W2": {
+   "title": "周易正義",
+   "revid": 1645137,
+   "url": "https://zh.wikisource.org/w/index.php?oldid=1645137"
+  },
+  "J1": {
+   "title": "京氏易傳",
+   "revid": 7903767,
+   "url": "https://zh.wikisource.org/w/index.php?oldid=7903767"
+  },
+  "J2": [
+   {
+    "title": "京氏易傳 (四庫全書本)/卷上",
+    "revid": 1562382,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1562382"
+   },
+   {
+    "title": "京氏易傳 (四庫全書本)/卷中",
+    "revid": 657265,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=657265"
+   }
+  ]
+ },
+ "procedure_excerpts": [
+  {
+   "witness": "易傳/繫辭上",
+   "source": {
+    "title": "易傳/繫辭上",
+    "revid": 2611140,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2611140"
+   },
+   "chars": 151
+  },
+  {
+   "witness": "周易正義/07.08 (經文 segments)",
+   "source": {
+    "title": "周易正義/07.08",
+    "revid": 2387413,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2387413"
+   },
+   "chars": 228
+  },
+  {
+   "witness": "原本周易本義 卷末下 筮儀",
+   "source": {
+    "title": "原本周易本義 (四庫全書本)/卷末下",
+    "revid": 527383,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=527383"
+   },
+   "chars": 1231
+  },
+  {
+   "witness": "原本周易本義 卷末上 明筮",
+   "source": {
+    "title": "原本周易本義 (四庫全書本)/卷末上",
+    "revid": 754509,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=754509"
+   },
+   "chars": 140
+  },
+  {
+   "witness": "儀禮註疏 卷一 (賈公彥疏)",
+   "source": {
+    "title": "儀禮註疏/卷一",
+    "revid": 2675798,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2675798"
+   },
+   "chars": 78
+  },
+  {
+   "witness": "日知錄 卷15",
+   "source": {
+    "title": "日知錄/卷15",
+    "revid": 2630492,
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2630492"
+   },
+   "chars": 96
+  }
+ ],
+ "anomalies": []
+}

@@ -31,3 +31,11 @@ Frozen files are listed in [`FROZEN.sha256`](../FROZEN.sha256) and checked by `p
 | [INV-0004](INV-0004-divination-information-bounds/record.md) | Claude Opus 5.5 | specialist | current user request; no isolated package | full, context-exposed | registered (C-0032–C-0038) |
 
 Add a row when you create an investigation folder.
+
+| [INV-0005](INV-0005-verify-pairing-and-palaces/record.md) | GPT-5.6 Sol (max) | verifier | ASN-0001 | targeted, isolated | completed; registration pending |
+
+| [INV-0006](INV-0006-verify-divination-information/record.md) | GPT-5.6 Sol (max) | verifier | ASN-0014 | targeted, isolated | running (blind phase 1) |
+
+| [INV-0007](INV-0007-linear-information-controls/record.md) | Codex assistant; exact model unknown | specialist | ASN-0015 | full, context-exposed | completed; registration pending |
+
+| [INV-0008](INV-0008-cited-source-baselines/record.md) | Claude Opus 5.5 | specialist | ASN-0007 | full, context-exposed | registered (C-0039–C-0041) |

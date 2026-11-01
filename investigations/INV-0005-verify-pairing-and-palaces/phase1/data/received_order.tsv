@@ -1,0 +1,65 @@
+number	name_zh	name_pinyin	lower_trigram	lower_bits	upper_trigram	upper_bits	word_bottom_to_top
+1	乾	Qian	Qian	111	Qian	111	111111
+2	坤	Kun	Kun	000	Kun	000	000000
+3	屯	Zhun	Zhen	100	Kan	010	100010
+4	蒙	Meng	Kan	010	Gen	001	010001
+5	需	Xu	Qian	111	Kan	010	111010
+6	訟	Song	Kan	010	Qian	111	010111
+7	師	Shi	Kan	010	Kun	000	010000
+8	比	Bi	Kun	000	Kan	010	000010
+9	小畜	Xiao Chu	Qian	111	Xun	011	111011
+10	履	Lu	Dui	110	Qian	111	110111
+11	泰	Tai	Qian	111	Kun	000	111000
+12	否	Pi	Kun	000	Qian	111	000111
+13	同人	Tong Ren	Li	101	Qian	111	101111
+14	大有	Da You	Qian	111	Li	101	111101
+15	謙	Qian (Modesty)	Gen	001	Kun	000	001000
+16	豫	Yu	Kun	000	Zhen	100	000100
+17	隨	Sui	Zhen	100	Dui	110	100110
+18	蠱	Gu	Xun	011	Gen	001	011001
+19	臨	Lin	Dui	110	Kun	000	110000
+20	觀	Guan	Kun	000	Xun	011	000011
+21	噬嗑	Shi He	Zhen	100	Li	101	100101
+22	賁	Bi (Grace)	Li	101	Gen	001	101001
+23	剝	Bo	Kun	000	Gen	001	000001
+24	復	Fu	Zhen	100	Kun	000	100000
+25	無妄	Wu Wang	Zhen	100	Qian	111	100111
+26	大畜	Da Chu	Qian	111	Gen	001	111001
+27	頤	Yi	Zhen	100	Gen	001	100001
+28	大過	Da Guo	Xun	011	Dui	110	011110
+29	坎	Kan	Kan	010	Kan	010	010010
+30	離	Li	Li	101	Li	101	101101
+31	咸	Xian	Gen	001	Dui	110	001110
+32	恆	Heng	Xun	011	Zhen	100	011100
+33	遯	Dun	Gen	001	Qian	111	001111
+34	大壯	Da Zhuang	Qian	111	Zhen	100	111100
+35	晉	Jin	Kun	000	Li	101	000101
+36	明夷	Ming Yi	Li	101	Kun	000	101000
+37	家人	Jia Ren	Li	101	Xun	011	101011
+38	睽	Kui	Dui	110	Li	101	110101
+39	蹇	Jian (Obstruction)	Gen	001	Kan	010	001010
+40	解	Xie	Kan	010	Zhen	100	010100
+41	損	Sun	Dui	110	Gen	001	110001
+42	益	Yi (Increase)	Zhen	100	Xun	011	100011
+43	夬	Guai	Qian	111	Dui	110	111110
+44	姤	Gou	Xun	011	Qian	111	011111
+45	萃	Cui	Kun	000	Dui	110	000110
+46	升	Sheng	Xun	011	Kun	000	011000
+47	困	Kun (Oppression)	Kan	010	Dui	110	010110
+48	井	Jing	Xun	011	Kan	010	011010
+49	革	Ge	Li	101	Dui	110	101110
+50	鼎	Ding	Xun	011	Li	101	011101
+51	震	Zhen	Zhen	100	Zhen	100	100100
+52	艮	Gen	Gen	001	Gen	001	001001
+53	漸	Jian (Development)	Gen	001	Xun	011	001011
+54	歸妹	Gui Mei	Dui	110	Zhen	100	110100
+55	豐	Feng	Li	101	Zhen	100	101100
+56	旅	Lu (Traveller)	Gen	001	Li	101	001101
+57	巽	Xun	Xun	011	Xun	011	011011
+58	兌	Dui	Dui	110	Dui	110	110110
+59	渙	Huan	Kan	010	Xun	011	010011
+60	節	Jie	Dui	110	Kan	010	110010
+61	中孚	Zhong Fu	Dui	110	Xun	011	110011
+62	小過	Xiao Guo	Gen	001	Zhen	100	001100
+63	既濟	Ji Ji	Li	101	Kan	010	101010
+64	未濟	Wei Ji	Kan	010	Li	101	010101

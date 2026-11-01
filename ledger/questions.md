@@ -42,7 +42,7 @@ Determine which parts of C-0006 follow logically from C-0002 to C-0004 and which
 ### Q-008 — Is the generation mnemonic historically independent of the palace tables?
 
 Where and when is the mnemonic 天同二世天变五… first attested? Was it derived from the palace tables, or transmitted independently? The answer determines whether its agreement with C-0018 is independent confirmation.
-*Origin:* C-0018. *Related:* C-0018, SRC-006. *Status:* open. *Needs:* historical sources.
+*Origin:* C-0018. *Related:* C-0018, C-0040, SRC-006. *Status:* open. *Needs:* historical sources. *Lead (INV-0008, 2026-11-01):* not found by Wikisource full-text search; one modern web page attributes the verse to a 《筮學指要》 of unidentified author and date. The table the verse encodes agrees with the world lines stated in the *Jingshi Yizhuan* witnesses (C-0040), which bears on its content, not its date.
 
 ### Q-009 — Is a trigram the most informative balanced three-bit description at every noise level?
 
@@ -57,4 +57,4 @@ Is a single line the most informative yes/no question under the yarrow models (a
 ### Q-011 — Which splitting model, if any, do cited yarrow procedure descriptions and physical practice support?
 
 The four line-value probabilities depend on how the stalks are divided and on the hung-stalk and remainder conventions (C-0033). Which conventions are attested, and what split distribution does actual practice produce?
-*Origin:* INV-0004 R2. *Related:* C-0032, C-0033, DIR-006, SRC-007. *Status:* open. *Needs:* cited procedure texts (ASN-0007); optionally an experiment.
+*Origin:* INV-0004 R2. *Related:* C-0032, C-0033, C-0041, DIR-006, SRC-007. *Status:* partly addressed. Zhu Xi's 筮儀 attests a remainder of 1–4 and a hung stalk from the right heap. Its case counts give the textbook law under equal weighting. Neither it nor the *Xici* specifies the split distribution (C-0041). *Needs:* an experiment on physical splitting, or a source that describes it.

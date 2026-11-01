@@ -1,0 +1,121 @@
+{
+ "python": "3.9.6",
+ "script_sha256": "3aa22bbca98bff26fedb5508fc9c80264a4658933f8555a5b7a761e37710f253",
+ "inputs": {
+  "order": {
+   "path": "data/zhouyi-received-order.v1.csv",
+   "sha256": "9936fc14e12f7a9df46a34b116dd00ebd322657566e9fb640a22260500eb893a"
+  },
+  "palaces": {
+   "path": "data/jingshi-yizhuan-eight-palaces.v1.csv",
+   "sha256": "652c92d4b8f6edc1e3cbac0812f10fdb8ebb70529dd9f61fd61521d070aa49d0"
+  },
+  "inv5_order": {
+   "path": "investigations/INV-0005-verify-pairing-and-palaces/phase1/data/received_order.tsv",
+   "sha256": "b30adc072d232703e83d566e69663abbaed040a47f995378315eb8f8bc4d4a40"
+  },
+  "inv5_palaces": {
+   "path": "investigations/INV-0005-verify-pairing-and-palaces/phase1/data/eight_palaces_source.tsv",
+   "sha256": "a3f65e5ad7235caaffe7067a2eea27ea89e5ab5a3b1f0c765e2a7cd4b1fd8790"
+  }
+ },
+ "inv5_order": {
+  "rows": 64,
+  "differences": []
+ },
+ "inv5_palaces": {
+  "rows": 64,
+  "differences": [],
+  "palace_order_inv5": [
+   "乾",
+   "坎",
+   "艮",
+   "震",
+   "巽",
+   "離",
+   "坤",
+   "兌"
+  ],
+  "palace_order_cited": [
+   "乾",
+   "震",
+   "坎",
+   "艮",
+   "坤",
+   "巽",
+   "離",
+   "兌"
+  ]
+ },
+ "claims_on_cited_data": {
+  "C-0002": {
+   "all_pairs_are_sigma_orbits": true,
+   "reversal_pairs": 28,
+   "complement_pairs": 4,
+   "palindromes": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    61,
+    62
+   ]
+  },
+  "C-0003": {
+   "figures_upper_1_30": 18,
+   "figures_lower_31_64": 18
+  },
+  "C-0004": {
+   "palindrome_pairs_in_upper": [
+    1,
+    14,
+    15
+   ]
+  },
+  "C-0006": {
+   "doubled": [
+    1,
+    2,
+    29,
+    30,
+    51,
+    52,
+    57,
+    58
+   ],
+   "upper_doubled": [
+    1,
+    2,
+    29,
+    30
+   ],
+   "upper_doubled_trigram_palindromic": true,
+   "lower_doubled_trigram_nonpalindromic": true
+  },
+  "C-0009": {
+   "A_numbers": [
+    1,
+    2,
+    63,
+    64
+   ]
+  },
+  "C-0017b": {
+   "rows": 64,
+   "mismatches": []
+  },
+  "C-0018": {
+   "generation_mismatches": [],
+   "world_line_mismatches": [],
+   "rows_with_indirect_world_line": 7
+  }
+ },
+ "zhu_xi_equal_case_law": {
+  "6": "1/16",
+  "7": "5/16",
+  "8": "7/16",
+  "9": "3/16"
+ }
+}

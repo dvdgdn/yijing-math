@@ -1,7 +1,7 @@
 ---
 id: ASN-0001
 title: Verify the received-pairing claim and the palace-system cluster
-status: ready
+status: launched
 role: verifier
 context_mode: targeted
 role_prompt: prompts/roles/verifier.v1.md
@@ -13,7 +13,7 @@ claims: [C-0001, C-0002, C-0016, C-0017, C-0018, C-0019, C-0026]
 recommended_model: GPT-6.1 Sol Max
 excluded_models: [Claude Opus 5.5]
 replication_of: none
-investigations: []
+investigations: [INV-0005]
 purpose: verification
 directions: [DIR-004, DIR-010]
 questions: []

@@ -2,6 +2,19 @@
 
 Newest first. Each entry lists claims added or changed, statuses changed, and investigations ingested. The first `## v` heading is the current ledger version.
 
+## v0.3 — 2026-11-01
+
+Cited source baselines (ASN-0007). Registrar: Claude Opus 5.5. Self-registration; human review advised.
+
+- **Registered INV-0008** (Claude Opus 5.5, full context, source work). Added C-0039 (the *Xugua* attests the received order), C-0040 (*Jingshi Yizhuan* palace heads and stated world lines) and C-0041 (Zhu Xi's case counts give the yarrow-standard law; no split law attested).
+- **First datasets in `data/`:** received order, eight-palace table and procedure texts. Each is cited to pinned Wikisource revisions, compared across two digital witnesses where available, and `unchecked` against print. The raw snapshots are frozen under `investigations/INV-0008-cited-source-baselines/sources/`.
+- **Verification-log notes** (recomputation on cited data; same family as the originator; statuses unchanged):
+  - C-0002, C-0003, C-0004, C-0006, C-0009, C-0017(b) and C-0018 hold on the cited tables.
+  - INV-0005's saved blind transcriptions match them.
+  - Source notes on C-0032 and C-0033.
+- **Notes added** to DEF-011, DEF-017, Q-008, Q-011 (now partly addressed), DIR-005, DIR-006, DIR-007 and DIR-008. SRC-001, SRC-002, SRC-006 and SRC-007 now cite digital witnesses.
+- **Verification:** none. No claim changed status. INV-0005, INV-0006 and INV-0007, run or coordinated in another session, are not registered here.
+
 ## v0.2 — 2026-10-31
 
 Adjudication of the manuscript-assisted expansion; first registrations since v0.1. Registrar: Claude Opus 5.5. Human review of both extractions is advised.

@@ -45,7 +45,7 @@ Open [`roadmap/dashboard.html`](roadmap/dashboard.html) for the generated visual
 
 ## Current state
 
-- Ledger **v0.2**: claims registered from three investigations (INV-0001, INV-0003, INV-0004). **None is independently verified.** Orientation: [`ledger/summary.md`](ledger/summary.md) (full-context material).
+- Ledger **v0.3**: claims registered from four investigations (INV-0001, INV-0003, INV-0004, INV-0008). **None is independently verified.** Cited working datasets are in [`data/`](data/README.md). Orientation: [`ledger/summary.md`](ledger/summary.md) (full-context material).
 - The GPT-6.1 Sol Max investigation (INV-0002) is **not in the repository**. Its record is a placeholder.
 - Six assignments for cycle 1 are ready, with further drafts; the current proposed slate is at the top of [`roadmap/README.md`](roadmap/README.md). Coordinator coverage, overlap, and prerequisites: [`roadmap/BOARD.md`](roadmap/BOARD.md). External-library priorities and the completed full-context pilot are linked from the roadmap; registration is pending.
 

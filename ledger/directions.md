@@ -25,22 +25,22 @@ Entries marked "registrar suggestion" were added during repository setup from ge
 ### DIR-005 — Arrangements other than the received order
 
 Mawangdui manuscript order, the Chu manuscript, the Shao Yong arrangements, and others.
-*Status:* lightly explored (assertions only: C-0023). *Related:* Q-001, SRC-003, SRC-004, SRC-005. *Needs:* cited transcriptions in `data/`.
+*Status:* lightly explored (assertions only: C-0023). *Related:* Q-001, SRC-003, SRC-004, SRC-005. *Needs:* cited transcriptions in `data/`. *Intake (INV-0008):* no Mawangdui or Chu transcription on Wikisource. Shao Yong material is available as text (`皇極經世`, `易學啟蒙通釋/圖`), not as diagrams.
 
 ### DIR-006 — Divination procedures and changing lines
 
 Four-valued lines, the procedures that generate them, the transition from primary to second hexagram, and reading rules.
-*Status:* lightly explored (one literature-assisted, full-context investigation: INV-0004, C-0032–C-0038). *Origin:* registrar suggestion; INV-0001 bracketed procedures other than the Jing Fang palaces. *Related:* ASN-0004 (blind exploration, deliberately not exposed to INV-0004), ASN-0014, Q-009–Q-011, SRC-007. Not examined: reading rules, the four-valued outcome beyond the change mask, procedures other than the modelled yarrow and coin methods, and every source question.
+*Status:* lightly explored (one literature-assisted, full-context investigation: INV-0004, C-0032–C-0038). *Origin:* registrar suggestion; INV-0001 bracketed procedures other than the Jing Fang palaces. *Related:* ASN-0004 (blind exploration, deliberately not exposed to INV-0004), ASN-0014, Q-009–Q-011, SRC-007. Not examined: reading rules, the four-valued outcome beyond the change mask, and procedures other than the modelled yarrow and coin methods. Source questions: cited procedure texts now exist (`data/procedure-texts.v1.csv`; C-0041), and the split law is still unattested.
 
 ### DIR-007 — The textual layer as data
 
 Judgments, line statements, and commentaries, studied for structure (e.g. how textual features relate to line position or to figure structure).
-*Status:* unexplored. *Origin:* registrar suggestion; INV-0001 bracketed the text entirely. *Caution:* statistical work on text needs especially careful null models and multiple-comparison control (`methods/standards.md` §6–7).
+*Status:* unexplored. *Origin:* registrar suggestion; INV-0001 bracketed the text entirely. *Intake (INV-0008):* two pinned digital witnesses of the judgments and line statements, the Wikisource `周易` chapter pages and the classic text marked in `周易正義`, are snapshotted in `investigations/INV-0008-cited-source-baselines/sources/`. *Caution:* statistical work on text needs especially careful null models and multiple-comparison control (`methods/standards.md` §6–7).
 
 ### DIR-008 — Other Han and later correlative systems
 
 For example the "attached stems" (納甲) system and calendrical correlations (卦氣) associated with Han scholarship, and later systems.
-*Status:* unexplored. *Origin:* registrar suggestion. The content and attribution of these systems must be established from cited sources before any mathematical claim is made about them.
+*Status:* unexplored. *Origin:* registrar suggestion. The content and attribution of these systems must be established from cited sources before any mathematical claim is made about them. *Intake (INV-0008):* the *Jingshi Yizhuan* witnesses carry stem-branch (納甲) and 飛伏 notes for every entry. Yixing's 卦議 (卦氣) is in `新唐書/卷027上` on Wikisource. Neither has been transcribed.
 
 ### DIR-009 — Representations other than binary vectors
 

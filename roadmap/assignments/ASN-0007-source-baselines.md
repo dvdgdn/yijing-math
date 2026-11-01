@@ -1,7 +1,7 @@
 ---
 id: ASN-0007
 title: Establish cited source baselines and an intake plan for neglected material
-status: draft
+status: completed
 role: specialist
 context_mode: targeted
 role_prompt: prompts/roles/specialist.v1.md
@@ -19,7 +19,7 @@ intentional_overlap: [ASN-0001, ASN-0002, ASN-0005]
 recommended_model: either; requires access to cited sources
 excluded_models: []
 replication_of: none
-investigations: []
+investigations: [INV-0008]
 created: 2026-10-31
 ---
 # ASN-0007: Source baselines
@@ -37,6 +37,20 @@ created: 2026-10-31
 - One procedure source for divination if available; a bounded intake list for the textual layer and other arrangements/systems, with access and variant issues.
 - Proposed data versions and sidecars follow `data/README.md`. Compare independent tables mechanically after their outputs are saved, resolving differences against the cited source. Do not fabricate checking outcomes or mark model agreement as historical authority.
 - For the textual pilot ASN-0009, choose a cited edition or passage and prepare a neutral source excerpt with transcription conventions. Revise its materials before promotion to ready.
+
+## Completion (coordinator note, 2026-11-01)
+
+Run as INV-0008 in the full-context coordinator conversation, not in a targeted package; this is recorded as a deviation.
+
+**Delivered:**
+- `data/zhouyi-received-order.v1.csv` (D-1), `data/jingshi-yizhuan-eight-palaces.v1.csv` (D-2) and `data/procedure-texts.v1.csv` (D-7). Each is cited to pinned Wikisource revisions, compared across two digital witnesses where available, and `unchecked` against print.
+- A mechanical comparison with INV-0005's saved phase-1 transcriptions: no differences except palace presentation order.
+
+**Not delivered:**
+- D-3 (Mawangdui) and D-6 (Chu): no accessible transcription.
+- D-4: no attestation of the mnemonic beyond an unverified title lead.
+- A printed-edition check.
+- Revised ASN-0009 materials. INV-0008 output §8 names a two-witness edition to use, but ASN-0009's file was not changed.
 
 ## Assignment text
 

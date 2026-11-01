@@ -3,7 +3,7 @@
     {
       "rank": "01",
       "title": "Verify the foundations",
-      "description": "Check the palace and pairing claims, and the new divination-channel results, with a different model family in fresh sessions.",
+      "description": "Two isolated GPT-5.6 Sol (max) verifications have started: palace/pairing foundations and divination information. Each freezes a blind first phase before auditing original evidence.",
       "kind": "Verification",
       "assignments": [
         "ASN-0001",
@@ -36,5 +36,5 @@
       "label": "Unblocks historical claims"
     }
   ],
-  "note": "Proposed choices from the adjudication (2026-10-31), not launched investigations. Update this file when the coordinator changes the priority slate."
+  "note": "Research launched 2026-11-01 at the human coordinator’s request. The CLI rejected GPT-6.1 Sol before inference; GPT-5.6 Sol (max) accepted both runs. See investigation records for exact provenance. No final verification verdict yet."
 }

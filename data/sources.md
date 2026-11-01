@@ -2,17 +2,17 @@
 
 Historical and textual sources: the arrangements, texts, and procedures the program studies. Each gets a stable `SRC-` ID. Claims about an attested arrangement or procedure must name the source they concern.
 
-**Citation status at setup (2026-10-31): no edition, translation, or page reference has been recorded for any source.** The descriptions below are conventional attributions from general knowledge, written during repository setup. They are placeholders to be replaced with cited information, not evidence. Dating and attribution are historical questions in their own right.
+**Citation status at setup (2026-10-31): no edition, translation, or page reference has been recorded for any source.** Since 2026-11-01, SRC-001, SRC-002 and SRC-007 cite digital witnesses (pinned Wikisource revisions); no printed edition has yet been checked. The descriptions below are conventional attributions from general knowledge, written during repository setup. They are placeholders to be replaced with cited information, not evidence. Dating and attribution are historical questions in their own right.
 
 ### SRC-001 — The received order (King Wen order, 文王卦序)
 
 The sequence of the 64 hexagrams in the transmitted text of the *Zhouyi*, with the conventional division into upper canon (1–30) and lower canon (31–64).
-*Citation:* none recorded. *Dataset:* pending (D-1). *Used by:* INV-0001 (transcription not stated).
+*Citation:* digital witnesses only: Wikisource `周易` chapter pages and `周易正義` (Wang Bi, Han Kangbo, Kong Yingda), revisions pinned in `investigations/INV-0008-cited-source-baselines/sources/manifest.json`; base editions not stated by the pages. *Dataset:* [`zhouyi-received-order.v1.csv`](zhouyi-received-order.v1.csv) (D-1). *Used by:* INV-0001 (transcription not stated), INV-0008.
 
 ### SRC-002 — The eight-palace system (八宮) attributed to Jing Fang (京房)
 
 A Han-dynasty arrangement of the 64 hexagrams into eight "palaces", each headed by a doubled trigram, with members labeled by "generation" (世), "wandering soul" (游魂), and "returning soul" (歸魂). Conventionally associated with the text known as *Jingshi Yizhuan* (京氏易傳). Its attribution and textual history are not examined here.
-*Citation:* none recorded. *Dataset:* pending (D-2). *Used by:* INV-0001 (procedure described, tables not cited).
+*Citation:* digital witnesses only: Wikisource `京氏易傳` (collated text with 虎易 notes, revision 7903767) and `京氏易傳 (四庫全書本)` 卷上/卷中 (revisions 1562382, 657265). A 四部叢刊本 is listed on Wikisource as image stubs only. *Dataset:* [`jingshi-yizhuan-eight-palaces.v1.csv`](jingshi-yizhuan-eight-palaces.v1.csv) (D-2). *Used by:* INV-0001 (procedure described, tables not cited), INV-0008.
 
 ### SRC-003 — Arrangements associated with Shao Yong (邵雍)
 
@@ -32,9 +32,9 @@ A Warring States manuscript of part of the *Zhouyi*, held by the Shanghai Museum
 ### SRC-006 — Generation-line mnemonic
 
 The verse 天同二世天变五，地同四世地变初，本宫六世三世异，人同游魂人变归, used to locate a hexagram's generation within the eight-palace system.
-*Citation:* none recorded; origin and earliest attestation unknown. *Dataset:* pending (D-4). *Used by:* INV-0001 (quoted without source).
+*Citation:* none; origin and earliest attestation unknown. Lead only: a modern web page attributes the verse to a 《筮學指要》 of unidentified author and date. Not found by Wikisource full-text search (2026-11-01). *Dataset:* pending (D-4). *Used by:* INV-0001 (quoted without source).
 
 ### SRC-007 — Divination procedures
 
 The yarrow-stalk (*dayan* 大衍) procedure described in the *Xici zhuan* (繫辭傳), its later interpretations, and the later three-coin method. Also traditional rules for reading changing lines, including a set attributed to Zhu Xi.
-*Citation:* none recorded. *Dataset:* pending (D-7). *Used by:* none yet.
+*Citation:* digital witnesses only: *Xici* 上 (`易傳/繫辭上`; `周易正義/07.08`); Zhu Xi, 筮儀 and 明筮 (`原本周易本義 (四庫全書本)` 卷末下, 卷末上); Jia Gongyan on coins (`儀禮註疏/卷一`); Gu Yanwu (`日知錄/卷15`). *Dataset:* [`procedure-texts.v1.csv`](procedure-texts.v1.csv) (D-7). *Used by:* INV-0008.

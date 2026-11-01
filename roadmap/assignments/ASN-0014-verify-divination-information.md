@@ -1,7 +1,7 @@
 ---
 id: ASN-0014
 title: Independently verify the divination-channel and label-robustness claims
-status: draft
+status: launched
 role: verifier
 context_mode: targeted
 role_prompt: prompts/roles/verifier.v1.md
@@ -19,7 +19,7 @@ intentional_overlap: []
 recommended_model: GPT-6.1 Sol Max (different family from the originator); isolated session with code execution
 excluded_models: [Claude]
 replication_of: INV-0004
-investigations: []
+investigations: [INV-0006]
 created: 2026-10-31
 ---
 # ASN-0014: Verify divination-channel and label-robustness claims

@@ -1,8 +1,8 @@
 # Verification Backlog
 
-Claims awaiting independent verification, in priority order. Priority weighs the claim's value, the number of claims depending on it, and how cheaply it can be checked. **No claim in the ledger has been independently verified as of v0.2.**
+Claims awaiting independent verification, in priority order. Priority weighs the claim's value, the number of claims depending on it, and how cheaply it can be checked. **No claim in the ledger has been independently verified as of v0.3.**
 
-C-0001–C-0026 and C-0032–C-0038 were originated by Claude Opus 5.5 (INV-0001, INV-0004); C-0027–C-0031 by a GPT-family Codex assistant (INV-0003). Under the rules in `methods/ledger-conventions.md` §3.2, verification that yields `verified` must come from a different model family (initially GPT-6.1 Sol Max) or a qualified human.
+C-0001–C-0026, C-0032–C-0038 and C-0039–C-0041 were originated by Claude Opus 5.5 (INV-0001, INV-0004, INV-0008); C-0027–C-0031 by a GPT-family Codex assistant (INV-0003). Under the rules in `methods/ledger-conventions.md` §3.2, verification that yields `verified` must come from a different model family (initially GPT-6.1 Sol Max) or a qualified human.
 
 | Priority | Claims | What needs checking | Assignment | Prerequisites |
 |---|---|---|---|---|
@@ -21,7 +21,8 @@ C-0001–C-0026 and C-0032–C-0038 were originated by Claude Opus 5.5 (INV-0001
 | — | C-0022, C-0023 | Historical and source claims. Need cited historical sources, not mathematical verification. | none yet (Q-001, data task D-3) | Cited transcriptions. |
 | — | C-0024, C-0025 | Competing hypotheses. Tested, not verified. | ASN-0005 | — |
 | — | C-0037, C-0038 | Conjectures with search evidence; nothing to verify beyond the recorded computations. | none (Q-009, Q-010) | — |
+| 3 | C-0039, C-0040, C-0041 | Source attestations from digital witnesses: check against a printed edition. C-0040's seven indirect readings and one emended reading need a reader of classical Chinese. | none yet (human source check) | — |
 
 ## Data prerequisites
 
-Several verifications depend on transcriptions of historical arrangements. Until the cited datasets described in `data/README.md` exist, verifiers use their own transcriptions and include them in full in their reports. The registrar then compares transcriptions across investigations. Disagreements between transcriptions are themselves recorded findings.
+Several verifications depend on transcriptions of historical arrangements. Verifiers in a blind phase still make their own transcriptions and include them in full in their reports. The registrar then compares them with the cited datasets in `data/` (since 2026-11-01: received order, palace table, procedure texts; all unchecked against print). Disagreements between transcriptions are themselves recorded findings. INV-0008 found no disagreement with INV-0005's phase-1 transcriptions, apart from palace presentation order.

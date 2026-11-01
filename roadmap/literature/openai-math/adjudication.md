@@ -4,6 +4,8 @@
 
 The reviewer is not outside the programme. It set up this repository and extracted INV-0001's claims, and is the same model family as INV-0001's author. It is a different family from INV-0003 and from the external manuscripts. The research done in the same session is INV-0004, which is reported, not verified.
 
+**Coordinator update, 2026-11-01.** The original assessment below is retained as the selection record. Its corpus-wide exclusions are provisional screening decisions, not impossibility results. Family 119 is the strongest demonstrated substantial transfer so far; useful exact finite obstructions also exist, including C-0030. Its broad "generation is worst possible" summaries must be read as claims about the displayed endpoint coefficients only. The completed full-context INV-0007 reports a balanced parity label retaining strictly less information than generation at every nontrivial symmetric noise level; its report and exact code are frozen, with registration pending. This does not refute the precise coefficient inequalities in C-0036. Two isolated verifications, INV-0005 and INV-0006, are now running; see the current roadmap and investigation records.
+
 ## 1. Verdict in brief
 
 - **The discipline is excellent.** The scaffolding added in `de8d17b` makes overstatement hard:

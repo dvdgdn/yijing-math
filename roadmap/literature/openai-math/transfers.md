@@ -1,5 +1,7 @@
 # OpenAI mathematics → Yijing: transfer review and priorities
 
+**Later update, 2026-10-31:** see the [adjudication](adjudication.md). INV-0004 identifies the p = 1/4 channel below with the coins model (C-0032) and settles Priority 1's all-noise question without corpus results (C-0035). ASN-0010 is withdrawn, and ASN-0011/ASN-0012 are deferred. The text below is retained as the original review.
+
 **Full-context coordinator material.** This is a source-based research plan with reported pilot results, not a list of verified discoveries. It supersedes the launch-order suggestion in `roadmap/coordination-review.md` for the manuscript-assisted track; it does not erase that review or the independent-exploration track.
 
 ## What was actually examined

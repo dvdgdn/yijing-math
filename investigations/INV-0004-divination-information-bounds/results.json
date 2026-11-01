@@ -1,0 +1,1404 @@
+{
+ "ck_table": {
+  "note": "Bounds are conditional on Corollary main:ck of external family 119 (uniform input, independent symmetric noise). They do not apply to the yarrow columns.",
+  "p": 0.25,
+  "rho": 0.5,
+  "rows": [
+   {
+    "ck_refined_bits": 0.1887218755408672,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.18872187554086534,
+    "mean_pm1": 0.0,
+    "observable": "line 1 is yang",
+    "ones": 32,
+    "yarrow_changed_question_I_bits": 0.205434779862684,
+    "yarrow_primary_question_I_bits": 0.20543477986268402
+   },
+   {
+    "ck_refined_bits": 0.1887218755408672,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.18872187554086534,
+    "mean_pm1": 0.0,
+    "observable": "line 6 is yang",
+    "ones": 32,
+    "yarrow_changed_question_I_bits": 0.20543477986268296,
+    "yarrow_primary_question_I_bits": 0.20543477986268377
+   },
+   {
+    "ck_refined_bits": 0.12111998121820448,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.01970894282478915,
+    "mean_pm1": -0.75,
+    "observable": "lower and upper trigram equal",
+    "ones": 8,
+    "yarrow_changed_question_I_bits": 0.030924381515235293,
+    "yarrow_primary_question_I_bits": 0.022148227211161484
+   },
+   {
+    "ck_refined_bits": 0.12111998121820448,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.05551436263614194,
+    "mean_pm1": -0.75,
+    "observable": "palace label equals 000",
+    "ones": 8,
+    "yarrow_changed_question_I_bits": 0.07467959651755716,
+    "yarrow_primary_question_I_bits": 0.06310635451314288
+   },
+   {
+    "ck_refined_bits": 0.12111998121820448,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.01970894282478899,
+    "mean_pm1": -0.75,
+    "observable": "generation label equals 111 (all three line pairs differ)",
+    "ones": 8,
+    "yarrow_changed_question_I_bits": 0.03016664910464943,
+    "yarrow_primary_question_I_bits": 0.023141720470275663
+   },
+   {
+    "ck_refined_bits": 0.18194613768436071,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.1271780016155823,
+    "mean_pm1": -0.3125,
+    "observable": "at least four yang lines",
+    "ones": 22,
+    "yarrow_changed_question_I_bits": 0.10059308816628802,
+    "yarrow_primary_question_I_bits": 0.13439270878437887
+   },
+   {
+    "ck_refined_bits": 0.17810214124973847,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.013949650209017268,
+    "mean_pm1": -0.375,
+    "observable": "exactly three yang lines",
+    "ones": 20,
+    "yarrow_changed_question_I_bits": 0.04009102848213705,
+    "yarrow_primary_question_I_bits": 0.016252276945667145
+   },
+   {
+    "ck_refined_bits": 0.1887218755408672,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.14741284439799268,
+    "mean_pm1": 0.0,
+    "observable": "lower trigram has at least two yang lines",
+    "ones": 32,
+    "yarrow_changed_question_I_bits": 0.15282601601523155,
+    "yarrow_primary_question_I_bits": 0.15974635396732664
+   },
+   {
+    "ck_refined_bits": 0.12111998121820448,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.019708942824789136,
+    "mean_pm1": -0.75,
+    "observable": "reading the figure top-to-bottom gives the same figure",
+    "ones": 8,
+    "yarrow_changed_question_I_bits": 0.03092438151523539,
+    "yarrow_primary_question_I_bits": 0.02214822721116147
+   },
+   {
+    "ck_refined_bits": 0.1887218755408672,
+    "ck_universal_bits": 0.1887218755408672,
+    "coins_I_bits": 0.00017611740112635776,
+    "mean_pm1": 0.0,
+    "observable": "odd number of yang lines",
+    "ones": 32,
+    "yarrow_changed_question_I_bits": 0.0006738176090717411,
+    "yarrow_primary_question_I_bits": 0.00025945651924112875
+   }
+  ]
+ },
+ "dictator_n6": {
+  "yarrow-standard|changed-question": {
+   "best_coordinate_I_bits": 0.20543477986268402,
+   "best_start": "all-yang-or-1",
+   "local_search_best_I_bits": 0.20543477986268402,
+   "local_search_best_is_signed_coordinate": true,
+   "starts": 65
+  },
+  "yarrow-standard|primary-question": {
+   "best_coordinate_I_bits": 0.20543477986268402,
+   "best_start": "random-0",
+   "local_search_best_I_bits": 0.20543477986268402,
+   "local_search_best_is_signed_coordinate": true,
+   "starts": 65
+  },
+  "yarrow-uniform|changed-question": {
+   "best_coordinate_I_bits": 0.18783543159742247,
+   "best_start": "random-54",
+   "local_search_best_I_bits": 0.187835431597423,
+   "local_search_best_is_signed_coordinate": true,
+   "starts": 65
+  },
+  "yarrow-uniform|primary-question": {
+   "best_coordinate_I_bits": 0.18783543159742186,
+   "best_start": "random-31",
+   "local_search_best_I_bits": 0.18783543159742203,
+   "local_search_best_is_signed_coordinate": true,
+   "starts": 65
+  }
+ },
+ "dictator_scans": {
+  "coins|n=1|changed-question": {
+   "best_dictator_I_bits": 0.1887218755408671,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.1887218755408671,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "coins|n=1|primary-question": {
+   "best_dictator_I_bits": 0.1887218755408671,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.1887218755408671,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "coins|n=2|changed-question": {
+   "best_dictator_I_bits": 0.18872187554086708,
+   "best_non_coordinate_I_bits": 0.13167462567018212,
+   "best_non_coordinate_truth_table": "1110",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.05704724987068496,
+   "max_I_bits": 0.18872187554086708,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "coins|n=2|primary-question": {
+   "best_dictator_I_bits": 0.18872187554086708,
+   "best_non_coordinate_I_bits": 0.13167462567018212,
+   "best_non_coordinate_truth_table": "1110",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.05704724987068496,
+   "max_I_bits": 0.18872187554086708,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "coins|n=3|changed-question": {
+   "best_dictator_I_bits": 0.18872187554086728,
+   "best_non_coordinate_I_bits": 0.14741284439799343,
+   "best_non_coordinate_truth_table": "11010100",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.04130903114287385,
+   "max_I_bits": 0.18872187554086728,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "coins|n=3|primary-question": {
+   "best_dictator_I_bits": 0.18872187554086728,
+   "best_non_coordinate_I_bits": 0.14741284439799343,
+   "best_non_coordinate_truth_table": "11010100",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.04130903114287385,
+   "max_I_bits": 0.18872187554086728,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "coins|n=4|changed-question": {
+   "best_dictator_I_bits": 0.18872187554086745,
+   "best_non_coordinate_I_bits": 0.16059141716989944,
+   "best_non_coordinate_truth_table": "1111100011110000",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.028130458370968003,
+   "max_I_bits": 0.18872187554086745,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "coins|n=4|primary-question": {
+   "best_dictator_I_bits": 0.18872187554086745,
+   "best_non_coordinate_I_bits": 0.16059141716989944,
+   "best_non_coordinate_truth_table": "1111100011110000",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.028130458370968003,
+   "max_I_bits": 0.18872187554086745,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-binomial|n=1|changed-question": {
+   "best_dictator_I_bits": 0.2054323548363628,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.2054323548363628,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-binomial|n=1|primary-question": {
+   "best_dictator_I_bits": 0.20543235483636285,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.20543235483636285,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-binomial|n=2|changed-question": {
+   "best_dictator_I_bits": 0.20543235483636285,
+   "best_non_coordinate_I_bits": 0.1658419767160236,
+   "best_non_coordinate_truth_table": "1110",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.03959037812033925,
+   "max_I_bits": 0.20543235483636285,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-binomial|n=2|primary-question": {
+   "best_dictator_I_bits": 0.20543235483636296,
+   "best_non_coordinate_I_bits": 0.1514022140516963,
+   "best_non_coordinate_truth_table": "1110",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.05403014078466667,
+   "max_I_bits": 0.20543235483636296,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-binomial|n=3|changed-question": {
+   "best_dictator_I_bits": 0.20543235483636296,
+   "best_non_coordinate_I_bits": 0.17632836355395337,
+   "best_non_coordinate_truth_table": "10001111",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.02910399128240959,
+   "max_I_bits": 0.20543235483636296,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-binomial|n=3|primary-question": {
+   "best_dictator_I_bits": 0.20543235483636316,
+   "best_non_coordinate_I_bits": 0.16462784462074598,
+   "best_non_coordinate_truth_table": "11101010",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.04080451021561718,
+   "max_I_bits": 0.20543235483636316,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-binomial|n=4|changed-question": {
+   "best_dictator_I_bits": 0.20543235483640915,
+   "best_non_coordinate_I_bits": 0.1920889176187297,
+   "best_non_coordinate_truth_table": "1011001100110011",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.013343437217679444,
+   "max_I_bits": 0.20543235483640915,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-binomial|n=4|primary-question": {
+   "best_dictator_I_bits": 0.20543235483637323,
+   "best_non_coordinate_I_bits": 0.17784953840196233,
+   "best_non_coordinate_truth_table": "0001010101010101",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.027582816434410906,
+   "max_I_bits": 0.20543235483637323,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-standard|n=1|changed-question": {
+   "best_dictator_I_bits": 0.20543477986268438,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.20543477986268438,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-standard|n=1|primary-question": {
+   "best_dictator_I_bits": 0.2054347798626843,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.2054347798626843,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-standard|n=2|changed-question": {
+   "best_dictator_I_bits": 0.20543477986268424,
+   "best_non_coordinate_I_bits": 0.16584369567857501,
+   "best_non_coordinate_truth_table": "1110",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.039591084184109226,
+   "max_I_bits": 0.20543477986268424,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-standard|n=2|primary-question": {
+   "best_dictator_I_bits": 0.20543477986268432,
+   "best_non_coordinate_I_bits": 0.15140362049566777,
+   "best_non_coordinate_truth_table": "0001",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.05403115936701655,
+   "max_I_bits": 0.20543477986268432,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-standard|n=3|changed-question": {
+   "best_dictator_I_bits": 0.20543477986268444,
+   "best_non_coordinate_I_bits": 0.17633039355407432,
+   "best_non_coordinate_truth_table": "10110011",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.02910438630861012,
+   "max_I_bits": 0.20543477986268444,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-standard|n=3|primary-question": {
+   "best_dictator_I_bits": 0.20543477986268432,
+   "best_non_coordinate_I_bits": 0.1646296065524552,
+   "best_non_coordinate_truth_table": "00010101",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.04080517331022912,
+   "max_I_bits": 0.20543477986268432,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-standard|n=4|changed-question": {
+   "best_dictator_I_bits": 0.20543477986268466,
+   "best_non_coordinate_I_bits": 0.19209112123696664,
+   "best_non_coordinate_truth_table": "1000000011111111",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.013343658625718013,
+   "max_I_bits": 0.20543477986268466,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-standard|n=4|primary-question": {
+   "best_dictator_I_bits": 0.20543477986268446,
+   "best_non_coordinate_I_bits": 0.1778514650811696,
+   "best_non_coordinate_truth_table": "1111111110000000",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.02758331478151485,
+   "max_I_bits": 0.20543477986268446,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-uniform|n=1|changed-question": {
+   "best_dictator_I_bits": 0.18783543159742166,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.18783543159742166,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-uniform|n=1|primary-question": {
+   "best_dictator_I_bits": 0.18783543159742164,
+   "best_non_coordinate_I_bits": null,
+   "best_non_coordinate_truth_table": null,
+   "functions_attaining_max": 2,
+   "functions_scanned": 2,
+   "gap_bits": null,
+   "max_I_bits": 0.18783543159742164,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 1
+  },
+  "yarrow-uniform|n=2|changed-question": {
+   "best_dictator_I_bits": 0.1878354315974217,
+   "best_non_coordinate_I_bits": 0.15800507664360644,
+   "best_non_coordinate_truth_table": "0001",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.029830354953815252,
+   "max_I_bits": 0.1878354315974217,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-uniform|n=2|primary-question": {
+   "best_dictator_I_bits": 0.18783543159742166,
+   "best_non_coordinate_I_bits": 0.14037198577522939,
+   "best_non_coordinate_truth_table": "0001",
+   "functions_attaining_max": 4,
+   "functions_scanned": 14,
+   "gap_bits": 0.04746344582219228,
+   "max_I_bits": 0.18783543159742166,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 2
+  },
+  "yarrow-uniform|n=3|changed-question": {
+   "best_dictator_I_bits": 0.18783543159742253,
+   "best_non_coordinate_I_bits": 0.16680889414215583,
+   "best_non_coordinate_truth_table": "11010101",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.021026537455266697,
+   "max_I_bits": 0.18783543159742253,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-uniform|n=3|primary-question": {
+   "best_dictator_I_bits": 0.18783543159742194,
+   "best_non_coordinate_I_bits": 0.15084618627700927,
+   "best_non_coordinate_truth_table": "11111000",
+   "functions_attaining_max": 6,
+   "functions_scanned": 254,
+   "gap_bits": 0.03698924532041267,
+   "max_I_bits": 0.18783543159742194,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 3
+  },
+  "yarrow-uniform|n=4|changed-question": {
+   "best_dictator_I_bits": 0.18783543159748195,
+   "best_non_coordinate_I_bits": 0.17977500135896568,
+   "best_non_coordinate_truth_table": "0100110011001100",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.00806043023851627,
+   "max_I_bits": 0.18783543159748195,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  },
+  "yarrow-uniform|n=4|primary-question": {
+   "best_dictator_I_bits": 0.1878354315974335,
+   "best_non_coordinate_I_bits": 0.16280819040625805,
+   "best_non_coordinate_truth_table": "1110101010101010",
+   "functions_attaining_max": 8,
+   "functions_scanned": 65534,
+   "gap_bits": 0.025027241191175442,
+   "max_I_bits": 0.1878354315974335,
+   "max_attained_only_by_signed_coordinates": true,
+   "n": 4
+  }
+ },
+ "inv0003_check": {
+  "L1 p=1/4": {
+   "bound_1_minus_h_q": 0.04556599707503495,
+   "functions_attaining": 6,
+   "max_I": 0.045565997075036085,
+   "max_abs_reduction_discrepancy": 1.033895191682177e-15
+  },
+  "L1 p=1/8": {
+   "bound_1_minus_h_q": 0.24212153746160459,
+   "functions_attaining": 6,
+   "max_I": 0.2421215374616056,
+   "max_abs_reduction_discrepancy": 1.5959455978986625e-15
+  },
+  "L2 independence (all 64 pairs occur once)": true,
+  "L2 p=1/4": {
+   "B": 0.37862105517587913,
+   "G": 0.13669799122510595,
+   "G_formula": 0.13669799122510484
+  },
+  "L2 p=1/8": {
+   "B": 1.1035766947342796,
+   "G": 0.7263646123848208,
+   "G_formula": 0.7263646123848138
+  },
+  "L3": {
+   "k=1": {
+    "count": 1,
+    "formula_agrees": true
+   },
+   "k=2": {
+    "count": 4,
+    "formula_agrees": true
+   },
+   "k=3": {
+    "count": 4096,
+    "formula_agrees": true
+   },
+   "k=4": {
+    "count": "72057594037927936",
+    "formula_agrees": true
+   },
+   "k=5": {
+    "count": "1766847064778384329583297500742918515827483896875618958121606201292619776",
+    "formula_agrees": true
+   }
+  },
+  "L4": {
+   "extreme_event_allocation": "1/3",
+   "extreme_event_uniform_table": "2/3",
+   "multiplicities": [
+    1,
+    4,
+    1
+   ]
+  },
+  "L5": {
+   "log2_64_factorial": 295.99514394172405,
+   "log2_support_over_64_factorial": -103.99514394172405,
+   "min_physical_shuffles_for_tv_quarter": 10,
+   "one_sweep_marginals_uniform": true
+  },
+  "L6": {
+   "all_nonzero_characters_balanced": true
+  },
+  "supplement": {
+   "B_majorizes_G_fails": true,
+   "sorted_B": [
+    "301/512",
+    "49/512",
+    "49/512",
+    "49/512",
+    "43/512",
+    "7/512",
+    "7/512",
+    "7/512"
+   ],
+   "sorted_G": [
+    "15625/32768",
+    "4375/32768",
+    "4375/32768",
+    "4375/32768",
+    "1225/32768",
+    "1225/32768",
+    "1225/32768",
+    "343/32768"
+   ],
+   "top4_B": "7/8",
+   "top4_G": "14375/16384"
+  }
+ },
+ "labels": {
+  "generation": {
+   "C_abs_fourier": "7",
+   "W1": "0",
+   "block_sizes": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "boundary_degree_distribution": {
+    "6": 64
+   },
+   "boundary_edges": 192,
+   "fourier_levels_W": [
+    "0",
+    "0",
+    "3",
+    "0",
+    "3",
+    "0",
+    "1"
+   ],
+   "internal_edges_per_block": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "mean_boundary_degree_beta": "6",
+   "values": {
+    "coins": 0.13669799122510595,
+    "coins-type BSC p=1/4": 0.13669799122510595,
+    "coins-type BSC p=1/8": 0.7263646123848208,
+    "yarrow-binomial": 0.1570119125609682,
+    "yarrow-binomial (questions about changed hexagram)": 0.21350987813069622,
+    "yarrow-standard": 0.15701525196075886,
+    "yarrow-standard (questions about changed hexagram)": 0.21351294551121802,
+    "yarrow-uniform": 0.12938750588609105,
+    "yarrow-uniform (questions about changed hexagram)": 0.22873420312318912
+   }
+  },
+  "max_level1_weight_8_sets": {
+   "max_norm_sq": "192",
+   "maximizing_directions": [
+    [
+     0,
+     0,
+     0,
+     2,
+     2,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     4,
+     4,
+     4
+    ],
+    [
+     0,
+     0,
+     0,
+     6,
+     6,
+     6
+    ],
+    [
+     0,
+     0,
+     0,
+     8,
+     8,
+     8
+    ]
+   ],
+   "subcube_value": 192
+  },
+  "palace": {
+   "C_abs_fourier": "15",
+   "W1": "13/8",
+   "block_sizes": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "boundary_degree_distribution": {
+    "3": 8,
+    "4": 48,
+    "5": 8
+   },
+   "boundary_edges": 128,
+   "fourier_levels_W": [
+    "0",
+    "13/8",
+    "5/2",
+    "9/4",
+    "1/2",
+    "1/8",
+    "0"
+   ],
+   "internal_edges_per_block": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "mean_boundary_degree_beta": "4",
+   "values": {
+    "coins": 0.37862105517587913,
+    "coins-type BSC p=1/4": 0.37862105517587913,
+    "coins-type BSC p=1/8": 1.1035766947342796,
+    "yarrow-binomial": 0.41590588717621174,
+    "yarrow-binomial (questions about changed hexagram)": 0.4475431954899946,
+    "yarrow-standard": 0.41591150034520113,
+    "yarrow-standard (questions about changed hexagram)": 0.4475486716191166,
+    "yarrow-uniform": 0.3726411703788705,
+    "yarrow-uniform (questions about changed hexagram)": 0.42721552527649154
+   }
+  },
+  "sweep_bsc": [
+   {
+    "generation": 2.5790516291879095,
+    "p": 0.01,
+    "palace": 2.690961895487824,
+    "trigram": 2.757620592312265
+   },
+   {
+    "generation": 2.2841636428975214,
+    "p": 0.02,
+    "palace": 2.464867290882254,
+    "trigram": 2.5756783723745396
+   },
+   {
+    "generation": 2.0392267238475226,
+    "p": 0.03,
+    "palace": 2.2713923910024008,
+    "trigram": 2.4168244265052707
+   },
+   {
+    "generation": 1.827593449462337,
+    "p": 0.04,
+    "palace": 2.0996670393490593,
+    "trigram": 2.2731234327527616
+   },
+   {
+    "generation": 1.6411723554381483,
+    "p": 0.05,
+    "palace": 1.9444597495338318,
+    "trigram": 2.1408091286521307
+   },
+   {
+    "generation": 1.47508721827381,
+    "p": 0.06,
+    "palace": 1.8026474829652923,
+    "trigram": 2.017665242536573
+   },
+   {
+    "generation": 1.3260407076712852,
+    "p": 0.07,
+    "palace": 1.672137628381849,
+    "trigram": 1.9022290472993293
+   },
+   {
+    "generation": 1.191633844653501,
+    "p": 0.08,
+    "palace": 1.5514210617949513,
+    "trigram": 1.7934624293931807
+   },
+   {
+    "generation": 1.070029951385561,
+    "p": 0.09,
+    "palace": 1.439352115940066,
+    "trigram": 1.6905905488076876
+   },
+   {
+    "generation": 0.9597688628151588,
+    "p": 0.1,
+    "palace": 1.3350272951980071,
+    "trigram": 1.5930132192321578
+   },
+   {
+    "generation": 0.859655568031819,
+    "p": 0.11,
+    "palace": 1.2377127913572772,
+    "trigram": 1.5002521255064045
+   },
+   {
+    "generation": 0.7686892697818588,
+    "p": 0.12,
+    "palace": 1.1467984404119365,
+    "trigram": 1.4119174041379114
+   },
+   {
+    "generation": 0.6860159845722364,
+    "p": 0.13,
+    "palace": 1.0617670447438867,
+    "trigram": 1.3276854449160223
+   },
+   {
+    "generation": 0.6108956331861402,
+    "p": 0.14,
+    "palace": 0.982173132232036,
+    "trigram": 1.2472835650714347
+   },
+   {
+    "generation": 0.5426784605169481,
+    "p": 0.15,
+    "palace": 0.9076277774367068,
+    "trigram": 1.1704790858507983
+   },
+   {
+    "generation": 0.4807876899358301,
+    "p": 0.16,
+    "palace": 0.8377874647734269,
+    "trigram": 1.0970713360782876
+   },
+   {
+    "generation": 0.42470647724361843,
+    "p": 0.17,
+    "palace": 0.772345732927783,
+    "trigram": 1.0268856637673414
+   },
+   {
+    "generation": 0.3739679108600473,
+    "p": 0.18,
+    "palace": 0.7110267853688881,
+    "trigram": 0.9597688628151593
+   },
+   {
+    "generation": 0.3281472213842904,
+    "p": 0.19,
+    "palace": 0.6535805237177925,
+    "trigram": 0.8955856203483106
+   },
+   {
+    "generation": 0.28685562682652765,
+    "p": 0.2,
+    "palace": 0.5997786322988934,
+    "trigram": 0.8342157153379155
+   },
+   {
+    "generation": 0.24973541102080654,
+    "p": 0.21,
+    "palace": 0.5494114536776413,
+    "trigram": 0.775551780206182
+   },
+   {
+    "generation": 0.21645594700816773,
+    "p": 0.22,
+    "palace": 0.5022854692997512,
+    "trigram": 0.7194974911141014
+   },
+   {
+    "generation": 0.18671045520474472,
+    "p": 0.23,
+    "palace": 0.45822125002400194,
+    "trigram": 0.6659660893603911
+   },
+   {
+    "generation": 0.16021334052919123,
+    "p": 0.24,
+    "palace": 0.4170517766055659,
+    "trigram": 0.6148791618464271
+   },
+   {
+    "generation": 0.13669799122510362,
+    "p": 0.25,
+    "palace": 0.3786210551758864,
+    "trigram": 0.5661656266226167
+   },
+   {
+    "generation": 0.11591494991813933,
+    "p": 0.26,
+    "palace": 0.3427829707606702,
+    "trigram": 0.5197608825221542
+   },
+   {
+    "generation": 0.09763038778598565,
+    "p": 0.27,
+    "palace": 0.30940033502771547,
+    "trigram": 0.4756060913754627
+   },
+   {
+    "generation": 0.08162482780213054,
+    "p": 0.28,
+    "palace": 0.2783440941885176,
+    "trigram": 0.43364756831959905
+   },
+   {
+    "generation": 0.06769207432644553,
+    "p": 0.29,
+    "palace": 0.2494926702642144,
+    "trigram": 0.3938362609817818
+   },
+   {
+    "generation": 0.05563831489904558,
+    "p": 0.3,
+    "palace": 0.2227314144341035,
+    "trigram": 0.3561273023079172
+   },
+   {
+    "generation": 0.0452813666672478,
+    "p": 0.31,
+    "palace": 0.19795215538204092,
+    "trigram": 0.32047962486644455
+   },
+   {
+    "generation": 0.03645004495876636,
+    "p": 0.32,
+    "palace": 0.17505282877435002,
+    "trigram": 0.28685562682652765
+   },
+   {
+    "generation": 0.028983635475810843,
+    "p": 0.33,
+    "palace": 0.1539371764808779,
+    "trigram": 0.25522088166082524
+   },
+   {
+    "generation": 0.022731454699139952,
+    "p": 0.34,
+    "palace": 0.13451450606185755,
+    "trigram": 0.22554388508093037
+   },
+   {
+    "generation": 0.01755248555732747,
+    "p": 0.35,
+    "palace": 0.11669950251642991,
+    "trigram": 0.19779583387354638
+   },
+   {
+    "generation": 0.013315077385277263,
+    "p": 0.36,
+    "palace": 0.10041208541934532,
+    "trigram": 0.17195043223352346
+   },
+   {
+    "generation": 0.00989670078063476,
+    "p": 0.37,
+    "palace": 0.08557730543435271,
+    "trigram": 0.1479837219388025
+   },
+   {
+    "generation": 0.007183749254201732,
+    "p": 0.38,
+    "palace": 0.07212527484376352,
+    "trigram": 0.12587393332110075
+   },
+   {
+    "generation": 0.0050713806281565965,
+    "p": 0.39,
+    "palace": 0.05999112721841682,
+    "trigram": 0.10560135448474028
+   },
+   {
+    "generation": 0.0034633920143760655,
+    "p": 0.4,
+    "palace": 0.04911500171079419,
+    "trigram": 0.08714821663599093
+   },
+   {
+    "generation": 0.002272122947224453,
+    "p": 0.41,
+    "palace": 0.03944204771666726,
+    "trigram": 0.07049859372654632
+   },
+   {
+    "generation": 0.0014183818817992133,
+    "p": 0.42,
+    "palace": 0.030922445849425273,
+    "trigram": 0.05563831489904558
+   },
+   {
+    "generation": 0.0008313918263946896,
+    "p": 0.43,
+    "palace": 0.02351144133097227,
+    "trigram": 0.04255488846323496
+   },
+   {
+    "generation": 0.0004487513751034733,
+    "p": 0.44,
+    "palace": 0.017169386050203794,
+    "trigram": 0.03123743633383036
+   },
+   {
+    "generation": 0.00021640786300913817,
+    "p": 0.45,
+    "palace": 0.011861785698687566,
+    "trigram": 0.021676638036562945
+   },
+   {
+    "generation": 8.863978844608766e-05,
+    "p": 0.46,
+    "palace": 0.007559348583317416,
+    "trigram": 0.01386468353930903
+   },
+   {
+    "generation": 2.804605218065248e-05,
+    "p": 0.47,
+    "palace": 0.004238032957304405,
+    "trigram": 0.007795234296772424
+   },
+   {
+    "generation": 5.53995132301921e-06,
+    "p": 0.48,
+    "palace": 0.0018790900170113645,
+    "trigram": 0.0034633920143760655
+   },
+   {
+    "generation": 3.462468147752418e-07,
+    "p": 0.49,
+    "palace": 0.00046910009088030336,
+    "trigram": 0.0008656747415640709
+   }
+  ],
+  "trigram": {
+   "C_abs_fourier": "7",
+   "W1": "3",
+   "block_sizes": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "boundary_degree_distribution": {
+    "3": 64
+   },
+   "boundary_edges": 96,
+   "fourier_levels_W": [
+    "0",
+    "3",
+    "3",
+    "1",
+    "0",
+    "0",
+    "0"
+   ],
+   "internal_edges_per_block": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "mean_boundary_degree_beta": "3",
+   "values": {
+    "coins": 0.5661656266226001,
+    "coins-type BSC p=1/4": 0.5661656266226001,
+    "coins-type BSC p=1/8": 1.3693066704012038,
+    "yarrow-binomial": 0.6162970645090886,
+    "yarrow-binomial (questions about changed hexagram)": 0.6162970645090883,
+    "yarrow-standard": 0.6163043395880506,
+    "yarrow-standard (questions about changed hexagram)": 0.616304339588052,
+    "yarrow-uniform": 0.5635062947922651,
+    "yarrow-uniform (questions about changed hexagram)": 0.5635062947922655
+   }
+  }
+ },
+ "ordering_proof": {
+  "B_vs_G": {
+   "proved": true,
+   "regionA": {
+    "L_threshold": 7.567276155442228,
+    "holds": true,
+    "p_max": 0.0009765625,
+    "slope_positive": true
+   },
+   "regionB": {
+    "all_hold": true,
+    "at_interval": [
+     0.0009765625,
+     0.001171875
+    ],
+    "intervals": 30,
+    "smallest_gap": 0.010224087915801185
+   },
+   "regionC": {
+    "holds": true,
+    "line6_is_function_of_B": true,
+    "p_min": 0.23,
+    "rho_max": 0.54
+   }
+  },
+  "T_vs_B": {
+   "covers": true,
+   "proved": true,
+   "regionA": {
+    "L_threshold": 12.386315822284665,
+    "c1": 8.045565997075032,
+    "holds": true,
+    "p_max": 6.103515625e-05,
+    "slope_positive": true
+   },
+   "regionB": {
+    "all_hold": true,
+    "at_interval": [
+     0.48218083881676194,
+     0.48468083881676194
+    ],
+    "intervals": 233,
+    "p_top": 0.4849,
+    "smallest_gap": 0.0005406728624741675
+   },
+   "regionC": {
+    "C": 15.0,
+    "W": [
+     0.0,
+     1.625,
+     2.5,
+     2.25,
+     0.5,
+     0.125,
+     0.0
+    ],
+    "holds": true,
+    "p_min": 0.48475000000000007,
+    "rho_max": 0.03049999999999987
+   }
+  },
+  "margin": 1e-10
+ },
+ "parameters": {
+  "iters": 60000,
+  "nmax": 4,
+  "out": "investigations/INV-0004-divination-information-bounds/results.json",
+  "restarts": 4,
+  "seed": 20261031,
+  "starts": 60
+ },
+ "partition_search": {
+  "bsc p=1/10": {
+   "best_blocks_affine": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "best_found_I_bits": 1.5930132192321644,
+   "best_minus_trigram": 1.0880185641326534e-14,
+   "best_seed": 20261034,
+   "iterations": 60000,
+   "reference": {
+    "generation": 0.959768862815166,
+    "palace": 1.3350272951980087,
+    "trigram": 1.5930132192321536
+   },
+   "restarts": 4,
+   "runs": [
+    {
+     "best_I_bits": 1.5541102062046903,
+     "seed": 20261031,
+     "start": "palace"
+    },
+    {
+     "best_I_bits": 1.5745721656625074,
+     "seed": 20261032,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 1.5613795749038435,
+     "seed": 20261033,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 1.5930132192321644,
+     "seed": 20261034,
+     "start": "random"
+    }
+   ],
+   "trigram_best_single_swap_change": -0.019615323909698557
+  },
+  "coins": {
+   "best_blocks_affine": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "best_found_I_bits": 0.5661656266226036,
+   "best_minus_trigram": 3.552713678800501e-15,
+   "best_seed": 20261031,
+   "iterations": 60000,
+   "reference": {
+    "generation": 0.13669799122510595,
+    "palace": 0.37862105517587913,
+    "trigram": 0.5661656266226001
+   },
+   "restarts": 4,
+   "runs": [
+    {
+     "best_I_bits": 0.5661656266226036,
+     "seed": 20261031,
+     "start": "palace"
+    },
+    {
+     "best_I_bits": 0.5348214613615041,
+     "seed": 20261032,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 0.5558383688368802,
+     "seed": 20261033,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 0.5432670257678988,
+     "seed": 20261034,
+     "start": "random"
+    }
+   ],
+   "trigram_best_single_swap_change": -0.01070804401252623
+  },
+  "yarrow-standard": {
+   "best_blocks_affine": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "best_found_I_bits": 0.6163043395880529,
+   "best_minus_trigram": 2.220446049250313e-15,
+   "best_seed": 20261033,
+   "iterations": 60000,
+   "reference": {
+    "generation": 0.15701525196075886,
+    "palace": 0.41591150034520113,
+    "trigram": 0.6163043395880506
+   },
+   "restarts": 4,
+   "runs": [
+    {
+     "best_I_bits": 0.5963453374606078,
+     "seed": 20261031,
+     "start": "palace"
+    },
+    {
+     "best_I_bits": 0.5925791811575806,
+     "seed": 20261032,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 0.6163043395880529,
+     "seed": 20261033,
+     "start": "random"
+    },
+    {
+     "best_I_bits": 0.5944206523138164,
+     "seed": 20261034,
+     "start": "random"
+    }
+   ],
+   "trigram_best_single_swap_change": -0.011787691085459406
+  }
+ },
+ "procedures": {
+  "coins": {
+   "change_given_yang": "1/4",
+   "change_given_yin": "1/4",
+   "change_probability": "1/4",
+   "changed_yang": "1/2",
+   "line_values": {
+    "6": "1/8",
+    "7": "3/8",
+    "8": "3/8",
+    "9": "1/8"
+   },
+   "line_values_float": {
+    "6": 0.125,
+    "7": 0.375,
+    "8": 0.375,
+    "9": 0.125
+   },
+   "per_line": {
+    "H_line_value": 1.811278124459133,
+    "I_primary_changed": 0.18872187554086706,
+    "I_primary_changemask": 0.0
+   },
+   "primary_uniform": true,
+   "primary_yang": "1/2",
+   "six_lines": {
+    "H_line_value": 10.867668746754799,
+    "I_primary_changed": 1.1323312532452023,
+    "I_primary_changemask": 0.0
+   },
+   "symmetric_channel": true
+  },
+  "yarrow-binomial": {
+   "change_given_yang": "672546119820069660013155951085376758638085499422329499440/1793450157430030556091891376697427409870758084137659094383",
+   "change_given_yin": "896743396694730168916023097412452746198907847734121642757/7173860472608645497839307165476334029060261392731058158733",
+   "change_probability": "2046928250312683139274043897222166015559741401/8187684238921615588656719698273659184522152045",
+   "changed_yang": "2505425154063850132420107225086895085972032171007/6681150341876744322517708407148603385170873773495",
+   "line_values": {
+    "6": "989025002936669647033541284478551/15824142799565753324482534551859395",
+    "7": "4483616150439843584314941702448202604930690338861318379772/14347661102328767722206872672266043668543293729281694536265",
+    "8": "2923010419512598658183534967828270164639513804408/6681150341876744322517708407148603385170873773495",
+    "9": "810195516184874144216162224198772672/4321045929146407604973774060149329933"
+   },
+   "line_values_float": {
+    "6": 0.06250101604011123,
+    "7": 0.3124980523628418,
+    "8": 0.4375010694178633,
+    "9": 0.18749986217918369
+   },
+   "per_line": {
+    "H_line_value": 1.7490009615184108,
+    "I_primary_changed": 0.2054323548363628,
+    "I_primary_changemask": 0.06227855486985567
+   },
+   "primary_uniform": false,
+   "primary_yang": "1024828661388588889195366500969958519926147476650090911076/2049665871761252531743838953180863381220470532754527790895",
+   "six_lines": {
+    "H_line_value": 10.494005769110466,
+    "I_primary_changed": 1.2325941290181768,
+    "I_primary_changemask": 0.37367132921913404
+   },
+   "symmetric_channel": false
+  },
+  "yarrow-standard": {
+   "change_given_yang": "3/8",
+   "change_given_yin": "1/8",
+   "change_probability": "1/4",
+   "changed_yang": "3/8",
+   "line_values": {
+    "6": "1/16",
+    "7": "5/16",
+    "8": "7/16",
+    "9": "3/16"
+   },
+   "line_values_float": {
+    "6": 0.0625,
+    "7": 0.3125,
+    "8": 0.4375,
+    "9": 0.1875
+   },
+   "per_line": {
+    "H_line_value": 1.7489992230622806,
+    "I_primary_changed": 0.20543477986268455,
+    "I_primary_changemask": 0.062278901396852326
+   },
+   "primary_uniform": true,
+   "primary_yang": "1/2",
+   "six_lines": {
+    "H_line_value": 10.493995338373683,
+    "I_primary_changed": 1.2326086791761073,
+    "I_primary_changemask": 0.37367340838111396
+   },
+   "symmetric_channel": false
+  },
+  "yarrow-uniform": {
+   "change_given_yang": "6463345/14565731",
+   "change_given_yin": "1390620/14546989",
+   "change_probability": "224399/831792",
+   "changed_yang": "153113/469560",
+   "line_values": {
+    "6": "77/1612",
+    "7": "4051193/14556360",
+    "8": "424399/939120",
+    "9": "5957/26832"
+   },
+   "line_values_float": {
+    "6": 0.047766749379652605,
+    "7": 0.27831085518632404,
+    "8": 0.4519113638299685,
+    "9": 0.22201103160405486
+   },
+   "per_line": {
+    "H_line_value": 1.7230328535503356,
+    "I_primary_changed": 0.18783543159742155,
+    "I_primary_changemask": 0.11811243264103344
+   },
+   "primary_uniform": false,
+   "primary_yang": "14565731/29112720",
+   "six_lines": {
+    "H_line_value": 10.338197121302013,
+    "I_primary_changed": 1.1270125895845293,
+    "I_primary_changemask": 0.7086745958462006
+   },
+   "symmetric_channel": false
+  }
+ },
+ "python": "3.9.6",
+ "script_sha256": "23a8458b4f072124939ea8de91a42cb41703756962d800801b683505096f1a47"
+}

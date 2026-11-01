@@ -2,31 +2,39 @@
   "tracks": [
     {
       "rank": "01",
-      "title": "Information through change",
-      "description": "Which structural features stay recoverable when lines change? Extend the finite comparison and independently check its assumptions.",
-      "kind": "Manuscript-assisted",
-      "assignments": ["ASN-0010", "ASN-0013"],
-      "path": "roadmap/literature/openai-math/transfers.md",
-      "label": "A concrete lead, with an independent audit"
+      "title": "Verify the foundations",
+      "description": "Check the palace and pairing claims, and the new divination-channel results, with a different model family in fresh sessions.",
+      "kind": "Verification",
+      "assignments": [
+        "ASN-0001",
+        "ASN-0014"
+      ],
+      "path": "roadmap/literature/openai-math/adjudication.md",
+      "label": "Two verifications, separate sessions"
     },
     {
       "rank": "02",
-      "title": "A fair comparison",
-      "description": "Choose conditional models that preserve the right constraints. Establish the probability measure before interpreting a pattern.",
-      "kind": "Methods & evidence",
-      "assignments": ["ASN-0011", "ASN-0007"],
-      "path": "roadmap/literature/openai-math/transfers.md",
-      "label": "Source work and the right baseline"
+      "title": "Room for a different idea",
+      "description": "A blind exploration of divination procedures, now with an assisted result to compare against afterwards.",
+      "kind": "Independent exploration",
+      "assignments": [
+        "ASN-0004",
+        "ASN-0006"
+      ],
+      "path": "roadmap/README.md",
+      "label": "Protect the unassisted discovery lane"
     },
     {
       "rank": "03",
-      "title": "Room for a different idea",
-      "description": "Keep a fresh investigation of divination procedures or a conceptual reset independent of the programme’s current framing.",
-      "kind": "Independent exploration",
-      "assignments": ["ASN-0004", "ASN-0006"],
+      "title": "Sources first",
+      "description": "Cited procedure and arrangement sources decide which models and tables any historical reading may use.",
+      "kind": "Methods & evidence",
+      "assignments": [
+        "ASN-0007"
+      ],
       "path": "roadmap/README.md",
-      "label": "Protect the unassisted discovery lane"
+      "label": "Unblocks historical claims"
     }
   ],
-  "note": "Proposed choices from the current roadmap, not launched investigations. Update this file when the coordinator changes the priority slate."
+  "note": "Proposed choices from the adjudication (2026-10-31), not launched investigations. Update this file when the coordinator changes the priority slate."
 }

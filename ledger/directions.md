@@ -30,7 +30,7 @@ Mawangdui manuscript order, the Chu manuscript, the Shao Yong arrangements, and 
 ### DIR-006 — Divination procedures and changing lines
 
 Four-valued lines, the procedures that generate them, the transition from primary to second hexagram, and reading rules.
-*Status:* unexplored. *Origin:* registrar suggestion; INV-0001 bracketed procedures other than the Jing Fang palaces. *Related:* ASN-0004, SRC-007.
+*Status:* lightly explored (one literature-assisted, full-context investigation: INV-0004, C-0032–C-0038). *Origin:* registrar suggestion; INV-0001 bracketed procedures other than the Jing Fang palaces. *Related:* ASN-0004 (blind exploration, deliberately not exposed to INV-0004), ASN-0014, Q-009–Q-011, SRC-007. Not examined: reading rules, the four-valued outcome beyond the change mask, procedures other than the modelled yarrow and coin methods, and every source question.
 
 ### DIR-007 — The textual layer as data
 

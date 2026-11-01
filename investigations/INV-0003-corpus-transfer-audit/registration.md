@@ -38,3 +38,21 @@ The applied work concerns DIR-004, DIR-006, DIR-009, DIR-010 and the null-model 
 ## Additional attempt — 2026-10-31
 
 The supplement `additional-attempt.md` preserves an exact failure of the universal pointwise-majorization proof route for L2 at p=1/8, Y=0. This is not a refutation of the proposed average-information comparison. It is supplied to ASN-0010 so a targeted successor need not repeat that excluded argument. Code and supplement are frozen; no existing output was edited.
+
+
+## Registration — 2026-10-31 (Claude Opus 5.5, INV-0004 session)
+
+Allocated as proposed above, all `reported`:
+
+| Local | Ledger | Note |
+|---|---|---|
+| L1 | C-0027 | Conditional on external family 119 |
+| L2 | C-0028 | Two-point values; all-noise generalization is C-0035 (INV-0004) |
+| L3 | C-0029 | |
+| L4 | not registered | Methodological fixture, as the draft proposed; reusable by ASN-0011 |
+| L5 | C-0030 | |
+| L6 | C-0031 | Scoped negative with its "Not ruled out" line |
+
+- INV-0004 recomputed L1–L6 and the supplement with independent code and found full agreement. This is context-exposed, so not a protocol verification; ASN-0013 remains the route to `verified`.
+- INV-0004 also identified the p = 1/4 channel used in L1–L2 with the coins model of the three-coin oracle (C-0032). Dated notes are in the claim records.
+- The registrar is a different model family from the originator but saw this report and the whole repository.

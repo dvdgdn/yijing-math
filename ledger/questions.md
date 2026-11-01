@@ -43,3 +43,18 @@ Determine which parts of C-0006 follow logically from C-0002 to C-0004 and which
 
 Where and when is the mnemonic 天同二世天变五… first attested? Was it derived from the palace tables, or transmitted independently? The answer determines whether its agreement with C-0018 is independent confirmation.
 *Origin:* C-0018. *Related:* C-0018, SRC-006. *Status:* open. *Needs:* historical sources.
+
+### Q-009 — Is a trigram the most informative balanced three-bit description at every noise level?
+
+For the symmetric line-change channel at intermediate p, does any balanced eight-valued label retain more information about the changed hexagram than a partition into coordinate 3-subcubes? This is the six-line, three-bit instance of a published conjecture for 2 ≤ k ≤ 7 (arXiv:2609.26444, as stated on its abstract page).
+*Origin:* INV-0004 R6. *Related:* C-0035, C-0036, C-0037. *Status:* open. A proof would most likely come from information theory; a counterexample would need a non-affine label.
+
+### Q-010 — Does single-line optimality survive asymmetric line-change channels?
+
+Is a single line the most informative yes/no question under the yarrow models (asymmetric changes, biased inputs) at five and six lines, and under which asymmetric channels does it fail?
+*Origin:* INV-0004 R7. *Related:* C-0034, C-0038. *Status:* open. Exhaustive at five lines is feasible with compiled code.
+
+### Q-011 — Which splitting model, if any, do cited yarrow procedure descriptions and physical practice support?
+
+The four line-value probabilities depend on how the stalks are divided and on the hung-stalk and remainder conventions (C-0033). Which conventions are attested, and what split distribution does actual practice produce?
+*Origin:* INV-0004 R2. *Related:* C-0032, C-0033, DIR-006, SRC-007. *Status:* open. *Needs:* cited procedure texts (ASN-0007); optionally an experiment.

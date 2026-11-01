@@ -18,10 +18,11 @@ Assignment metadata records planned coverage; it is not evidence that a territor
 | [ASN-0007](assignments/ASN-0007-source-baselines.md) | draft | source-work / specialist / targeted | — | received-order-transcription, palace-source-correspondence, source-intake |
 | [ASN-0008](assignments/ASN-0008-prior-art-audit.md) | draft | prior-art / specialist / targeted | — | prior-art-audit |
 | [ASN-0009](assignments/ASN-0009-textual-pilot.md) | draft | exploration / explorer / minimal | ASN-0007 | text-structure-pilot |
-| [ASN-0010](assignments/ASN-0010-information-preserving-observables.md) | draft | development / specialist / targeted | — | information-observable-extension |
+| [ASN-0010](assignments/ASN-0010-information-preserving-observables.md) | withdrawn | development / specialist / targeted | — | information-observable-extension |
 | [ASN-0011](assignments/ASN-0011-conditional-comparison-ensembles.md) | draft | development / specialist / targeted | — | conditional-ensemble-reference |
 | [ASN-0012](assignments/ASN-0012-local-permutation-structure.md) | draft | development / specialist / targeted | — | bounded-local-order-model |
 | [ASN-0013](assignments/ASN-0013-verify-corpus-bridges.md) | draft | verification / verifier / targeted | — | corpus-bridge-finite-audit |
+| [ASN-0014](assignments/ASN-0014-verify-divination-information.md) | draft | verification / verifier / targeted | — | divination-information-verification |
 
 ## Direction coverage
 
@@ -32,11 +33,11 @@ Assignment metadata records planned coverage; it is not evidence that a territor
 | [DIR-003](../ledger/directions.md#dir-003--limits-on-reconstructing-the-received-ordering) | **unassigned** | — | — |
 | [DIR-004](../ledger/directions.md#dir-004--symmetry-classification-of-attested-orderings-and-procedures) | ASN-0001 (ready; verification), ASN-0002 (ready; verification), ASN-0005 (ready; development), ASN-0011 (draft; development), ASN-0012 (draft; development), ASN-0013 (draft; verification) | ASN-0008 (draft; prior-art) | — |
 | [DIR-005](../ledger/directions.md#dir-005--arrangements-other-than-the-received-order) | **unassigned** | ASN-0007 (draft; source-work) | — |
-| [DIR-006](../ledger/directions.md#dir-006--divination-procedures-and-changing-lines) | ASN-0004 (ready; exploration), ASN-0010 (draft; development), ASN-0013 (draft; verification) | ASN-0007 (draft; source-work) | — |
+| [DIR-006](../ledger/directions.md#dir-006--divination-procedures-and-changing-lines) | ASN-0004 (ready; exploration), ASN-0013 (draft; verification), ASN-0014 (draft; verification) | ASN-0007 (draft; source-work) | — |
 | [DIR-007](../ledger/directions.md#dir-007--the-textual-layer-as-data) | ASN-0009 (draft; exploration), ASN-0011 (draft; development) | ASN-0007 (draft; source-work) | — |
 | [DIR-008](../ledger/directions.md#dir-008--other-han-and-later-correlative-systems) | **unassigned** | ASN-0007 (draft; source-work) | — |
-| [DIR-009](../ledger/directions.md#dir-009--representations-other-than-binary-vectors) | ASN-0004 (ready; exploration), ASN-0006 (ready; reset), ASN-0009 (draft; exploration), ASN-0010 (draft; development), ASN-0012 (draft; development), ASN-0013 (draft; verification) | ASN-0008 (draft; prior-art) | — |
-| [DIR-010](../ledger/directions.md#dir-010--relations-among-operations-and-constructions) | ASN-0001 (ready; verification), ASN-0002 (ready; verification), ASN-0003 (ready; exploration), ASN-0010 (draft; development), ASN-0012 (draft; development), ASN-0013 (draft; verification) | ASN-0008 (draft; prior-art) | — |
+| [DIR-009](../ledger/directions.md#dir-009--representations-other-than-binary-vectors) | ASN-0004 (ready; exploration), ASN-0006 (ready; reset), ASN-0009 (draft; exploration), ASN-0012 (draft; development), ASN-0013 (draft; verification) | ASN-0008 (draft; prior-art) | — |
+| [DIR-010](../ledger/directions.md#dir-010--relations-among-operations-and-constructions) | ASN-0001 (ready; verification), ASN-0002 (ready; verification), ASN-0003 (ready; exploration), ASN-0012 (draft; development), ASN-0013 (draft; verification) | ASN-0008 (draft; prior-art) | — |
 | [DIR-011](../ledger/directions.md#dir-011--mathematical-structure-and-historical-layers) | **unassigned** | ASN-0007 (draft; source-work) | — |
 
 ## Question coverage
@@ -51,6 +52,9 @@ Assignment metadata records planned coverage; it is not evidence that a territor
 | [Q-006](../ledger/questions.md#q-006--which-natural-criteria-single-out-hexagrams-1-2-63-64) | ASN-0005 (ready; development) | — | — |
 | [Q-007](../ledger/questions.md#q-007--how-much-of-the-doubled-trigram-canon-split-is-implied-by-pairing-and-canon-balance) | ASN-0002 (ready; verification) | — | — |
 | [Q-008](../ledger/questions.md#q-008--is-the-generation-mnemonic-historically-independent-of-the-palace-tables) | **unassigned** | ASN-0007 (draft; source-work) | — |
+| [Q-009](../ledger/questions.md#q-009--is-a-trigram-the-most-informative-balanced-three-bit-description-at-every-noise-level) | **unassigned** | — | — |
+| [Q-010](../ledger/questions.md#q-010--does-single-line-optimality-survive-asymmetric-line-change-channels) | **unassigned** | — | — |
+| [Q-011](../ledger/questions.md#q-011--which-splitting-model-if-any-do-cited-yarrow-procedure-descriptions-and-physical-practice-support) | **unassigned** | — | — |
 
 ## Overlap review
 
@@ -61,13 +65,11 @@ Different wording can hide duplication; also compare assignments sharing a direc
 - ASN-0001 / ASN-0005: received-order-transcription — declared intentional.
 - ASN-0001 / ASN-0007: palace-source-correspondence, received-order-transcription — declared intentional.
 - ASN-0001 / ASN-0008: C-0002, C-0016, C-0018, C-0019 — declared intentional.
-- ASN-0001 / ASN-0010: C-0016 — declared intentional.
 - ASN-0002 / ASN-0005: C-0003, C-0005, C-0006, C-0009, C-0010, C-0011, C-0012, C-0015, received-order-transcription — declared intentional.
 - ASN-0002 / ASN-0007: received-order-transcription — declared intentional.
 - ASN-0002 / ASN-0008: C-0003, C-0007, C-0008, C-0014 — declared intentional.
 - ASN-0005 / ASN-0007: received-order-transcription — declared intentional.
 - ASN-0005 / ASN-0008: C-0003 — declared intentional.
-- ASN-0008 / ASN-0010: C-0016 — declared intentional.
 
 ## Verification debt
 
@@ -77,16 +79,19 @@ Dependent counts are transitive claim counts, not importance scores. Verificatio
 |---|---|---|---|---|
 | [C-0001](../ledger/claims/C-0001.md) | reported | low | 9 | ASN-0001 |
 | [C-0002](../ledger/claims/C-0002.md) | reported | high | 8 | ASN-0001 |
+| [C-0016](../ledger/claims/C-0016.md) | reported | high | 7 | ASN-0001 |
 | [C-0007](../ledger/claims/C-0007.md) | reported | low | 6 | ASN-0002 |
-| [C-0016](../ledger/claims/C-0016.md) | reported | high | 5 | ASN-0001 |
 | [C-0003](../ledger/claims/C-0003.md) | reported | medium | 3 | ASN-0002 |
 | [C-0008](../ledger/claims/C-0008.md) | reported | medium | 3 | ASN-0002 |
 | [C-0019](../ledger/claims/C-0019.md) | reported | high | 2 | ASN-0001 |
+| [C-0032](../ledger/claims/C-0032.md) | reported | high | 2 | ASN-0014 |
 | [C-0009](../ledger/claims/C-0009.md) | reported | medium | 1 | ASN-0002 |
 | [C-0014](../ledger/claims/C-0014.md) | reported | low | 1 | ASN-0002 |
 | [C-0017](../ledger/claims/C-0017.md) | reported | high | 1 | ASN-0001 |
 | [C-0021](../ledger/claims/C-0021.md) | reported | medium | 1 | — |
 | [C-0023](../ledger/claims/C-0023.md) | reported | medium | 1 | — |
+| [C-0033](../ledger/claims/C-0033.md) | reported | medium | 1 | ASN-0014 |
+| [C-0036](../ledger/claims/C-0036.md) | reported | medium | 1 | ASN-0014 |
 | [C-0004](../ledger/claims/C-0004.md) | reported | low | 0 | ASN-0002 |
 | [C-0005](../ledger/claims/C-0005.md) | reported | medium | 0 | ASN-0002 |
 | [C-0006](../ledger/claims/C-0006.md) | reported | medium | 0 | ASN-0002 |
@@ -101,6 +106,15 @@ Dependent counts are transitive claim counts, not importance scores. Verificatio
 | [C-0024](../ledger/claims/C-0024.md) | reported | medium | 0 | — |
 | [C-0025](../ledger/claims/C-0025.md) | reported | medium | 0 | — |
 | [C-0026](../ledger/claims/C-0026.md) | reported | medium | 0 | ASN-0001, ASN-0002 |
+| [C-0027](../ledger/claims/C-0027.md) | reported | medium | 0 | — |
+| [C-0028](../ledger/claims/C-0028.md) | reported | low | 0 | — |
+| [C-0029](../ledger/claims/C-0029.md) | reported | low | 0 | — |
+| [C-0030](../ledger/claims/C-0030.md) | reported | low | 0 | — |
+| [C-0031](../ledger/claims/C-0031.md) | reported | low | 0 | — |
+| [C-0034](../ledger/claims/C-0034.md) | reported | medium | 0 | ASN-0014 |
+| [C-0035](../ledger/claims/C-0035.md) | reported | high | 0 | ASN-0014 |
+| [C-0037](../ledger/claims/C-0037.md) | reported | medium | 0 | — |
+| [C-0038](../ledger/claims/C-0038.md) | reported | medium | 0 | — |
 
 ## Dependencies needing review
 
@@ -114,6 +128,6 @@ INV-0002: coverage and independence remain unknown until the output is recovered
 
 ## Reports awaiting registration
 
-- INV-0003: Full-context manuscript-transfer audit and finite bridge pilots; context full; independence context-exposed. Review the output and registration draft before counting new claims.
+None recorded.
 
 Selection decisions and semantic overlap: [coordination review](coordination-review.md). External-literature priorities, when present, are linked from the [roadmap](README.md).

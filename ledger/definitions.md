@@ -97,3 +97,25 @@ The number of lines in which two hexagrams differ.
 
 A line is in correct position if it is yang in an odd position (1, 3, 5) or yin in an even position (2, 4, 6).
 *Origin:* used informally in INV-0001 §4 ("all lines in correct position"). *Registrar note:* this gloss of the traditional notion was written by the registrar; INV-0001 does not define it.
+
+### DEF-017 — Procedure models and the line-change channel
+
+Each model generates six line values in {6, 7, 8, 9} independently. Value v gives primary line X (yang iff v ∈ {7, 9}) and change bit E (iff v ∈ {6, 9}); the changed hexagram is Y = X ⊕ E (Y = X when nothing changes, a formal convention). Models:
+
+- **coins:** sum of three fair coins worth 2 or 3.
+- **yarrow-standard:** first change removes 5 or 9 stalks with probabilities 3/4 and 1/4; the second and third remove 4 or 8 with 1/2 each.
+- **yarrow-uniform:** 49 stalks; each change has left heap uniform on 1, …, n−1, one stalk hung from the right heap, both heaps counted by fours (remainder 1–4, empty heap 0).
+- **yarrow-binomial:** as yarrow-uniform, with left heap Binomial(n, 1/2) conditioned on 1 ≤ L ≤ n−1.
+
+The "symmetric line-change channel with parameter p" is Y = X ⊕ E with X uniform and the six E bits independent Bernoulli(p).
+*Origin:* INV-0004 §2. *Encodes source:* the models are mathematical idealizations; their correspondence with cited descriptions of the yarrow (Xici) and three-coin procedures is unverified (ASN-0007). *Alternatives:* other split laws, hung-stalk and remainder conventions; procedures with non-independent lines.
+
+### DEF-018 — Eight-valued labels T, B, G
+
+For x = (l, u) (DEF-004): T(x) = l (lower trigram; any three lines are equivalent under symmetric noise); G(x) = φ(x) = l ⊕ u (DEF-010), whose bits record whether lines (1,4), (2,5), (3,6) differ; B(x) = b where x = (b, b) ⊕ d with d the unique element of D (DEF-011) satisfying φ(d) = φ(x), the base element of P (DEF-009). A label is *balanced* if each of its eight values is taken by exactly eight hexagrams.
+*Origin:* INV-0003 §3 (B and G), INV-0004 §2 (T and balanced labels). *Registrar note:* the bits of G coincide with the traditional criterion for a responding (應) pair of opposite kind; this identification is general knowledge, not a cited source.
+
+### DEF-019 — Robustness rates of a label
+
+For a label λ with blocks A_k on six lines: β(λ) = 2|∂λ|/64, the mean number of single-line changes that alter the label (|∂λ| is the number of hypercube edges joining different blocks); W₁(λ) = Σ_k ‖s(A_k)‖²/(64|A_k|) with s_i(A) = Σ_{x∈A} (−1)^{x_i}, the level-1 Fourier weight. They govern the low-noise and high-noise behaviour of I(λ(X);Y) under the symmetric line-change channel.
+*Origin:* INV-0004 R5.

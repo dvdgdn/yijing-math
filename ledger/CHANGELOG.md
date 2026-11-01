@@ -2,6 +2,16 @@
 
 Newest first. Each entry lists claims added or changed, statuses changed, and investigations ingested. The first `## v` heading is the current ledger version.
 
+## v0.2 — 2026-10-31
+
+Adjudication of the manuscript-assisted expansion; first registrations since v0.1. Registrar: Claude Opus 5.5. Human review of both extractions is advised.
+
+- **Registered INV-0003** (Codex assistant, gpt family, context-exposed). Allocated as C-0027 (L1, conditional), C-0028 (L2), C-0029 (L3), C-0030 (L5) and C-0031 (L6, scoped negative). L4 is kept as a methodological fixture. The registrar is a different family from the originator but is context-exposed.
+- **Ingested and registered INV-0004** (Claude Opus 5.5, full context, literature-assisted): C-0032–C-0036 (channels, split sensitivity, conditional coin-model bound, computer-assisted all-noise label ordering, endpoint extremality) and C-0037–C-0038 (conjectures). Self-registered.
+- **Added:** DEF-017 (procedure models), DEF-018 (labels), DEF-019 (robustness rates); Q-009–Q-011. DIR-006 is now `lightly explored`.
+- **Verification:** none. INV-0004 recomputed INV-0003's finite claims with independent code and found no discrepancy. This is recorded in the claim logs as context-exposed and not a protocol verification. All 38 claims remain `reported`.
+- **Planning:** added draft ASN-0014 (GPT-family verification of C-0032–C-0036); withdrew ASN-0010; ASN-0011 and ASN-0012 deferred in the roadmap. See `roadmap/literature/openai-math/adjudication.md`.
+
 ## v0.1 — 2026-10-31
 
 Initial registry, created during repository setup.

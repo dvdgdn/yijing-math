@@ -1,4 +1,4 @@
-# State of Knowledge — Ledger v0.1
+# State of Knowledge — Ledger v0.2
 
 **Full-context document.** Never include this file, or anything derived from it, in a minimal-context package.
 
@@ -6,9 +6,9 @@ This is a one-page orientation. The records in `claims/` are authoritative; this
 
 ## Headline
 
-- **Nothing in the ledger has been independently verified.** All 26 claims are `reported`, from a single investigation (INV-0001, Claude Opus 5.5).
+- **Nothing in the ledger has been independently verified.** All 38 claims are `reported`: C-0001–C-0026 from INV-0001 (Claude Opus 5.5, legacy), C-0027–C-0031 from INV-0003 (Codex, gpt family, full context), C-0032–C-0038 from INV-0004 (Claude Opus 5.5, full context). INV-0003 and INV-0004 are context-exposed.
 - The second existing investigation (INV-0002, GPT-6.1 Sol Max) is **not in the repository**. Topics the setup brief attributes to the existing investigations but which INV-0001 does not cover (automata-theoretic quotients, noncommutation, reconstruction limits) are recorded as directions with absent sources (DIR-001 to DIR-003), not as claims.
-- No cross-investigation agreements or contradictions can be assessed until a second investigation is registered.
+- INV-0004 recomputed INV-0003's finite claims with independent code and found no error. This is cross-family but context-exposed, so not a verification. No contradictions between investigations are recorded.
 
 ## What INV-0001 reports (all unverified)
 
@@ -31,6 +31,21 @@ This is a one-page orientation. The records in `claims/` are authoritative; this
 
 **Conjectures and hypotheses:** stratification of R-symmetry by historical layer (C-0022, which depends on C-0023 and on unargued dating assumptions); generalization to 2k lines (C-0020, ill-posed); competing hypotheses H2 and H0 about structure beyond the pairing (C-0024, C-0025).
 
+## What INV-0003 and INV-0004 report (all unverified)
+
+**Manuscript transfers (INV-0003).**
+- Binary summaries of the trigram difference reduce to noise 2p(1−p), with a conditional optimum (C-0027).
+- Palace and generation labels differ in noise robustness at two noise values (C-0028).
+- The reversal-or-complement graph has 4,096 perfect matchings (C-0029).
+- A one-sweep coordinate shuffle gives uniform marginals but a far-from-uniform order (C-0030).
+- A scoped negative spectral transfer (C-0031).
+
+**Divination layer (INV-0004, literature-assisted).**
+- The coins model is exactly the symmetric line-change channel at 1/4. The standard yarrow model is asymmetric (3/8, 1/8), and its moving lines reveal 0.374 bits about the primary hexagram (C-0032). Yarrow probabilities depend on how the stalks are split (C-0033).
+- Under coins, no yes/no question carries more than 0.1887 bits from one hexagram to the other. This is conditional on external family 119 (C-0034).
+- For every line-change probability, trigram > palace > generation in retained information, by a computer-assisted proof (C-0035). Trigram-type labels are optimal and the generation label worst possible at both noise extremes (C-0036).
+- Two conjectures: the trigram is optimal at every noise level, an instance of a published conjecture (C-0037); single lines stay optimal under the yarrow asymmetry (C-0038).
+
 ## Live disputes
 
 - DSP-001: what explains the endpoint placement (nuclear dynamics, line-position extremes, chance, other)?
@@ -43,4 +58,4 @@ This is a one-page orientation. The records in `claims/` are authoritative; this
 2. The missing GPT-6.1 Sol Max report.
 3. No cited data: every source-dependent claim rests on uncited transcriptions.
 4. A single encoding (binary vectors, bottom to top) used throughout; representation-dependence largely unexamined (DIR-009).
-5. Whole layers untouched: divination procedures (DIR-006), text (DIR-007), other arrangements (DIR-005), other Han systems (DIR-008).
+5. Layers untouched or barely touched: divination procedures (DIR-006, one assisted full-context investigation; reading rules and sources untouched), text (DIR-007), other arrangements (DIR-005), other Han systems (DIR-008).

@@ -1,7 +1,7 @@
 ---
 id: INV-0003
 title: Full-context manuscript-transfer audit and finite bridge pilots
-status: completed
+status: registered
 role: synthesis
 assignment: none
 model: Codex assistant; exact model unknown
@@ -15,9 +15,9 @@ materials: [README.md, AGENTS.md, roadmap/coordination-review.md, methods/resear
 output: investigations/INV-0003-corpus-transfer-audit/output.md
 handoff: in output and pilot-results.json
 date_run: 2026-10-31
-registered: none
+registered: 2026-10-31
 preceded_by: [INV-0001]
-followed_by: []
+followed_by: [INV-0004]
 ---
 # INV-0003 — Manuscript-transfer audit
 
@@ -43,7 +43,7 @@ No fresh isolated session was used or claimed. The original palace encoding and 
 
 ## Registration
 
-Pending human reconciliation. `registration.md` maps local results to existing claims or proposed new records. A completed report is not a verified claim. Future verification must distinguish the finite pilot, the transfer argument conditional on an external theorem, the external theorem itself, and source correspondence to the Yijing.
+Registered 2026-10-31 by Claude Opus 5.5 (different family from the originator; context-exposed) as C-0027–C-0031; L4 kept as a methodological fixture. See the dated note in `registration.md`. Human review of the extraction is still advisable. Originally: pending human reconciliation. `registration.md` maps local results to existing claims or proposed new records. A completed report is not a verified claim. Future verification must distinguish the finite pilot, the transfer argument conditional on an external theorem, the external theorem itself, and source correspondence to the Yijing.
 
 ## Additional attempt
 

@@ -45,9 +45,9 @@ Open [`roadmap/dashboard.html`](roadmap/dashboard.html) for the generated visual
 
 ## Current state
 
-- Ledger **v0.1**: claims extracted from one legacy investigation (INV-0001, Claude Opus 5.5). **None is independently verified.** Orientation: [`ledger/summary.md`](ledger/summary.md) (full-context material).
+- Ledger **v0.2**: claims registered from three investigations (INV-0001, INV-0003, INV-0004). **None is independently verified.** Orientation: [`ledger/summary.md`](ledger/summary.md) (full-context material).
 - The GPT-6.1 Sol Max investigation (INV-0002) is **not in the repository**. Its record is a placeholder.
-- Six assignments for cycle 1 are ready, with seven additional draft candidates: [`roadmap/README.md`](roadmap/README.md). Coordinator coverage, overlap, and prerequisites: [`roadmap/BOARD.md`](roadmap/BOARD.md). External-library priorities and the completed full-context pilot are linked from the roadmap; registration is pending.
+- Six assignments for cycle 1 are ready, with further drafts; the current proposed slate is at the top of [`roadmap/README.md`](roadmap/README.md). Coordinator coverage, overlap, and prerequisites: [`roadmap/BOARD.md`](roadmap/BOARD.md). External-library priorities and the completed full-context pilot are linked from the roadmap; registration is pending.
 
 ## How to run the program
 
@@ -96,28 +96,28 @@ Run both after every repository change. `index` refreshes the claim index, coord
 ## Worked example: launching ASN-0001 with GPT-6.1 Sol Max
 
 ```bash
-mkdir -p investigations/INV-0004-verify-pairing-and-palaces
-cp investigations/_template/record.md investigations/INV-0004-verify-pairing-and-palaces/record.md
-python3 tools/yj.py assemble ASN-0001 --part 1 --inv INV-0004 --out investigations/INV-0004-verify-pairing-and-palaces/prompt-part1.md
-pbcopy < investigations/INV-0004-verify-pairing-and-palaces/prompt-part1.md   # macOS clipboard
+mkdir -p investigations/INV-0005-verify-pairing-and-palaces
+cp investigations/_template/record.md investigations/INV-0005-verify-pairing-and-palaces/record.md
+python3 tools/yj.py assemble ASN-0001 --part 1 --inv INV-0005 --out investigations/INV-0005-verify-pairing-and-palaces/prompt-part1.md
+pbcopy < investigations/INV-0005-verify-pairing-and-palaces/prompt-part1.md   # macOS clipboard
 ```
 
 1. Open a **new** GPT-6.1 Sol Max conversation with memory off and no project or files attached. Paste and send.
-2. Save the reply verbatim as `investigations/INV-0004-verify-pairing-and-palaces/output-part1.md`.
+2. Save the reply verbatim as `investigations/INV-0005-verify-pairing-and-palaces/output-part1.md`.
 3. Assemble part 2 and paste it into the **same** conversation:
 
    ```bash
-   python3 tools/yj.py assemble ASN-0001 --part 2 --out investigations/INV-0004-verify-pairing-and-palaces/prompt-part2.md
-   pbcopy < investigations/INV-0004-verify-pairing-and-palaces/prompt-part2.md
+   python3 tools/yj.py assemble ASN-0001 --part 2 --out investigations/INV-0005-verify-pairing-and-palaces/prompt-part2.md
+   pbcopy < investigations/INV-0005-verify-pairing-and-palaces/prompt-part2.md
    ```
 
 4. Save the reply as `output-part2.md`, then freeze everything that was sent or received:
 
    ```bash
-   shasum -a 256 investigations/INV-0004-verify-pairing-and-palaces/prompt-part*.md investigations/INV-0004-verify-pairing-and-palaces/output-part*.md >> FROZEN.sha256
+   shasum -a 256 investigations/INV-0005-verify-pairing-and-palaces/prompt-part*.md investigations/INV-0005-verify-pairing-and-palaces/output-part*.md >> FROZEN.sha256
    ```
 
-5. Fill in `record.md` (model as shown in the interface, date, `context_mode: targeted`, materials), set ASN-0001 to `status: launched` with `investigations: [INV-0004]`, add a row to `investigations/README.md`, register the verdicts, and run `validate`.
+5. Fill in `record.md` (model as shown in the interface, date, `context_mode: targeted`, materials), set ASN-0001 to `status: launched` with `investigations: [INV-0005]`, add a row to `investigations/README.md`, register the verdicts, and run `validate`.
 
 The same steps work in Claude: open a new conversation with no project knowledge or memory, paste the package, and save the reply.
 

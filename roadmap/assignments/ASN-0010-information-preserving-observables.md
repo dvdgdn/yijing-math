@@ -1,7 +1,7 @@
 ---
 id: ASN-0010
 title: Information-preserving observables and the cost of structural quotients
-status: draft
+status: withdrawn
 role: specialist
 context_mode: targeted
 role_prompt: prompts/roles/specialist.v1.md
@@ -25,6 +25,8 @@ created: 2026-10-31
 # ASN-0010: Information-preserving observables
 
 ## Rationale (coordinator only)
+
+- **Withdrawn 2026-10-31 (never launched).** INV-0004 settled the first extension option (all-noise comparison of the base and difference labels; C-0035, with the trigram added) and partly addressed the asymmetric option (C-0032, C-0038). What remains open is recorded as Q-009 and Q-010 (multi-bit optimality at intermediate noise; asymmetric single-bit optimality), candidates for an optional cycle-2 specialist. Verification of the new claims is ASN-0014. The original rationale is kept below for the record.
 
 - Highest-priority direct transfer from the external corpus. Family 119 matches a finite Boolean model and provides an all-dimension nonlinear benchmark; INV-0003 L1–L2 supply a concrete gap rather than a verbal analogy.
 - **Intentional overlap:** ASN-0001 verifies C-0016 and its historical correspondence. This task studies a new channel/observable consequence of the specified formal construction; it must not repeat the source-table audit or claim that it is complete. ASN-0008 checks prior art around C-0016, while this task must additionally check literature on the new information statement before asserting novelty.

@@ -27,6 +27,7 @@ Frozen files are listed in [`FROZEN.sha256`](../FROZEN.sha256) and checked by `p
 |---|---|---|---|---|---|
 | [INV-0001](INV-0001-claude-paradigm-transcendence/record.md) | Claude Opus 5.5 | legacy | none (legacy prompt) | unknown | registered |
 | [INV-0002](INV-0002-gpt-initial-investigation/record.md) | GPT-6.1 Sol Max | legacy | none | unknown | missing-output |
-| [INV-0003](INV-0003-corpus-transfer-audit/record.md) | Codex assistant; exact model unknown | synthesis | current user request; no isolated package | full, context-exposed | completed; registration pending |
+| [INV-0003](INV-0003-corpus-transfer-audit/record.md) | Codex assistant; exact model unknown | synthesis | current user request; no isolated package | full, context-exposed | registered (C-0027–C-0031) |
+| [INV-0004](INV-0004-divination-information-bounds/record.md) | Claude Opus 5.5 | specialist | current user request; no isolated package | full, context-exposed | registered (C-0032–C-0038) |
 
 Add a row when you create an investigation folder.

@@ -6,20 +6,34 @@ Start with the generated [coordination board](BOARD.md) and the [coordination re
 
 This roadmap is provisional. Revise it after every reconciliation. Assignments are prepared here and launched as investigations (see the main README).
 
-## Manuscript-assisted track (added 2026-10-31)
+## Current proposed slate (adjudication, 2026-10-31)
 
-The [pinned corpus transfer review](literature/openai-math/transfers.md) updates the proposed launch priority using all 721 catalogue titles/abstracts, 16 inspected theorem statements, and the completed finite pilot INV-0003. All new claims remain reported/pending registration. It changes the proposed assisted slate without removing the blind-exploration lane or resolving existing source debt.
+The [adjudication of the manuscript-assisted expansion](literature/openai-math/adjudication.md) reviews the expansion from outside. It screens the whole corpus independently and records INV-0004, the first investigation of divination procedures (DIR-006). Every new claim is `reported`.
 
-| Priority | Draft work package | Concrete outcome sought |
+| Order | Assignment | Model | Why now |
+|---|---|---|---|
+| 1 | [ASN-0001](assignments/ASN-0001-verify-pairing-and-palaces.md) | GPT-6.1 Sol Max | Foundational palace/pairing verification; unchanged first priority. |
+| 2 | [ASN-0014](assignments/ASN-0014-verify-divination-information.md) (draft) | GPT-6.1 Sol Max, separate fresh session | Verifies the divination-channel and label-robustness claims C-0032–C-0036. |
+| 3 | [ASN-0004](assignments/ASN-0004-divination-structure.md) | Claude Opus 5.5, minimal | Blind divination exploration; now has an assisted comparison partner. Supply nothing from INV-0004. |
+| as capacity allows | [ASN-0007](assignments/ASN-0007-source-baselines.md) (draft) | either | Cited sources gate every historical reading, including which yarrow model is attested (Q-011). |
+| optional | [ASN-0013](assignments/ASN-0013-verify-corpus-bridges.md) (draft) | Claude, isolated | INV-0004 recomputed INV-0003 with no error found; run only to promote C-0027–C-0031. |
+
+Withdrawn: ASN-0010 (answered by C-0035; the remainder is Q-009/Q-010). Deferred: ASN-0011 (no cited table yet), ASN-0012 (no attested local generation rule). Cycle-2 option: a specialist on Q-009 or Q-010.
+
+Recommendation: freeze repository infrastructure until at least three external investigations are registered.
+
+## Manuscript-assisted track (added 2026-10-31; superseded in part by the adjudication above)
+
+The [pinned corpus transfer review](literature/openai-math/transfers.md) was the first proposal for this track. It drew on all 721 catalogue titles/abstracts, 16 inspected theorem statements, and the finite pilot INV-0003, now registered as C-0027–C-0031. Its original priority table is kept for the record:
+
+| Priority | Draft work package | Status after adjudication |
 |---|---|---|
-| 1 | [ASN-0010](assignments/ASN-0010-information-preserving-observables.md) | A general information/robustness comparison or precise obstruction beyond two finite pilot points. |
-| 1, independent audit | [ASN-0013](assignments/ASN-0013-verify-corpus-bridges.md) | Two-phase verification of the pilot's local claims and theorem applicability, with independent code. |
-| 2 | [ASN-0011](assignments/ASN-0011-conditional-comparison-ensembles.md) | A correctly weighted conditional ensemble and exact finite reference calculation for later explanation/text tests. |
-| 3 | [ASN-0012](assignments/ASN-0012-local-permutation-structure.md) | A joint-information or bounded-depth ordering consequence under a fixed local grammar. |
+| 1 | ASN-0010 | withdrawn |
+| 1, independent audit | ASN-0013 | optional |
+| 2 | ASN-0011 | deferred |
+| 3 | ASN-0012 | deferred |
 
-Suggested assisted first slate: ASN-0010 plus ASN-0013, with source work ASN-0007 alongside as capacity allows. Retain ASN-0004 or ASN-0006 as an unassisted run rather than giving every investigator the same papers. ASN-0001 remains the palace/source verification owner. No new assignment has been launched; new packages are drafts and are assembled for review, not approved runs.
-
-[Search the complete catalogue](literature/openai-math/README.md) before opening a new transfer. The review records direct matches, finite-scope failures, elementary methods that beat imported machinery, and reopening triggers. Pending registration is visible on the board.
+[Search the complete catalogue](literature/openai-math/README.md) before opening a new transfer.
 
 ## Cycle 1 (prepared 2026-10-31, ledger v0.1)
 
@@ -87,3 +101,5 @@ Choose these after cycle 1 is reconciled. Listed so they are not forgotten. None
 - 2026-10-31: Coordination maintenance added explicit coverage/overlap/prerequisites, draft source/prior-art/text tasks, and an adaptive selection review. Revised unsent ASN-0005 to distinguish selected-pattern sensitivity from eligible confirmation. No investigations launched or claim statuses changed.
 
 - 2026-10-31: Added a pinned external manuscript library, reported full-context finite probes (INV-0003; registration pending), source-grounded transfer priorities, and draft assignments ASN-0010–ASN-0013. Existing claims remain unchanged.
+
+- 2026-10-31: Adjudication of the manuscript-assisted expansion. Registered INV-0003 (C-0027–C-0031) and INV-0004 (C-0032–C-0038). Added draft ASN-0014, withdrew ASN-0010, deferred ASN-0011 and ASN-0012. ASN-0001 remains first.
